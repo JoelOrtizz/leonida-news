@@ -39,7 +39,7 @@ a { color: var(--cyan); }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; }
 .label { font-family: var(--font-label); font-weight: 600; font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
 
-/* Scroll hero: full-screen Vice City scene seen through a giant "VI" that shrinks into the logo (after rockstargames.com/VI) */
+/* Scroll hero: full-screen Vice City scene seen through giant "LN" initials that shrink into the logo */
 .hero {
   position: relative; height: 280vh;
   margin-left: calc(-1 * max(16px, env(safe-area-inset-left, 0px)));

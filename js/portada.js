@@ -1,4 +1,4 @@
-/* Hero: draws a Vice City sunset on canvas, masked by a "VI" that starts huge (screen fully covered) and shrinks to logo size as you scroll */
+/* Hero: draws a Vice City sunset on canvas, masked by the site's "LN" initials that start huge (screen fully covered) and shrink to logo size as you scroll */
 (function () {
   var hero = document.getElementById("hero"), cv = document.getElementById("heroCanvas");
   var title = document.getElementById("heroTitle"), hint = document.getElementById("hint");
@@ -61,6 +61,23 @@
     cv.width = Math.round(W * DPR); cv.height = Math.round(H * DPR);
     paintScene(); draw();
   }
+  // Zoom anchor: centre of the widest solid run across the middle of the letters, so at full zoom a stroke fills the screen.
+  var MARK = "LN", anchors = {};
+  function anchorX(font, F1, capMid) {
+    var key = font + "|" + Math.round(F1);
+    if (anchors[key] != null) return anchors[key];
+    var c = document.createElement("canvas"), g = c.getContext("2d");
+    g.font = font; var wT = Math.ceil(g.measureText(MARK).width) + 4;
+    c.width = wT; c.height = 3;
+    g.font = font; g.textBaseline = "alphabetic"; g.fillText(MARK, 0, capMid + 1);
+    var row = g.getImageData(0, 1, wT, 1).data, best = [0, wT], len = -1, start = -1;
+    for (var x = 0; x <= wT; x++) {
+      var on = x < wT && row[x * 4 + 3] > 128;
+      if (on && start < 0) start = x;
+      if (!on && start >= 0) { if (x - start > len) { len = x - start; best = [start, x]; } start = -1; }
+    }
+    return (anchors[key] = (best[0] + best[1]) / 2);
+  }
   function clamp(v) { return v < 0 ? 0 : v > 1 ? 1 : v; }
   function ease(t) { return 1 - Math.pow(1 - t, 3); }
 
@@ -82,11 +99,12 @@
       // Text is set at its final size and enlarged with a transform: browsers stop drawing glyphs at huge font sizes.
       var F1 = Math.min(w * 0.62, h * 0.62);
       var k = 1 + 45 * Math.pow(1 - m, 2.4);
-      ctx.font = "400 " + F1 + "px 'Bebas Neue', Impact, sans-serif";
+      var font = "400 " + F1 + "px 'Bebas Neue', Impact, sans-serif";
+      ctx.font = font;
       ctx.textBaseline = "alphabetic";
-      var wV = ctx.measureText("V").width, wT = ctx.measureText("VI").width, wI = wT - wV;
+      var wT = ctx.measureText(MARK).width;
       var capMid = F1 * 0.36;
-      var ax = wV + wI * 0.5, ay = -capMid;
+      var ax = anchorX(font, F1, capMid), ay = -capMid;
       var finalOx = w / 2 - wT / 2, finalOy = h * 0.47 + capMid;
       var finalAx = finalOx + ax, finalAy = finalOy + ay;
       var sx = w / 2 + (finalAx - w / 2) * m, sy = h / 2 + (finalAy - h / 2) * m;
@@ -94,7 +112,7 @@
       ctx.save();
       ctx.setTransform(k, 0, 0, k, ox, oy);
       ctx.globalCompositeOperation = "destination-in";
-      ctx.fillStyle = "#000"; ctx.fillText("VI", 0, 0);
+      ctx.fillStyle = "#000"; ctx.fillText(MARK, 0, 0);
       ctx.restore();
       if (m > 0.6) {
         ctx.save();
@@ -102,7 +120,7 @@
         ctx.globalAlpha = (m - 0.6) / 0.4;
         ctx.lineWidth = 3 * DPR / k; ctx.strokeStyle = "#19e3ff";
         ctx.shadowColor = "#19e3ff"; ctx.shadowBlur = 24 * DPR;
-        ctx.strokeText("VI", 0, 0);
+        ctx.strokeText(MARK, 0, 0);
         ctx.restore();
       }
     }
