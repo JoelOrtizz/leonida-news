@@ -199,6 +199,29 @@ function revisarEstado(est) {
   if (mus && Array.isArray(mus.trailers)) revisarLista("estado.musica.trailers", mus.trailers, CANCION);
 }
 
+// Queue written by scripts/actualizar.js (data/pendientes.json, next to data.json); checked only if it exists.
+var COLA = {
+  estado: [true, enumerado(["pendiente", "procesado", "descartado"])], tipo: [true, enumerado(["video", "comunicado", "prensa"])],
+  oficial: [true, booleano], fuente: [true, texto], fuenteId: [true, texto], idioma: [true, enumerado(["es", "en"])],
+  titulo: [true, texto], url: [true, url], fecha: [true, fechaHora], detectado: [true, fechaHora]
+};
+function revisarCola(ruta) {
+  if (!fs.existsSync(ruta)) return null;
+  var cola;
+  try { cola = JSON.parse(fs.readFileSync(ruta, "utf8")); } catch (e) { error("pendientes", "no es JSON válido: " + e.message); return null; }
+  revisar("pendientes", cola, { actualizado: [true, fechaHora], elementos: [true, lista] });
+  if (!Array.isArray(cola.elementos)) return null;
+  var ids = {};
+  cola.elementos.forEach(function (x, i) {
+    var donde = "pendientes/" + (x && x.id ? x.id : "#" + i);
+    if (!x || !/^[0-9a-f]{12}$/.test(x.id)) error(donde, "«id» debe tener 12 caracteres hexadecimales");
+    else if (ids[x.id]) error(donde, "«id» repetido");
+    else ids[x.id] = true;
+    revisar(donde, x, COLA);
+  });
+  return cola.elementos.filter(function (x) { return x && x.estado === "pendiente"; }).length;
+}
+
 function main() {
   var d;
   try { d = JSON.parse(fs.readFileSync(FILE, "utf8")); }
@@ -207,12 +230,14 @@ function main() {
   revisarEstado(d.estado);
   Object.keys(COLECCIONES).forEach(function (c) { revisarColeccion(c, d[c]); });
   revisarExtras(d);
+  var pendientes = revisarCola(path.join(path.dirname(FILE), "pendientes.json"));
 
   avisos.forEach(function (a) { console.warn("⚠ " + a); });
   errores.forEach(function (e) { console.error("✗ " + e); });
   var resumen = Object.keys(COLECCIONES).map(function (c) { return c + " " + (Array.isArray(d[c]) ? d[c].length : 0); }).join(", ");
   if (errores.length) { console.error("\n" + errores.length + " error(es), " + avisos.length + " aviso(s) en " + path.relative(ROOT, FILE)); process.exit(1); }
   console.log("✓ " + path.relative(ROOT, FILE) + " es válido (" + resumen + ")" + (avisos.length ? " con " + avisos.length + " aviso(s)" : ""));
+  if (pendientes !== null) console.log("✓ Cola válida: " + pendientes + " elemento(s) pendiente(s) de revisar");
 }
 
 main();

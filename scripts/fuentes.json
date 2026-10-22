@@ -1,0 +1,27 @@
+{
+  "_info": "Fuentes que lee scripts/actualizar.js. «oficial» marca Rockstar y Take-Two (candidatas a «confirmado»); el resto es prensa (candidata a «reportado»). Solo se guardan titular, medio, enlace y fecha.",
+  "palabrasClave": ["GTA 6", "GTA VI", "Grand Theft Auto VI", "Grand Theft Auto 6"],
+  "diasAtras": 7,
+  "diasRetencion": 30,
+  "maxElementos": 500,
+  "fuentes": [
+    { "id": "youtube-rockstar", "nombre": "Rockstar Games (YouTube)", "tipo": "video", "oficial": true, "idioma": "en",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6VcWc1rAoWdBCM0JxrRQ3A", "autor": "Rockstar Games" },
+    { "id": "youtube-take-two", "nombre": "Take-Two Interactive (YouTube)", "tipo": "video", "oficial": true, "idioma": "en",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC-uWTBUUYR6WwPmyuL15sog", "autor": "Take-Two Interactive" },
+    { "id": "take-two-ir", "nombre": "Take-Two Interactive (notas de prensa)", "tipo": "comunicado", "oficial": true, "idioma": "en",
+      "url": "https://ir.take2games.com/rss/news-releases.xml" },
+
+    { "id": "ign", "nombre": "IGN", "tipo": "prensa", "oficial": false, "idioma": "en", "url": "https://feeds.feedburner.com/ign/games-all" },
+    { "id": "gamespot", "nombre": "GameSpot", "tipo": "prensa", "oficial": false, "idioma": "en", "url": "https://www.gamespot.com/feeds/news/" },
+    { "id": "eurogamer", "nombre": "Eurogamer", "tipo": "prensa", "oficial": false, "idioma": "en", "url": "https://www.eurogamer.net/feed" },
+    { "id": "pc-gamer", "nombre": "PC Gamer", "tipo": "prensa", "oficial": false, "idioma": "en", "url": "https://www.pcgamer.com/rss/" },
+    { "id": "vgc", "nombre": "VGC", "tipo": "prensa", "oficial": false, "idioma": "en", "url": "https://www.videogameschronicle.com/feed/" },
+    { "id": "push-square", "nombre": "Push Square", "tipo": "prensa", "oficial": false, "idioma": "en", "url": "https://www.pushsquare.com/feeds/latest" },
+    { "id": "kotaku", "nombre": "Kotaku", "tipo": "prensa", "oficial": false, "idioma": "en", "url": "https://kotaku.com/rss" },
+    { "id": "insider-gaming", "nombre": "Insider Gaming", "tipo": "prensa", "oficial": false, "idioma": "en", "url": "https://insider-gaming.com/feed/" },
+    { "id": "polygon", "nombre": "Polygon", "tipo": "prensa", "oficial": false, "idioma": "en", "url": "https://www.polygon.com/rss/index.xml" },
+    { "id": "3djuegos", "nombre": "3DJuegos", "tipo": "prensa", "oficial": false, "idioma": "es", "url": "https://www.3djuegos.com/feedburner.xml" },
+    { "id": "vandal", "nombre": "Vandal", "tipo": "prensa", "oficial": false, "idioma": "es", "url": "https://vandal.elespanol.com/xml.cgi" }
+  ]
+}
