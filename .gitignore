@@ -1,0 +1,7 @@
+# Documentación interna y material de referencia: solo en local, no se publica
+*.md
+docs/
+gta6-radar.html
+
+# Configuración local de Claude Code
+.claude/

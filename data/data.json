@@ -1,0 +1,997 @@
+{
+  "exportado": "2026-10-22T11:03:56.200Z",
+  "origen": "Base de datos del artefacto Leonida News (claude.ai)",
+  "estado": {
+    "ediciones": {
+      "extras": [
+        {
+          "estado": "reportado",
+          "etiqueta": "Bonus de reserva",
+          "fuente": "VGC",
+          "url": "https://www.videogameschronicle.com/news/rockstar-confirms-grand-theft-auto-6-ultimate-edition-and-pre-order-bonuses-but-still-no-price/",
+          "valor": "Vintage Vice City Pack, comprando antes del 20 de noviembre"
+        },
+        {
+          "estado": "reportado",
+          "etiqueta": "Precarga digital",
+          "fuente": "SVG",
+          "url": "https://www.svg.com/2254292/gta-6-launch-guide-release-date-preload-time-price-editions-platforms/",
+          "valor": "Desde el 12 de noviembre"
+        },
+        {
+          "estado": "reportado",
+          "etiqueta": "Edición física",
+          "fuente": "SVG",
+          "url": "https://www.svg.com/2254292/gta-6-launch-guide-release-date-preload-time-price-editions-platforms/",
+          "valor": "Caja con código de descarga, sin disco"
+        }
+      ]
+    },
+    "musica": {
+      "album": {
+        "fecha": "2026-11-19",
+        "portada": "img/album-art.jpg",
+        "sencillos": [
+          {
+            "artista": "Yung Lean ft. Future & Metro Boomin",
+            "titulo": "That's It"
+          },
+          {
+            "artista": "Travis Scott",
+            "titulo": "RHYNO"
+          },
+          {
+            "artista": "CA7RIEL & Paco Amoroso, PinkPantheress, Fred again.. & Etienne de Crécy",
+            "titulo": "Sexy Magic"
+          },
+          {
+            "artista": "Justice ft. Tame Impala, SZA, King Gizzard & the Lizard Wizard",
+            "titulo": "Flower In A Hurricane"
+          },
+          {
+            "artista": "Morgan Wallen",
+            "titulo": "Last Thing You Need"
+          },
+          {
+            "artista": "Fuerza Regida",
+            "titulo": "Suzuki"
+          },
+          {
+            "artista": "Rauw Alejandro",
+            "titulo": "Macacoa 2000"
+          },
+          {
+            "artista": "Cardi B",
+            "titulo": "Don't Chart"
+          },
+          {
+            "artista": "Keith Richards",
+            "titulo": "Bright Lights, Big City"
+          }
+        ],
+        "temas": 34,
+        "titulo": "Grand Theft Auto VI: The Album"
+      },
+      "fuente": "Rockstar Games",
+      "fuenteVoces": "Forbes",
+      "intro": "Rockstar promete la selección de radio y pódcasts más amplia de la saga. Estas son las 6 emisoras presentadas el 8 de octubre de 2026; habrá más, además de pódcasts bajo demanda.",
+      "score": {
+        "artista": "Justice",
+        "con": "Tame Impala, SZA y King Gizzard & the Lizard Wizard",
+        "nota": "Justice compone la música original del juego.",
+        "titulo": "Flower In A Hurricane"
+      },
+      "trailers": [
+        {
+          "artista": "Tom Petty",
+          "donde": "Tráiler 1",
+          "titulo": "Love Is a Long Road"
+        },
+        {
+          "artista": "The Pointer Sisters",
+          "donde": "Tráiler 2",
+          "titulo": "Hot Together"
+        }
+      ],
+      "url": "https://www.rockstargames.com/VI/music",
+      "urlVoces": "https://www.forbes.com/sites/brianmazique/2026/10/08/lana-del-rey-learned-las-roads-from-gta---now-shes-a-radio-dj-in-gta-vi-alongside-bad-bunny-and-morgan-wallen/"
+    },
+    "resenas": {
+      "comprobado": "2026-10-21",
+      "embargo": "Sin anunciar por Rockstar",
+      "fuente": "GTASIX.ORG",
+      "metacritic": null,
+      "nota": "Aún no hay reseñas publicadas. Con GTA V, el embargo se levantó un día antes del lanzamiento; por eso se espera algo parecido, pero no está confirmado.",
+      "opencritic": null,
+      "url": "https://gtasix.org/en/guide/reviews/"
+    },
+    "resumen": {
+      "actualizado": "2026-10-21T07:54:00Z",
+      "hechos": [
+        {
+          "estado": "confirmado",
+          "etiqueta": "Fecha de lanzamiento",
+          "fuente": "Rockstar Games",
+          "url": "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+          "valor": "19 de noviembre de 2026"
+        },
+        {
+          "estado": "confirmado",
+          "etiqueta": "Plataformas",
+          "fuente": "Rockstar Games",
+          "url": "https://www.rockstargames.com/newswire/article/517572321a549a/watch-the-grand-theft-auto-vi-launch-trailer",
+          "valor": "PS5 y Xbox Series X|S. Sin versión de PC anunciada"
+        },
+        {
+          "estado": "confirmado",
+          "etiqueta": "Precio",
+          "fuente": "Microsoft Store (Xbox)",
+          "url": "https://www.xbox.com/en-us/games/store/grand-theft-auto-vi-ultimate-edition/9nnzsnhlr63l",
+          "valor": "Standard 79,99 $ · Ultimate 99,99 $"
+        },
+        {
+          "estado": "reportado",
+          "etiqueta": "Precarga digital",
+          "fuente": "SVG",
+          "url": "https://www.svg.com/2254292/gta-6-launch-guide-release-date-preload-time-price-editions-platforms/",
+          "valor": "Desde el 12 de noviembre de 2026"
+        },
+        {
+          "estado": "confirmado",
+          "etiqueta": "Clasificación ESRB",
+          "fuente": "ESRB",
+          "url": "https://www.esrb.org/ratings/41627/grand-theft-auto-vi/",
+          "valor": "Mature 17+"
+        },
+        {
+          "estado": "rumor",
+          "etiqueta": "Versión PC",
+          "fuente": "TweakTown",
+          "url": "https://www.tweaktown.com/hubs/gta-6/index.html",
+          "valor": "Se apunta al 1.er trimestre de 2027"
+        }
+      ],
+      "lanzamientoISO": "2026-11-19",
+      "lanzamientoTexto": "19 nov 2026 · PS5 / Xbox Series X|S"
+    }
+  },
+  "agenda": [
+    {
+      "id": "2026-11-09-take-two-resultados",
+      "aproximada": false,
+      "descripcion": "Conferencia con inversores a las 16:30 de Nueva York. Última antes del lanzamiento: puede haber cifras de reservas.",
+      "estado": "confirmado",
+      "fin": "2026-11-09T22:30:00Z",
+      "fuente": "Stock Titan (nota de Take-Two)",
+      "inicio": "2026-11-09T21:30:00Z",
+      "titulo": "Resultados de Take-Two (Q2 FY2027)",
+      "todoElDia": false,
+      "url": "https://www.stocktitan.net/news/TTWO/take-two-interactive-software-inc-to-report-second-quarter-fiscal-qst6u4vkpwg0.html"
+    },
+    {
+      "id": "2026-11-12-precarga",
+      "aproximada": false,
+      "descripcion": "Quien haya reservado en digital podrá descargar el juego antes del lanzamiento.",
+      "estado": "reportado",
+      "fuente": "SVG",
+      "inicio": "2026-11-12",
+      "titulo": "Empieza la precarga digital",
+      "todoElDia": true,
+      "url": "https://www.svg.com/2254292/gta-6-launch-guide-release-date-preload-time-price-editions-platforms/"
+    },
+    {
+      "id": "2026-11-18-embargo-resenas",
+      "aproximada": true,
+      "descripcion": "Estimación por el precedente de GTA V (un día antes del lanzamiento). Rockstar no ha anunciado la fecha.",
+      "estado": "rumor",
+      "fuente": "GTASIX.ORG",
+      "inicio": "2026-11-18",
+      "titulo": "Posible fin del embargo de reseñas",
+      "todoElDia": true,
+      "url": "https://gtasix.org/en/guide/reviews/"
+    },
+    {
+      "id": "2026-11-19-fin-bonus-reserva",
+      "aproximada": false,
+      "descripcion": "El Vintage Vice City Pack se consigue reservando o comprando antes del 20 de noviembre.",
+      "estado": "reportado",
+      "fuente": "VGC",
+      "inicio": "2026-11-19",
+      "titulo": "Último día para el bonus de reserva",
+      "todoElDia": true,
+      "url": "https://www.videogameschronicle.com/news/rockstar-confirms-grand-theft-auto-6-ultimate-edition-and-pre-order-bonuses-but-still-no-price/"
+    },
+    {
+      "id": "2026-11-19-lanzamiento",
+      "aproximada": false,
+      "descripcion": "PS5 y Xbox Series X|S.",
+      "destacado": true,
+      "estado": "confirmado",
+      "fuente": "Rockstar Games",
+      "inicio": "2026-11-19",
+      "titulo": "Lanzamiento de GTA VI",
+      "todoElDia": true,
+      "url": "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
+    },
+    {
+      "id": "2026-12-10-game-awards",
+      "aproximada": false,
+      "descripcion": "Gala en Los Ángeles. GTA VI puede optar a premios. En Europa se emite de madrugada (noche del 10 al 11).",
+      "estado": "confirmado",
+      "fuente": "The Game Awards",
+      "inicio": "2026-12-10",
+      "titulo": "The Game Awards 2026",
+      "todoElDia": true,
+      "url": "https://thegameawards.com/news/tga-returns-december-10-2026"
+    }
+  ],
+  "cronologia": [
+    {
+      "id": "2022-02-04-confirmacion",
+      "descripcion": "Un comunicado en Rockstar Newswire anuncia que el desarrollo de la siguiente entrega está «muy avanzado».",
+      "estado": "reportado",
+      "fecha": "2022-02-04",
+      "fuente": "VGC",
+      "tipo": "anuncio",
+      "titulo": "Rockstar confirma que trabaja en el nuevo GTA",
+      "url": "https://videogameschronicle.com/guide/gta-6-release-date"
+    },
+    {
+      "id": "2022-09-18-filtracion",
+      "descripcion": "Se publican decenas de vídeos de una versión temprana. Rockstar confirma el robo al día siguiente y asegura que no afectará al desarrollo.",
+      "estado": "confirmado",
+      "fecha": "2022-09-18",
+      "fuente": "Rockstar Games (X)",
+      "tipo": "filtracion",
+      "titulo": "La gran filtración de 2022",
+      "url": "https://x.com/RockstarGames/status/1571849091860029455"
+    },
+    {
+      "id": "2023-11-08-anuncio-trailer",
+      "descripcion": "Sam Houser lo confirma coincidiendo con el 25 aniversario del estudio.",
+      "estado": "confirmado",
+      "fecha": "2023-11-08",
+      "fuente": "Rockstar Games",
+      "tipo": "anuncio",
+      "titulo": "Rockstar anuncia el primer tráiler para diciembre",
+      "url": "https://www.rockstargames.com/newswire/article/4kok877a13aa32/a-message-from-rockstar-games"
+    },
+    {
+      "id": "2023-12-04-trailer-1",
+      "descripcion": "Se publica unas horas antes de lo previsto tras filtrarse. Presenta a Lucia y fija el lanzamiento en 2025.",
+      "estado": "confirmado",
+      "fecha": "2023-12-04",
+      "fuente": "Rockstar Games (YouTube)",
+      "tipo": "trailer",
+      "titulo": "Tráiler 1: vuelve Vice City",
+      "url": "https://www.youtube.com/watch?v=QdBZY2fkU-0"
+    },
+    {
+      "id": "2024-05-16-otono-2025",
+      "descripcion": "En sus resultados anuales, Take-Two acota la ventana de lanzamiento.",
+      "estado": "confirmado",
+      "fecha": "2024-05-16",
+      "fuente": "Take-Two Interactive",
+      "tipo": "fecha",
+      "titulo": "Take-Two concreta: otoño de 2025",
+      "url": "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fourth-0"
+    },
+    {
+      "id": "2025-05-02-retraso-1",
+      "descripcion": "Rockstar aplaza el juego para pulirlo más.",
+      "estado": "confirmado",
+      "fecha": "2025-05-02",
+      "fuente": "Rockstar Games",
+      "tipo": "retraso",
+      "titulo": "Primer retraso: 26 de mayo de 2026",
+      "url": "https://www.rockstargames.com/newswire/article/258aa538o412ok/grand-theft-auto-vi-is-now-coming-may-26-2026"
+    },
+    {
+      "id": "2025-05-06-trailer-2",
+      "descripcion": "Jason y Lucia protagonizan el tráiler. Rockstar publica perfiles de personajes y más de 60 capturas.",
+      "estado": "confirmado",
+      "fecha": "2025-05-06",
+      "fuente": "Rockstar Games (YouTube)",
+      "tipo": "trailer",
+      "titulo": "Tráiler 2 y presentación del reparto",
+      "url": "https://www.youtube.com/watch?v=VQRLujxTm3c"
+    },
+    {
+      "id": "2025-11-06-retraso-2",
+      "descripcion": "Take-Two lo anuncia en sus resultados trimestrales, de nuevo para dar más pulido al juego.",
+      "estado": "confirmado",
+      "fecha": "2025-11-06",
+      "fuente": "Rockstar Games",
+      "tipo": "retraso",
+      "titulo": "Segundo retraso: 19 de noviembre de 2026",
+      "url": "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
+    },
+    {
+      "id": "2026-06-25-reservas",
+      "descripcion": "Ediciones Standard (79,99 $) y Ultimate (99,99 $).",
+      "estado": "confirmado",
+      "fecha": "2026-06-25",
+      "fuente": "Rockstar Games",
+      "tipo": "anuncio",
+      "titulo": "Abren las reservas",
+      "url": "https://www.rockstargames.com/newswire/article/517oa135328155/grand-theft-auto-vi-pre-orders-begin-on-june-25"
+    },
+    {
+      "id": "2026-08-26-filtracion-2026",
+      "descripcion": "Rockstar no niega que las imágenes sean reales, lamenta el daño al equipo y mantiene la fecha.",
+      "estado": "reportado",
+      "fecha": "2026-08-26",
+      "fuente": "GTA BOOM",
+      "tipo": "filtracion",
+      "titulo": "Nueva filtración de gameplay",
+      "url": "https://www.gtaboom.com/gta-6-leaks-rockstar-games-response-6f60"
+    },
+    {
+      "id": "2026-08-27-extended-look",
+      "descripcion": "Se estrena primero en Netflix y horas después en YouTube.",
+      "estado": "confirmado",
+      "fecha": "2026-08-27",
+      "fuente": "Rockstar Games (YouTube)",
+      "tipo": "trailer",
+      "titulo": "Extended Look: 27 minutos de juego",
+      "url": "https://www.youtube.com/watch?v=tJbzMqJGH4k"
+    },
+    {
+      "id": "2026-10-01-esrb",
+      "descripcion": "El ESRB publica la calificación del juego.",
+      "estado": "confirmado",
+      "fecha": "2026-10-01",
+      "fuente": "ESRB",
+      "tipo": "anuncio",
+      "titulo": "Clasificación Mature 17+",
+      "url": "https://www.esrb.org/ratings/41627/grand-theft-auto-vi/"
+    },
+    {
+      "id": "2026-10-08-radio",
+      "descripcion": "Seis emisoras de radio, la banda sonora de Justice y el álbum de 34 temas.",
+      "estado": "confirmado",
+      "fecha": "2026-10-08",
+      "fuente": "Rockstar Games",
+      "tipo": "anuncio",
+      "titulo": "Se presentan las emisoras y The Album",
+      "url": "https://www.rockstargames.com/VI/music"
+    },
+    {
+      "id": "2026-10-15-launch-trailer",
+      "descripcion": "90 segundos con música de Justice, a un mes del estreno.",
+      "estado": "confirmado",
+      "fecha": "2026-10-15",
+      "fuente": "Rockstar Games",
+      "tipo": "trailer",
+      "titulo": "Tráiler de lanzamiento",
+      "url": "https://www.rockstargames.com/newswire/article/517572321a549a/watch-the-grand-theft-auto-vi-launch-trailer"
+    },
+    {
+      "id": "2026-11-19-lanzamiento",
+      "descripcion": "La meta de todo este camino.",
+      "estado": "confirmado",
+      "fecha": "2026-11-19",
+      "fuente": "Rockstar Games",
+      "tipo": "lanzamiento",
+      "titulo": "Lanzamiento en PS5 y Xbox Series X|S",
+      "url": "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
+    }
+  ],
+  "ediciones": [
+    {
+      "id": "01-standard",
+      "estado": "confirmado",
+      "fuente": "Microsoft Store (Xbox)",
+      "incluye": [
+        "Juego base completo"
+      ],
+      "nombre": "Standard",
+      "orden": 1,
+      "precio": "79,99 $",
+      "precioAlt": "69,99 £",
+      "url": "https://www.xbox.com/en-us/games/store/grand-theft-auto-vi/9nl3wwnzlzzn"
+    },
+    {
+      "id": "02-ultimate",
+      "destacada": true,
+      "estado": "confirmado",
+      "fuente": "Microsoft Store (Xbox)",
+      "incluye": [
+        "Juego base completo",
+        "'95 Grotti Cheetah (en fases avanzadas)",
+        "'67 Vapid Dominator Buggy",
+        "Lancha Shitzu Squalo",
+        "Revólver Hawk & Little Morgan",
+        "Ropa, misiones y acceso a tiendas y salones"
+      ],
+      "nombre": "Ultimate",
+      "orden": 2,
+      "precio": "99,99 $",
+      "precioAlt": "89,99 £",
+      "url": "https://www.xbox.com/en-us/games/store/grand-theft-auto-vi-ultimate-edition/9nnzsnhlr63l"
+    }
+  ],
+  "mitos": [
+    {
+      "id": "2026-07-01-mapa-35x",
+      "afirmacion": "El mapa de Leonida es 3,5 veces más grande que Los Santos",
+      "explicacion": "Viene de una sola cuenta anónima. Rockstar no ha publicado las dimensiones del mapa.",
+      "fuente": "GTASIX.ORG",
+      "url": "https://gtasix.org/en/news/badge/debunked/",
+      "veredicto": "sin-confirmar"
+    },
+    {
+      "id": "2026-08-20-serie-netflix",
+      "afirmacion": "Netflix estrenará una serie de tres episodios de GTA VI",
+      "explicacion": "Era un listado falso. Netflix solo estrenó el Extended Look, unas horas antes que YouTube.",
+      "fuente": "CyberLeek (seguimiento de filtraciones)",
+      "mes": "2026-08",
+      "url": "https://cyberleek.us/leaks",
+      "veredicto": "falso"
+    },
+    {
+      "id": "2026-08-26-gameplay-filtrado",
+      "afirmacion": "Las imágenes de gameplay filtradas en 2026 son falsas",
+      "explicacion": "Rockstar no negó que las imágenes fueran reales: lamentó el daño al equipo y mantuvo la fecha del 19 de noviembre.",
+      "fuente": "GTA BOOM",
+      "mes": "2026-08",
+      "url": "https://www.gtaboom.com/gta-6-leaks-rockstar-games-response-6f60",
+      "veredicto": "falso"
+    },
+    {
+      "id": "2026-09-01-pc-mismo-dia",
+      "afirmacion": "Sale en PC el mismo día que en consolas",
+      "explicacion": "Rockstar solo ha anunciado PS5 y Xbox Series X|S. No hay versión de PC anunciada.",
+      "fuente": "GTASIX.ORG",
+      "url": "https://gtasix.org/en/news/badge/debunked/",
+      "veredicto": "falso"
+    },
+    {
+      "id": "2026-09-15-collectors-edition",
+      "afirmacion": "Fotos de una Collector's Edition física",
+      "explicacion": "Las imágenes que circularon eran falsas. Las ediciones oficiales son Standard y Ultimate.",
+      "fuente": "CyberLeek (seguimiento de filtraciones)",
+      "mes": "2026-09",
+      "url": "https://cyberleek.us/leaks",
+      "veredicto": "falso"
+    },
+    {
+      "id": "2026-10-10-pc-2027",
+      "afirmacion": "La versión de PC llegará en el primer trimestre de 2027",
+      "explicacion": "Lo publican varios medios a partir de informes, pero Rockstar no ha anunciado nada.",
+      "fuente": "TweakTown",
+      "mes": "2026-10",
+      "url": "https://www.tweaktown.com/hubs/gta-6/index.html",
+      "veredicto": "sin-confirmar"
+    },
+    {
+      "id": "2026-10-18-xbox-pc-nube",
+      "afirmacion": "Se podrá jugar en PC desde el primer día a través de Xbox Cloud Gaming",
+      "explicacion": "Matthew Ball, de Xbox, descartó que GTA VI llegue a PC por la nube de Xbox.",
+      "fuente": "VGTimes",
+      "mes": "2026-10",
+      "url": "https://vgtimes.com/games/gta-6/news/",
+      "veredicto": "falso"
+    }
+  ],
+  "musica": [
+    {
+      "id": "afrobank-fm",
+      "color": "green",
+      "detalle": "Clásicos africanos, amapiano y 3-step. «Déjate llevar por el gbedu».",
+      "estado": "confirmado",
+      "fondo": "img/radio-afrobank-bg.jpg",
+      "fuente": "Rockstar Games",
+      "genero": "Música africana",
+      "logo": "img/radio-afrobank-logo.png",
+      "nombre": "AfroBank FM",
+      "orden": 3,
+      "presentadores": "Burna y Palmsy",
+      "temas": [
+        {
+          "artista": "Asake",
+          "titulo": "Joha"
+        },
+        {
+          "artista": "Pat Thomas ft. Ebo Taylor",
+          "titulo": "Gye Wani"
+        },
+        {
+          "artista": "DJ Lag & Robot Boii ft. Kamo Mphela",
+          "titulo": "Shay'sana"
+        }
+      ],
+      "url": "https://www.rockstargames.com/VI/music",
+      "voces": "Burna Boy y Palms Trax"
+    },
+    {
+      "id": "back-country-radio",
+      "color": "orange",
+      "detalle": "Outlaw country para el hidrodeslizador. Mud Dog Mike hace de reportero por Grassrivers y Port Gellhorn.",
+      "estado": "confirmado",
+      "fondo": "img/radio-backcountry-bg.jpg",
+      "fuente": "Rockstar Games",
+      "genero": "Country rebelde",
+      "logo": "img/radio-backcountry-logo.png",
+      "nombre": "Back Country Radio",
+      "orden": 2,
+      "presentadores": "MW y Delta Dawne",
+      "temas": [
+        {
+          "artista": "David Allan Coe",
+          "titulo": "Need a Little Time Off for Bad Behavior"
+        },
+        {
+          "artista": "Loretta Lynn",
+          "titulo": "Don't Come Home A-Drinkin' (With Lovin' On Your Mind)"
+        },
+        {
+          "artista": "Hank Williams, Jr. & Waylon Jennings",
+          "titulo": "The Conversation"
+        }
+      ],
+      "url": "https://www.rockstargames.com/VI/music",
+      "voces": "Morgan Wallen y Lana Del Rey"
+    },
+    {
+      "id": "cocoteo-fm",
+      "color": "pink",
+      "detalle": "Bachata, merengue, dembow y reguetón. «La party que nunca se acaba».",
+      "estado": "confirmado",
+      "fondo": "img/radio-cocoteo-bg.jpg",
+      "fuente": "Rockstar Games",
+      "genero": "Latina moderna",
+      "logo": "img/radio-cocoteo-logo.png",
+      "nombre": "Cocoteo FM",
+      "orden": 1,
+      "presentadores": "El Martillo y La Gata",
+      "temas": [
+        {
+          "artista": "Bad Bunny",
+          "titulo": "EoO"
+        },
+        {
+          "artista": "Axel Rulay ft. Farruko & El Alfa",
+          "titulo": "Si Es Trucho Es Trucho (Remix)"
+        },
+        {
+          "artista": "Romeo Santos & El Chaval de la Bachata",
+          "titulo": "Canalla"
+        }
+      ],
+      "url": "https://www.rockstargames.com/VI/music",
+      "voces": "Bad Bunny y RaiNao"
+    },
+    {
+      "id": "dirty-south-classics",
+      "color": "sun",
+      "detalle": "Rap regional y clásicos del hip-hop con hospitalidad sureña.",
+      "estado": "confirmado",
+      "fondo": "img/radio-dirtysouth-bg.jpg",
+      "fuente": "Rockstar Games",
+      "genero": "Rap del sur",
+      "logo": "img/radio-dirtysouth-logo.png",
+      "nombre": "Dirty South Classics",
+      "orden": 6,
+      "presentadores": "Trick y Trina",
+      "temas": [
+        {
+          "artista": "David Banner ft. Lil' Flip",
+          "titulo": "Like A Pimp"
+        },
+        {
+          "artista": "JT Money ft. Solé",
+          "titulo": "Who Dat"
+        },
+        {
+          "artista": "DJ Khaled ft. Trick Daddy, Rick Ross & Pitbull",
+          "titulo": "Born N Raised"
+        }
+      ],
+      "url": "https://www.rockstargames.com/VI/music",
+      "voces": "Trick Daddy y Trina"
+    },
+    {
+      "id": "flash-fm",
+      "color": "cyan",
+      "detalle": "La institución de Vice City vuelve con lo mejor del pop.",
+      "estado": "confirmado",
+      "fondo": "img/radio-flash-bg.jpg",
+      "fuente": "Rockstar Games",
+      "genero": "Pop",
+      "logo": "img/radio-flash-logo.png",
+      "nombre": "Flash FM",
+      "orden": 5,
+      "presentadores": "Robyn y Alex",
+      "temas": [
+        {
+          "artista": "Charli xcx",
+          "titulo": "Good Ones"
+        },
+        {
+          "artista": "MGMT",
+          "titulo": "Electric Feel"
+        },
+        {
+          "artista": "Zara Larsson & PinkPantheress",
+          "titulo": "Midnight Sun (Girls Trip)"
+        }
+      ],
+      "url": "https://www.rockstargames.com/VI/music",
+      "voces": "Robyn y Alex Consani"
+    },
+    {
+      "id": "the-chamber",
+      "color": "red",
+      "detalle": "Metal clásico de los 80 en adelante. «Lánzate al pogo».",
+      "estado": "confirmado",
+      "fondo": "img/radio-chamber-bg.jpg",
+      "fuente": "Rockstar Games",
+      "genero": "Metal",
+      "logo": "img/radio-chamber-logo.png",
+      "nombre": "The Chamber 106.6",
+      "orden": 4,
+      "presentadores": "DJ Kerry y DJ Tom",
+      "temas": [
+        {
+          "artista": "Black Sabbath",
+          "titulo": "I"
+        },
+        {
+          "artista": "Pantera",
+          "titulo": "I'm Broken"
+        },
+        {
+          "artista": "Slayer",
+          "titulo": "Raining Blood"
+        }
+      ],
+      "url": "https://www.rockstargames.com/VI/music"
+    }
+  ],
+  "noticias": [
+    {
+      "id": "2026-06-25-reservas-abiertas",
+      "categoria": "Precio",
+      "estado": "confirmado",
+      "fecha": "2026-06-25",
+      "fuente": "Rockstar Games",
+      "resumen": "Rockstar detalló las ediciones Standard y Ultimate y abrió las reservas a medianoche hora local.",
+      "titulo": "Abren las reservas: 79,99 $ y 99,99 $",
+      "url": "https://www.rockstargames.com/newswire/article/517oa135328155/grand-theft-auto-vi-pre-orders-begin-on-june-25"
+    },
+    {
+      "id": "2026-08-07-take-two-fecha",
+      "categoria": "Fecha",
+      "estado": "confirmado",
+      "fecha": "2026-08-07",
+      "fuente": "Insider Gaming",
+      "resumen": "En sus resultados trimestrales, Take-Two confirmó que no hay retraso y que el juego sale el 19 de noviembre de 2026.",
+      "titulo": "Take-Two reafirma el 19 de noviembre",
+      "url": "https://insider-gaming.com/gta-6-release-date-has-not-changed-take-two-ceo/"
+    },
+    {
+      "id": "2026-10-01-esrb-m17",
+      "categoria": "Clasificación",
+      "estado": "confirmado",
+      "fecha": "2026-10-01",
+      "fuente": "ESRB",
+      "resumen": "La calificación apareció en la web de Rockstar y en las tiendas de PlayStation y Xbox de EE. UU.",
+      "titulo": "El ESRB clasifica GTA VI como Mature 17+",
+      "url": "https://www.esrb.org/ratings/41627/grand-theft-auto-vi/"
+    },
+    {
+      "id": "2026-10-08-jailbreak-ps5",
+      "categoria": "Seguridad",
+      "estado": "reportado",
+      "fecha": "2026-10-08",
+      "fuente": "Sunday Guardian",
+      "resumen": "Se habla de un nuevo exploit de PS5, pero no hay pruebas de que afecte a GTA VI.",
+      "titulo": "Un jailbreak de PS5 genera dudas sobre piratería",
+      "url": "https://sundayguardianlive.com/tech-news/gta-6-latest-news-is-grand-theft-auto-vi-at-risk-hackers-claim-major-ps5-jailbreak-breakthrough-as-pre-orders-reach-645-million-ahead-of-november-launch-check-latest-updates-leaks-309232/amp/"
+    },
+    {
+      "id": "2026-10-10-pc-2027",
+      "categoria": "Plataformas",
+      "estado": "rumor",
+      "fecha": "2026-10-10",
+      "fuente": "TweakTown",
+      "resumen": "Varias webs lo publican, pero Rockstar no ha anunciado versión para PC.",
+      "titulo": "Informes sitúan la versión de PC en el 1.er trimestre de 2027",
+      "url": "https://www.tweaktown.com/hubs/gta-6/index.html"
+    },
+    {
+      "id": "2026-10-12-game-awards",
+      "categoria": "Premios",
+      "estado": "reportado",
+      "fecha": "2026-10-12",
+      "fuente": "TweakTown",
+      "resumen": "Sale un día antes del corte de elegibilidad del 20 de noviembre, así que entra en la edición de este año.",
+      "titulo": "GTA VI podrá optar a The Game Awards 2026",
+      "url": "https://www.tweaktown.com/hubs/gta-6/index.html"
+    },
+    {
+      "id": "2026-10-15-trailer-lanzamiento",
+      "categoria": "Tráiler",
+      "estado": "confirmado",
+      "fecha": "2026-10-15",
+      "fuente": "Rockstar Games",
+      "resumen": "El tráiler de lanzamiento llegó al canal oficial de YouTube de Rockstar el 15 de octubre, a un mes del estreno.",
+      "titulo": "Rockstar publica el tráiler de lanzamiento",
+      "url": "https://www.rockstargames.com/newswire/article/517572321a549a/watch-the-grand-theft-auto-vi-launch-trailer"
+    },
+    {
+      "id": "2026-10-17-miami-dade-publicidad",
+      "categoria": "Marketing",
+      "estado": "reportado",
+      "fecha": "2026-10-17",
+      "fuente": "TweakTown",
+      "resumen": "Comisionados del condado cuestionan un acuerdo de 975.000 $ para anuncios de GTA VI en azoteas que no pasó por la comisión completa.",
+      "titulo": "Polémica en Miami-Dade por un acuerdo publicitario",
+      "url": "https://www.tweaktown.com/hubs/gta-6/index.html"
+    },
+    {
+      "id": "2026-10-18-xbox-cloud",
+      "categoria": "Plataformas",
+      "estado": "reportado",
+      "fecha": "2026-10-18",
+      "fuente": "VGTimes",
+      "resumen": "Matthew Ball, de Xbox, indicó que el juego no se podrá jugar en PC mediante la nube de Xbox.",
+      "titulo": "Xbox descarta GTA VI en PC vía Xbox Cloud Gaming",
+      "url": "https://vgtimes.com/games/gta-6/news/"
+    },
+    {
+      "id": "2026-10-19-filtracion-gameplay",
+      "categoria": "Filtración",
+      "estado": "rumor",
+      "fecha": "2026-10-19",
+      "fuente": "Push Square",
+      "resumen": "Un filtrador publicó unos 25 minutos de una versión en desarrollo que sugerirían un modo en primera persona. Rockstar no lo ha confirmado.",
+      "spoiler": true,
+      "titulo": "Vuelven las filtraciones de gameplay",
+      "url": "https://www.pushsquare.com/news/2026/10/gta-6-gameplay-leaks-are-back-with-potentially-big-spoilers"
+    },
+    {
+      "id": "2026-10-20-reservas-sensor-tower",
+      "categoria": "Ventas",
+      "estado": "reportado",
+      "fecha": "2026-10-20",
+      "fuente": "Sunday Guardian",
+      "resumen": "Estimación de Sensor Tower: unas 370.000 reservas nuevas en la última semana. Es una estimación externa, no una cifra de Take-Two.",
+      "titulo": "Las reservas rondarían los 6,45 millones",
+      "url": "https://sundayguardianlive.com/tech-news/gta-6-latest-news-is-grand-theft-auto-vi-at-risk-hackers-claim-major-ps5-jailbreak-breakthrough-as-pre-orders-reach-645-million-ahead-of-november-launch-check-latest-updates-leaks-309232/amp/"
+    }
+  ],
+  "personajes": [
+    {
+      "id": "01-jason-duval",
+      "color": "cyan",
+      "descripcion": "Creció entre estafadores y delincuentes. Tras pasar por el Ejército, trabaja para traficantes en los Keys y quizá busca un cambio.",
+      "estado": "confirmado",
+      "fuente": "Rockstar Games (web oficial de GTA VI)",
+      "imagen": "img/JasonDuval.webp",
+      "nombre": "Jason Duval",
+      "orden": 1,
+      "rol": "Protagonista",
+      "url": "https://www.rockstargames.com/VI"
+    },
+    {
+      "id": "02-lucia-caminos",
+      "color": "pink",
+      "descripcion": "Su padre la enseñó a pelear. Salió de la Penitenciaría de Leonida decidida a asegurar el futuro de su familia.",
+      "estado": "confirmado",
+      "fuente": "Rockstar Games (web oficial de GTA VI)",
+      "imagen": "img/LuciaCaminos.webp",
+      "nombre": "Lucia Caminos",
+      "orden": 2,
+      "rol": "Protagonista",
+      "url": "https://www.rockstargames.com/VI"
+    },
+    {
+      "id": "03-cal-hampton",
+      "color": "sun",
+      "descripcion": "Tranquilo y casero. Pasa el día escuchando las comunicaciones de la Guardia Costera.",
+      "estado": "confirmado",
+      "fuente": "Rockstar Games (web oficial de GTA VI)",
+      "imagen": "img/CalHampton.webp",
+      "nombre": "Cal Hampton",
+      "orden": 3,
+      "rol": "Amigo de Jason",
+      "url": "https://www.rockstargames.com/VI"
+    },
+    {
+      "id": "04-boobie-ike",
+      "color": "orange",
+      "descripcion": "Convirtió su pasado en la calle en un imperio: inmobiliaria, club de striptease y estudio de grabación. Su apuesta es el sello discográfico.",
+      "estado": "confirmado",
+      "fuente": "Rockstar Games (web oficial de GTA VI)",
+      "imagen": "img/BoobieIke.webp",
+      "nombre": "Boobie Ike",
+      "orden": 4,
+      "rol": "Leyenda de Vice City",
+      "url": "https://www.rockstargames.com/VI"
+    },
+    {
+      "id": "05-drequan-priest",
+      "color": "green",
+      "descripcion": "Más buscavidas que gánster. Quiere triunfar en la música y ha fichado a Real Dimez.",
+      "estado": "confirmado",
+      "fuente": "Rockstar Games (web oficial de GTA VI)",
+      "imagen": "img/DreQuanPriest.webp",
+      "nombre": "Dre'Quan Priest",
+      "orden": 5,
+      "rol": "Productor musical",
+      "url": "https://www.rockstargames.com/VI"
+    },
+    {
+      "id": "06-real-dimez",
+      "color": "pink",
+      "descripcion": "Bae-Luxe y Roxy, amigas desde la infancia. Hacen rap, crecen en redes y han firmado con Only Raw Records.",
+      "estado": "confirmado",
+      "fuente": "Rockstar Games (web oficial de GTA VI)",
+      "imagen": "img/RealDimez.webp",
+      "nombre": "Real Dimez",
+      "orden": 6,
+      "rol": "Dúo de rap",
+      "url": "https://www.rockstargames.com/VI"
+    },
+    {
+      "id": "07-raul-bautista",
+      "color": "red",
+      "descripcion": "Veterano de los atracos que recluta a gente dispuesta a arriesgar. Su temeridad sube la apuesta de cada golpe.",
+      "estado": "confirmado",
+      "fuente": "Rockstar Games (web oficial de GTA VI)",
+      "imagen": "img/RaulBautista.webp",
+      "nombre": "Raul Bautista",
+      "orden": 7,
+      "rol": "Atracador de bancos",
+      "url": "https://www.rockstargames.com/VI"
+    },
+    {
+      "id": "08-brian-heder",
+      "color": "cyan",
+      "descripcion": "Viejo traficante de los Keys con un astillero. Deja vivir gratis a Jason a cambio de ayuda con sus asuntos.",
+      "estado": "confirmado",
+      "fuente": "Rockstar Games (web oficial de GTA VI)",
+      "imagen": "img/BrianHeder.webp",
+      "nombre": "Brian Heder",
+      "orden": 8,
+      "rol": "Contrabandista veterano",
+      "url": "https://www.rockstargames.com/VI"
+    }
+  ],
+  "regiones": [
+    {
+      "id": "ambrosia",
+      "descripcion": "Zona industrial y agrícola dominada por la enorme refinería de azúcar Allied Crystal.",
+      "destacados": [
+        "Refinería Allied Crystal",
+        "Campos de caña"
+      ],
+      "estado": "reportado",
+      "fuente": "Gfinity",
+      "inspiracion": "Interior azucarero de Florida",
+      "nombre": "Ambrosia",
+      "orden": 4,
+      "url": "https://www.gfinityesports.com/article/gta-6-map-guide-every-confirmed-location-in-leonida"
+    },
+    {
+      "id": "grassrivers",
+      "descripcion": "Humedales salvajes con caimanes y aguas poco profundas. Estrena los aerodeslizadores como vehículo.",
+      "destacados": [
+        "Aerodeslizadores",
+        "Fauna salvaje"
+      ],
+      "estado": "reportado",
+      "fuente": "Gfinity",
+      "inspiracion": "Everglades",
+      "nombre": "Grassrivers",
+      "orden": 3,
+      "url": "https://www.gfinityesports.com/article/gta-6-map-guide-every-confirmed-location-in-leonida"
+    },
+    {
+      "id": "leonida-keys",
+      "descripcion": "Cadena de islas al sur. Aquí empiezan Jason y Lucia, entre barcos, contrabando y el astillero de Brian.",
+      "destacados": [
+        "Astillero de Brian",
+        "Puentes entre islas"
+      ],
+      "estado": "reportado",
+      "fuente": "Gfinity",
+      "inspiracion": "Cayos de Florida",
+      "nombre": "Leonida Keys",
+      "orden": 2,
+      "url": "https://www.gfinityesports.com/article/gta-6-map-guide-every-confirmed-location-in-leonida"
+    },
+    {
+      "id": "mount-kalaga",
+      "descripcion": "Parque nacional al norte, con crestas boscosas, arroyos rocosos y senderos empinados.",
+      "destacados": [
+        "Parque nacional",
+        "Rutas de montaña"
+      ],
+      "estado": "reportado",
+      "fuente": "Gfinity",
+      "inspiracion": "Apalaches del sur",
+      "nombre": "Mount Kalaga",
+      "orden": 6,
+      "url": "https://www.gfinityesports.com/article/gta-6-map-guide-every-confirmed-location-in-leonida"
+    },
+    {
+      "id": "port-gellhorn",
+      "descripcion": "La «costa olvidada»: moteles baratos, atracciones cerradas y centros comerciales vacíos.",
+      "destacados": [
+        "Moteles de carretera",
+        "Atracciones abandonadas"
+      ],
+      "estado": "reportado",
+      "fuente": "Gfinity",
+      "inspiracion": "Panama City (Florida)",
+      "nombre": "Port Gellhorn",
+      "orden": 5,
+      "url": "https://www.gfinityesports.com/article/gta-6-map-guide-every-confirmed-location-in-leonida"
+    },
+    {
+      "id": "vice-city",
+      "descripcion": "El corazón urbano de Leonida: playas art déco, vida nocturna, rascacielos de cristal, canales y un puerto lleno de cruceros.",
+      "destacados": [
+        "Ocean Beach",
+        "Puerto de Vice City",
+        "Centro financiero"
+      ],
+      "estado": "reportado",
+      "fuente": "Gfinity",
+      "inspiracion": "Miami",
+      "nombre": "Vice City",
+      "orden": 1,
+      "url": "https://www.gfinityesports.com/article/gta-6-map-guide-every-confirmed-location-in-leonida"
+    }
+  ],
+  "trailers": [
+    {
+      "id": "2023-12-04-trailer-1",
+      "canal": "Rockstar Games",
+      "descripcion": "Primera presentación de Lucia y Vice City. Rockstar lo publicó antes de lo previsto tras una filtración.",
+      "duracion": "1:31",
+      "estado": "confirmado",
+      "fecha": "2023-12-04",
+      "numero": "01",
+      "titulo": "Grand Theft Auto VI Trailer 1",
+      "url": "https://www.youtube.com/watch?v=QdBZY2fkU-0"
+    },
+    {
+      "id": "2025-05-06-trailer-2",
+      "canal": "Rockstar Games",
+      "descripcion": "Jason y Lucia en Leonida. Grabado en PS5 según Rockstar.",
+      "duracion": "2:47",
+      "estado": "confirmado",
+      "fecha": "2025-05-06",
+      "numero": "02",
+      "titulo": "Grand Theft Auto VI Trailer 2",
+      "url": "https://www.youtube.com/watch?v=VQRLujxTm3c"
+    },
+    {
+      "id": "2026-08-27-extended-look",
+      "canal": "Rockstar Games",
+      "descripcion": "Unos 27 minutos de juego. Se estrenó primero en Netflix y horas después en YouTube. El enlace lleva al canal de Rockstar: el vídeo exacto está pendiente de verificar.",
+      "duracion": "~27:00",
+      "estado": "confirmado",
+      "fecha": "2026-08-27",
+      "numero": "03",
+      "titulo": "Grand Theft Auto VI: Extended Look",
+      "url": "https://www.youtube.com/watch?v=tJbzMqJGH4k"
+    },
+    {
+      "id": "2026-10-15-launch-trailer",
+      "canal": "Rockstar Games",
+      "descripcion": "Tráiler de lanzamiento con música de Justice. El enlace lleva a la publicación oficial de Rockstar en YouTube que lo anuncia.",
+      "duracion": "1:30",
+      "estado": "confirmado",
+      "fecha": "2026-10-15",
+      "numero": "04",
+      "titulo": "Grand Theft Auto VI Launch Trailer",
+      "url": "https://www.youtube.com/post/Ugkxl3vqH5emyNSAz0zHFDlKUiy6x0FN-mw7"
+    }
+  ],
+  "resenas": []
+}
