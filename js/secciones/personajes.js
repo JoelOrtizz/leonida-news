@@ -32,6 +32,7 @@
     var box = LN.clear("cast");
     if (!datos.personajes.length) { LN.vacio(box, "p", "Todavía no hay personajes guardados."); return; }
     datos.personajes.forEach(function (p) { box.appendChild(postal(p)); });
+    LN.verMas(box);
     LN.resolverHash();
   });
 })(window.LN);

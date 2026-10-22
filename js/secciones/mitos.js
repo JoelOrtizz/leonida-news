@@ -28,6 +28,7 @@
     document.getElementById("micount").textContent = datos.mitos.length ? datos.mitos.length + " revisados" : "";
     if (!datos.mitos.length) { LN.vacio(box, "p", "Todavía no hay mitos guardados."); return; }
     datos.mitos.forEach(function (m) { box.appendChild(mito(m)); });
+    LN.verMas(box);
     LN.resolverHash();
   });
 })(window.LN);

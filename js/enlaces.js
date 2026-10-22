@@ -33,6 +33,7 @@
   };
 
   LN.focusEl = function (x) {
+    LN.desplegar(x);
     setTimeout(function () {
       x.scrollIntoView({ behavior: LN.REDUCE ? "auto" : "smooth", block: "center" });
       x.classList.remove("hl"); void x.offsetWidth; x.classList.add("hl");

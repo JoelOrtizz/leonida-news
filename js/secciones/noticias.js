@@ -36,9 +36,11 @@
     document.getElementById("ncount").textContent = news.length ? news.length + " entradas" : "";
     if (!list.length) {
       LN.vacio(ul, "li", news.length ? "No hay entradas con este filtro." : "Todavía no hay noticias guardadas. Aparecerán tras la próxima revisión.");
+      LN.verMas(ul); // removes the button left by a longer list
       return;
     }
     list.forEach(function (n) { ul.appendChild(item(n, true)); });
+    LN.verMas(ul);
     LN.resolverHash();
   });
 

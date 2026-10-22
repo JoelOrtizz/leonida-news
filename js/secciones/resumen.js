@@ -27,5 +27,6 @@
     var hechos = Array.isArray(meta.hechos) ? meta.hechos : [];
     if (!hechos.length) { LN.vacio(box, "p", "La ficha aparecerá tras la primera revisión."); return; }
     hechos.forEach(function (f) { box.appendChild(LN.factCard(f)); });
+    LN.verMas(box);
   });
 })(window.LN);

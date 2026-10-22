@@ -40,5 +40,6 @@
     var ul = LN.clear("reviews");
     if (!datos.resenas.length) { LN.vacio(ul, "li", "Aún no hay reseñas. Aparecerán aquí cuando se levante el embargo."); return; }
     datos.resenas.forEach(function (rv) { ul.appendChild(resena(rv)); });
+    LN.verMas(ul);
   });
 })(window.LN);

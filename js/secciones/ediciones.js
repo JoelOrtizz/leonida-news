@@ -20,6 +20,7 @@
     var box = LN.clear("tickets");
     if (!datos.ediciones.length) LN.vacio(box, "p", "Todavía no hay ediciones guardadas.");
     datos.ediciones.forEach(function (e) { box.appendChild(ticket(e)); });
+    LN.verMas(box);
     var extras = LN.clear("edExtras");
     ((datos.estado.ediciones || {}).extras || []).forEach(function (f) { extras.appendChild(LN.factCard(f)); });
   });

@@ -55,6 +55,7 @@
     document.getElementById("mucount").textContent = list.length ? list.length + " emisoras confirmadas" : "";
     if (!list.length) { LN.vacio(box, "p", "Todavía no hay emisoras guardadas."); return; }
     list.forEach(function (s) { box.appendChild(emisora(s)); });
+    LN.verMas(box);
   }
 
   function pintarAlbum(doc) {

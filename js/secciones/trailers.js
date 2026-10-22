@@ -28,6 +28,7 @@
     var box = LN.clear("tapes");
     if (!datos.trailers.length) { LN.vacio(box, "p", "Todavía no hay tráilers guardados. Aparecerán tras la próxima revisión."); return; }
     datos.trailers.forEach(function (t, i) { box.appendChild(cinta(t, i)); });
+    LN.verMas(box);
     LN.resolverHash();
   });
 })(window.LN);

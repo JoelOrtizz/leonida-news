@@ -91,8 +91,9 @@
     var items = datos.agenda.map(function (e) { return { e: e, d: evDate(e) }; })
       .filter(function (x) { return !isNaN(x.d) && evEnd(x.e, x.d).getTime() > now - 2 * DIA; })
       .sort(function (a, b) { return a.d - b.d; });
-    if (!items.length) { LN.vacio(ol, "li", "No hay fechas próximas guardadas."); return; }
+    if (!items.length) { LN.vacio(ol, "li", "No hay fechas próximas guardadas."); LN.verMas(ol); return; }
     items.forEach(function (x) { ol.appendChild(evento(x.e, x.d, now)); });
+    LN.verMas(ol);
     LN.resolverHash();
   });
   // Keeps "En N días" and past/future correct if the page stays open.

@@ -28,6 +28,7 @@
       }
       ol.appendChild(hito(c, d, now));
     });
+    LN.verMas(ol, { items: ".tl-item" });
     LN.resolverHash();
   });
 })(window.LN);

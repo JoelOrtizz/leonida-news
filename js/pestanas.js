@@ -3,6 +3,7 @@
   var tabnav = document.querySelector(".tabnav"), strip = tabnav.querySelector(".tabbar");
   var botones = Array.prototype.slice.call(strip.querySelectorAll("button"));
   var tabPrev = document.getElementById("tabPrev"), tabNext = document.getElementById("tabNext"), dragMoved = false;
+  var HUECO = 16; // space between the tab bar and the section title after switching tabs
 
   LN.showTab = function (name, scroll) {
     if (!document.getElementById("p-" + name)) name = "resumen";
@@ -16,10 +17,13 @@
       document.getElementById("p-" + b.dataset.tab).hidden = !on;
     });
     LN.pestanaActual = name; LN.marcarVisto(name);
-    // Coming from further down the page, jump back to the top of the panel (just under the sticky tab bar).
+    // Changing tab takes the reader to the start of the new section, just under the sticky tab bar.
+    // The jump is instant: a smooth page scroll gets cancelled by the smooth scroll of the tab strip above.
     if (scroll) {
-      var y = tabnav.getBoundingClientRect().top + window.scrollY - (parseFloat(getComputedStyle(tabnav).top) || 0);
-      if (window.scrollY > y) window.scrollTo(0, y);
+      var panel = document.getElementById("p-" + name);
+      var arriba = parseFloat(getComputedStyle(tabnav).top) || 0;
+      var y = panel.getBoundingClientRect().top + window.scrollY - tabnav.offsetHeight - arriba - HUECO;
+      window.scrollTo(0, Math.max(0, y));
     }
   };
 
