@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Leonida News</title>
+<meta name="description" content="Todo lo que se sabe de Grand Theft Auto VI, con cada dato marcado según su fuente: Rockstar o Take-Two, la prensa especializada o filtraciones sin confirmar. Web no oficial.">
+<meta name="theme-color" content="#120a2a">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Leonida News">
+<meta property="og:description" content="Seguimiento no oficial de GTA VI: noticias verificadas, tráilers, personajes, radio, agenda y cuenta atrás.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yellowtail&family=Bebas+Neue&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<section class="hero" id="hero" aria-label="Portada">
+  <div class="stage">
+    <canvas id="heroCanvas" aria-hidden="true"></canvas>
+    <div class="hero-title" id="heroTitle">
+      <h1 class="script">Leonida News</h1>
+      <span class="label">GTA VI · 19 nov 2026</span>
+    </div>
+    <div class="hint" id="hint"><span class="label">Desliza</span><i></i></div>
+  </div>
+</section>
+
+<div class="wrap">
+  <header class="mast">
+    <span class="label">Leonida · Vice City · Hecho verificado</span>
+    <p>Todo lo que se sabe de Grand Theft Auto VI, con cada dato marcado según quién lo dice: Rockstar o Take-Two, la prensa especializada, o filtraciones sin confirmar.</p>
+    <div class="updated">
+      <span class="label"><span class="dot" aria-hidden="true"></span>Última revisión: <span id="upd">cargando…</span></span>
+      <button type="button" class="spoil-toggle" id="spoilToggle" aria-pressed="true" title="Difumina filtraciones y detalles de la historia"><span class="sw" aria-hidden="true"></span><span class="lbl">Modo sin spoilers</span></button>
+    </div>
+  </header>
+
+  <div class="searchbox" role="search">
+    <label class="sr" for="q">Buscar en el portal</label>
+    <input type="search" id="q" placeholder="Buscar: Lucia, Flash FM, retraso, Vice City…" autocomplete="off" aria-controls="qres" aria-expanded="false">
+    <ul class="qres" id="qres" role="listbox" hidden></ul>
+  </div>
+
+  <div class="tabnav">
+  <button type="button" class="tabarrow prev" id="tabPrev" aria-label="Ver pestañas anteriores" hidden></button>
+  <button type="button" class="tabarrow next" id="tabNext" aria-label="Ver más pestañas" hidden></button>
+  <nav class="tabbar" role="tablist" aria-label="Secciones">
+    <button type="button" role="tab" id="tab-resumen" data-tab="resumen" aria-controls="p-resumen" aria-selected="true">Resumen</button>
+    <button type="button" role="tab" id="tab-noticias" data-tab="noticias" aria-controls="p-noticias" aria-selected="false">Noticias</button>
+    <button type="button" role="tab" id="tab-trailers" data-tab="trailers" aria-controls="p-trailers" aria-selected="false">Tráilers</button>
+    <button type="button" role="tab" id="tab-personajes" data-tab="personajes" aria-controls="p-personajes" aria-selected="false">Personajes</button>
+    <button type="button" role="tab" id="tab-musica" data-tab="musica" aria-controls="p-musica" aria-selected="false">Música</button>
+    <button type="button" role="tab" id="tab-leonida" data-tab="leonida" aria-controls="p-leonida" aria-selected="false">Leonida</button>
+    <button type="button" role="tab" id="tab-cronologia" data-tab="cronologia" aria-controls="p-cronologia" aria-selected="false">Cronología</button>
+    <button type="button" role="tab" id="tab-ediciones" data-tab="ediciones" aria-controls="p-ediciones" aria-selected="false">Ediciones</button>
+    <button type="button" role="tab" id="tab-mitos" data-tab="mitos" aria-controls="p-mitos" aria-selected="false">Mitos</button>
+    <button type="button" role="tab" id="tab-resenas" data-tab="resenas" aria-controls="p-resenas" aria-selected="false">Reseñas</button>
+  </nav>
+  </div>
+
+  <div class="panel" id="p-resumen" role="tabpanel" aria-labelledby="tab-resumen">
+  <section aria-labelledby="cd-h">
+    <div class="sec-head"><h2 id="cd-h"><em>Cuenta</em>atrás</h2><span class="label" id="launchLbl">Lanzamiento: 19 nov 2026 · PS5 / Xbox Series X|S</span></div>
+    <div class="board">
+      <div class="count" role="timer" aria-live="off">
+        <div><b id="cd-d">--</b><span class="label">días</span></div>
+        <div><b id="cd-h2">--</b><span class="label">horas</span></div>
+        <div><b id="cd-m">--</b><span class="label">min</span></div>
+        <div><b id="cd-s">--</b><span class="label">seg</span></div>
+      </div>
+    </div>
+    <div class="count-cap label">Medianoche del día de lanzamiento, en la hora local de tu dispositivo</div>
+  </section>
+
+  <section aria-labelledby="ag-h">
+    <div class="sec-head"><h2 id="ag-h"><em>Próximas</em>fechas</h2><span class="label">Horas en tu zona horaria</span></div>
+    <ol class="agenda" id="agenda"><li class="empty">Cargando agenda…</li></ol>
+  </section>
+
+  <section aria-labelledby="f-h">
+    <div class="sec-head"><h2 id="f-h"><em>La</em>ficha</h2><span class="label">Datos clave</span></div>
+    <div class="facts" id="facts"><p class="empty">Cargando la ficha…</p></div>
+  </section>
+
+  <section aria-labelledby="l-h">
+    <div class="sec-head"><h2 id="l-h"><em>Lo</em>último</h2><button type="button" class="more" data-go="noticias">Ver todas las noticias →</button></div>
+    <ul class="feed" id="latest"><li class="empty">Cargando…</li></ul>
+  </section>
+  </div>
+
+  <div class="panel" id="p-trailers" role="tabpanel" aria-labelledby="tab-trailers" hidden>
+  <section aria-labelledby="t-h">
+    <div class="sec-head"><h2 id="t-h"><em>Los</em>tráilers</h2><span class="label">Canal oficial de Rockstar Games</span></div>
+    <div class="tapes" id="tapes"><p class="empty">Cargando tráilers…</p></div>
+  </section>
+  </div>
+
+  <div class="panel" id="p-noticias" role="tabpanel" aria-labelledby="tab-noticias" hidden>
+  <section aria-labelledby="n-h" style="display:flex;flex-direction:column;gap:16px">
+    <div class="sec-head"><h2 id="n-h"><em>Últimas</em>noticias</h2><span class="label" id="ncount"></span></div>
+    <div class="legend">
+      <span><span class="chip confirmado">Confirmado</span>Rockstar, Take-Two u organismo oficial</span>
+      <span><span class="chip reportado">Reportado</span>Prensa fiable, sin confirmación oficial</span>
+      <span><span class="chip rumor">Rumor</span>Filtración o fuente no verificada</span>
+    </div>
+    <div class="filters" role="group" aria-label="Filtrar por fiabilidad">
+      <button type="button" id="f-all" data-f="all" aria-pressed="true">Todo</button>
+      <button type="button" id="f-conf" data-f="confirmado" aria-pressed="false">Confirmado</button>
+      <button type="button" id="f-rep" data-f="reportado" aria-pressed="false">Reportado</button>
+      <button type="button" id="f-rum" data-f="rumor" aria-pressed="false">Rumor</button>
+    </div>
+    <ul class="feed" id="feed"><li class="empty">Cargando noticias…</li></ul>
+  </section>
+  </div>
+
+  <div class="panel" id="p-personajes" role="tabpanel" aria-labelledby="tab-personajes" hidden>
+  <section aria-labelledby="pj-h">
+    <div class="sec-head"><h2 id="pj-h"><em>El</em>reparto</h2><span class="label">Perfiles oficiales de Rockstar</span></div>
+    <div class="cast" id="cast"><p class="empty">Cargando personajes…</p></div>
+  </section>
+  </div>
+
+  <div class="panel" id="p-leonida" role="tabpanel" aria-labelledby="tab-leonida" hidden>
+  <section aria-labelledby="map-h">
+    <div class="sec-head"><h2 id="map-h"><em>Estado de</em>Leonida</h2><span class="label">Toca una región</span></div>
+    <div class="maplay">
+      <figure class="mapbox">
+        <svg id="leoMap" viewBox="0 0 600 720" role="group" aria-label="Mapa esquemático de Leonida por regiones">
+          <defs>
+            <linearGradient id="seaG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d0f3d"/><stop offset="1" stop-color="#0b0620"/></linearGradient>
+            <pattern id="gridP" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#3b2770" stroke-width="1" opacity=".55"/></pattern>
+            <clipPath id="stateClip"><path id="statePath" d="M30 70 L340 70 L430 66 L438 120 L452 190 L474 270 L500 350 L522 430 L540 500 L544 560 L528 600 L500 618 L470 606 L446 580 L420 540 L396 490 L372 440 L350 390 L336 330 L320 280 L296 236 L262 200 L226 182 L180 176 L130 168 L80 160 L36 150 Z"/></clipPath>
+            <filter id="glowF" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          </defs>
+          <rect width="600" height="720" fill="url(#seaG)"/>
+          <rect width="600" height="720" fill="url(#gridP)"/>
+          <g class="sea-lines" aria-hidden="true">
+            <path d="M560 300 q20 8 0 16 q-20 8 0 16" /><path d="M120 400 q20 8 0 16 q-20 8 0 16" /><path d="M200 600 q20 8 0 16 q-20 8 0 16" />
+          </g>
+          <text class="sea-lbl" x="150" y="330">Golfo</text>
+          <text class="sea-lbl" x="560" y="250" text-anchor="end">Océano</text>
+          <g clip-path="url(#stateClip)">
+            <path class="reg" data-region="port-gellhorn" tabindex="0" role="button" aria-label="Port Gellhorn" d="M0 0 L190 0 L190 210 L0 210 Z"/>
+            <path class="reg" data-region="mount-kalaga" tabindex="0" role="button" aria-label="Mount Kalaga" d="M190 0 L600 0 L600 235 L300 235 L190 210 Z"/>
+            <path class="reg" data-region="ambrosia" tabindex="0" role="button" aria-label="Ambrosia" d="M300 235 L600 235 L600 425 L330 425 Z"/>
+            <path class="reg" data-region="grassrivers" tabindex="0" role="button" aria-label="Grassrivers" d="M330 425 L488 425 L476 660 L300 660 Z"/>
+            <path class="reg" data-region="vice-city" tabindex="0" role="button" aria-label="Vice City" d="M488 425 L600 425 L600 660 L476 660 Z"/>
+            <ellipse class="lake" cx="440" cy="372" rx="26" ry="20"/>
+            <g class="city" aria-hidden="true"><rect x="508" y="500" width="5" height="16"/><rect x="516" y="492" width="5" height="24"/><rect x="524" y="504" width="5" height="12"/><rect x="510" y="526" width="4" height="10"/><rect x="518" y="530" width="6" height="14"/></g>
+          </g>
+          <use href="#statePath" class="coast"/>
+          <g class="reg keys" data-region="leonida-keys" tabindex="0" role="button" aria-label="Leonida Keys">
+            <ellipse cx="458" cy="640" rx="16" ry="6" transform="rotate(-25 458 640)"/><ellipse cx="428" cy="656" rx="18" ry="6" transform="rotate(-18 428 656)"/>
+            <ellipse cx="394" cy="668" rx="18" ry="6" transform="rotate(-10 394 668)"/><ellipse cx="358" cy="676" rx="17" ry="5" transform="rotate(-5 358 676)"/>
+            <ellipse cx="322" cy="680" rx="15" ry="5"/><ellipse cx="288" cy="682" rx="12" ry="4"/>
+            <path class="bridge" d="M470 634 L280 683" />
+          </g>
+          <g class="lbls" aria-hidden="true">
+            <text x="100" y="128">Port Gellhorn</text>
+            <text x="320" y="135">Mount Kalaga</text>
+            <text x="455" y="320">Ambrosia</text>
+            <text x="418" y="520">Grassrivers</text>
+            <text x="528" y="462">Vice City</text>
+            <text x="370" y="708">Leonida Keys</text>
+          </g>
+          <g class="rose" transform="translate(70 640)" aria-hidden="true"><circle r="26"/><path d="M0 -22 L6 0 L0 22 L-6 0 Z"/><text y="-30">N</text></g>
+        </svg>
+        <figcaption class="label">Mapa esquemático hecho para esta página, no es el mapa oficial. Las regiones y su posición aproximada siguen la información publicada por Rockstar.</figcaption>
+      </figure>
+      <div class="regdetail" id="regDetail" aria-live="polite"><p class="empty">Cargando regiones…</p></div>
+    </div>
+    <div class="regchips" id="regChips" role="group" aria-label="Regiones"></div>
+  </section>
+  </div>
+
+  <div class="panel" id="p-musica" role="tabpanel" aria-labelledby="tab-musica" hidden>
+  <section aria-labelledby="mu-h">
+    <div class="sec-head"><h2 id="mu-h"><em>Radio de</em>Leonida</h2><span class="label" id="mucount"></span></div>
+    <p class="intro" id="muIntro"></p>
+    <div class="stations" id="stations"><p class="empty">Cargando emisoras…</p></div>
+  </section>
+  <section aria-labelledby="al-h">
+    <div class="sec-head"><h2 id="al-h"><em>Banda</em>sonora</h2><span class="label">Música original y álbum</span></div>
+    <div class="album" id="album"><p class="empty">Cargando…</p></div>
+  </section>
+  </div>
+
+  <div class="panel" id="p-cronologia" role="tabpanel" aria-labelledby="tab-cronologia" hidden>
+  <section aria-labelledby="cr-h">
+    <div class="sec-head"><h2 id="cr-h"><em>El camino a</em>Leonida</h2><span class="label">De 2022 al lanzamiento</span></div>
+    <div class="legend tl-legend">
+      <span><i class="tl-dot anuncio"></i>Anuncio</span><span><i class="tl-dot trailer"></i>Tráiler</span><span><i class="tl-dot fecha"></i>Fecha</span>
+      <span><i class="tl-dot retraso"></i>Retraso</span><span><i class="tl-dot filtracion"></i>Filtración</span><span><i class="tl-dot lanzamiento"></i>Lanzamiento</span>
+    </div>
+    <ol class="timeline" id="timeline"><li class="empty">Cargando cronología…</li></ol>
+  </section>
+  </div>
+
+  <div class="panel" id="p-ediciones" role="tabpanel" aria-labelledby="tab-ediciones" hidden>
+  <section aria-labelledby="ed-h">
+    <div class="sec-head"><h2 id="ed-h"><em>Las</em>ediciones</h2><span class="label">PS5 · Xbox Series X|S</span></div>
+    <div class="tickets" id="tickets"><p class="empty">Cargando ediciones…</p></div>
+    <div class="facts" id="edExtras"></div>
+  </section>
+  </div>
+
+  <div class="panel" id="p-mitos" role="tabpanel" aria-labelledby="tab-mitos" hidden>
+  <section aria-labelledby="mi-h">
+    <div class="sec-head"><h2 id="mi-h"><em>Mitos y</em>bulos</h2><span class="label" id="micount"></span></div>
+    <p class="intro">Rumores que han circulado sobre GTA VI y lo que se sabe de cada uno.</p>
+    <div class="myths" id="myths"><p class="empty">Cargando mitos…</p></div>
+  </section>
+  </div>
+
+  <div class="panel" id="p-resenas" role="tabpanel" aria-labelledby="tab-resenas" hidden>
+  <section aria-labelledby="re-h">
+    <div class="sec-head"><h2 id="re-h"><em>Las</em>reseñas</h2><span class="label" id="reChecked"></span></div>
+    <div class="scores">
+      <div class="score"><span class="label">Metacritic</span><b id="scMeta">TBD</b></div>
+      <div class="score"><span class="label">OpenCritic</span><b id="scOpen">TBD</b></div>
+      <div class="score wide"><span class="label">Embargo de reseñas</span><span class="v" id="reEmbargo">—</span><span class="src" id="reNote"></span></div>
+    </div>
+    <ul class="feed" id="reviews"><li class="empty">Cargando reseñas…</li></ul>
+  </section>
+  </div>
+
+  <footer>
+    <span class="script">Welcome to Leonida</span>
+    <p>Página no oficial de seguimiento. No está afiliada a Rockstar Games ni a Take-Two Interactive. Cada entrada enlaza a su fuente original.</p>
+    <p>Imágenes © Rockstar Games. Esta web no recoge datos personales ni usa cookies: tus preferencias (filtro, modo sin spoilers y lo que ya has visto) se guardan solo en tu navegador.</p>
+    <p>¿Quieres que retiremos algún contenido? <a href="https://github.com/JoelOrtizz/leonida-news/issues" target="_blank" rel="noopener">Escríbenos en GitHub</a>.</p>
+  </footer>
+</div>
+
+<script src="js/portada.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
