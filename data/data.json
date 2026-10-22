@@ -106,7 +106,7 @@
       "url": "https://gtasix.org/en/guide/reviews/"
     },
     "resumen": {
-      "actualizado": "2026-10-21T07:54:00Z",
+      "actualizado": "2026-10-22T16:08:16Z",
       "hechos": [
         {
           "estado": "confirmado",
@@ -223,6 +223,17 @@
       "titulo": "The Game Awards 2026",
       "todoElDia": true,
       "url": "https://thegameawards.com/news/tga-returns-december-10-2026"
+    },
+    {
+      "id": "2026-11-18-noche-vice-city",
+      "inicio": "2026-11-19T00:00:00Z",
+      "fin": "2026-11-19T02:30:00Z",
+      "todoElDia": false,
+      "titulo": "A Night in Vice City: los HEAT juegan como «Vice City»",
+      "descripcion": "Partido Miami HEAT–Milwaukee Bucks en el Kaseya Center con pista y uniforme de Vice City, la víspera del lanzamiento. Se emite en ESPN.",
+      "estado": "confirmado",
+      "fuente": "Miami HEAT",
+      "url": "https://www.nba.com/heat/news/miami-heat-and-rockstar-games-bring-a-night-in-vice-city-to-kaseya-center"
     }
   ],
   "cronologia": [
@@ -760,6 +771,26 @@
       "resumen": "Estimación de Sensor Tower: unas 370.000 reservas nuevas en la última semana. Es una estimación externa, no una cifra de Take-Two.",
       "titulo": "Las reservas rondarían los 6,45 millones",
       "url": "https://sundayguardianlive.com/tech-news/gta-6-latest-news-is-grand-theft-auto-vi-at-risk-hackers-claim-major-ps5-jailbreak-breakthrough-as-pre-orders-reach-645-million-ahead-of-november-launch-check-latest-updates-leaks-309232/amp/"
+    },
+    {
+      "id": "2026-10-02-miami-heat-vice-city",
+      "fecha": "2026-10-02",
+      "titulo": "Los Miami HEAT jugarán como «Vice City» la víspera del lanzamiento",
+      "resumen": "El 18 de noviembre, la noche antes del estreno, el equipo de la NBA recibirá a los Milwaukee Bucks como «Vice City», con una pista y un uniforme creados con Rockstar Games para la ocasión.",
+      "estado": "confirmado",
+      "categoria": "Marketing",
+      "fuente": "Miami HEAT",
+      "url": "https://www.nba.com/heat/news/miami-heat-and-rockstar-games-bring-a-night-in-vice-city-to-kaseya-center"
+    },
+    {
+      "id": "2026-10-20-primer-anuncio-tv",
+      "fecha": "2026-10-20",
+      "titulo": "Primer anuncio de GTA VI en televisión",
+      "resumen": "Se emitió en la noche inaugural de la NBA. Es una versión recortada del tráiler de lanzamiento: quita dos de las escenas de la ducha y al final solo muestra el logo de PlayStation. Rockstar no lo ha comentado.",
+      "estado": "reportado",
+      "categoria": "Marketing",
+      "fuente": "Kotaku",
+      "url": "https://kotaku.com/gta-6s-first-tv-ad-cuts-the-spicy-shower-scenes-2000748474"
     }
   ],
   "personajes": [
