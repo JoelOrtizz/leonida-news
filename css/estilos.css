@@ -21,6 +21,8 @@
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
+/* The hidden attribute must always win: rules like .panel { display: flex } would otherwise show inactive tabs. */
+[hidden] { display: none !important; }
 html { background: var(--night); }
 body {
   background:
@@ -163,23 +165,26 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
   background: rgba(18, 10, 42, .88); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--line); margin-bottom: -16px;
+  display: flex; align-items: center; gap: 8px;
 }
-.tabbar { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; overscroll-behavior-x: contain; cursor: grab; }
+.tabbar { flex: 1; min-width: 0; display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; overscroll-behavior-x: contain; cursor: grab; }
 .tabbar.dragging { cursor: grabbing; user-select: none; }
 .tabbar::-webkit-scrollbar { display: none; }
-.tabnav.fade-r .tabbar { -webkit-mask: linear-gradient(90deg, #000 calc(100% - 56px), transparent); mask: linear-gradient(90deg, #000 calc(100% - 56px), transparent); }
-.tabnav.fade-l .tabbar { -webkit-mask: linear-gradient(90deg, transparent, #000 56px); mask: linear-gradient(90deg, transparent, #000 56px); }
-.tabnav.fade-l.fade-r .tabbar { -webkit-mask: linear-gradient(90deg, transparent, #000 56px, #000 calc(100% - 56px), transparent); mask: linear-gradient(90deg, transparent, #000 56px, #000 calc(100% - 56px), transparent); }
+.tabnav.fade-r .tabbar { -webkit-mask: linear-gradient(90deg, #000 calc(100% - 32px), transparent); mask: linear-gradient(90deg, #000 calc(100% - 32px), transparent); }
+.tabnav.fade-l .tabbar { -webkit-mask: linear-gradient(90deg, transparent, #000 32px); mask: linear-gradient(90deg, transparent, #000 32px); }
+.tabnav.fade-l.fade-r .tabbar { -webkit-mask: linear-gradient(90deg, transparent, #000 32px, #000 calc(100% - 32px), transparent); mask: linear-gradient(90deg, transparent, #000 32px, #000 calc(100% - 32px), transparent); }
+/* Arrows sit beside the strip (never on top of the tab names); they only appear when the tabs do not fit,
+   and are dimmed at either end instead of disappearing, so the strip does not jump. */
 .tabarrow {
-  position: absolute; top: 50%; z-index: 2; width: 32px; height: 32px; margin-top: -16px; border-radius: 50%; cursor: pointer;
-  display: grid; place-items: center; color: var(--fg); background: rgba(35, 20, 73, .95); border: 1.5px solid var(--pink);
-  box-shadow: 0 0 12px -2px var(--pink); transition: transform .15s, background .15s;
+  display: none; flex: none; width: 32px; height: 32px; border-radius: 50%; cursor: pointer; place-items: center;
+  color: var(--fg); background: rgba(35, 20, 73, .95); border: 1.5px solid var(--pink);
+  box-shadow: 0 0 12px -2px var(--pink); transition: transform .15s, background .15s, opacity .15s;
 }
-.tabarrow:hover { transform: scale(1.08); background: var(--pink); color: var(--night); }
+.tabnav.desborda .tabarrow { display: grid; }
+.tabarrow:hover:not(:disabled) { transform: scale(1.08); background: var(--pink); color: var(--night); }
+.tabarrow:disabled { opacity: .3; cursor: default; box-shadow: none; }
 .tabarrow::before { content: ""; width: 8px; height: 8px; border-top: 2px solid currentColor; border-right: 2px solid currentColor; }
-.tabarrow.prev { left: max(8px, env(safe-area-inset-left, 0px)); }
 .tabarrow.prev::before { transform: translateX(2px) rotate(-135deg); }
-.tabarrow.next { right: max(8px, env(safe-area-inset-right, 0px)); }
 .tabarrow.next::before { transform: translateX(-2px) rotate(45deg); }
 .tabbar button {
   flex: none; font-family: var(--font-display); font-size: 24px; letter-spacing: .08em; line-height: 1;
@@ -511,7 +516,8 @@ mark { background: rgba(255, 210, 63, .3); color: inherit; border-radius: 2px; }
 
 @media (max-width: 760px) {
   .tabbar button { font-size: 21px; padding: 14px 11px 11px; }
-  .tabarrow { width: 28px; height: 28px; margin-top: -14px; }
+  .tabarrow { width: 28px; height: 28px; }
+  .tabnav { gap: 6px; }
   .maplay { grid-template-columns: 1fr; }
   .regdetail h3 { font-size: 38px; }
   .scores { grid-template-columns: repeat(2, minmax(0, 1fr)); }

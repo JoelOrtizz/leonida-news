@@ -23,9 +23,12 @@
     }
   };
 
+  // Arrows show only when the tabs do not fit; at either end the matching arrow is disabled.
   function updateArrows() {
-    var max = strip.scrollWidth - strip.clientWidth, l = strip.scrollLeft > 2, r = strip.scrollLeft < max - 2;
-    tabPrev.hidden = !l; tabNext.hidden = !r;
+    var max = strip.scrollWidth - strip.clientWidth, desborda = max > 2;
+    var l = desborda && strip.scrollLeft > 2, r = desborda && strip.scrollLeft < max - 2;
+    tabnav.classList.toggle("desborda", desborda);
+    tabPrev.disabled = !l; tabNext.disabled = !r;
     tabnav.classList.toggle("fade-l", l); tabnav.classList.toggle("fade-r", r);
   }
   function nudge(dir) { strip.scrollBy({ left: dir * Math.max(160, strip.clientWidth * 0.6), behavior: LN.REDUCE ? "auto" : "smooth" }); }
