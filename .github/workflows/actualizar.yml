@@ -97,6 +97,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      pages: write
       id-token: write
     steps:
       # The queue was just committed by "recoger": start from the latest main.
@@ -166,6 +167,8 @@ jobs:
           if [ "$PUBLICAR_DIRECTO" = "si" ]; then
             git pull --rebase origin main
             git push origin HEAD:main
+            # A push made with the workflow token may not trigger GitHub Pages: ask for the rebuild explicitly.
+            gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" --silent && echo "Web en reconstrucción."
           else
             rama="revision/$fecha-$GITHUB_RUN_ID"
             git push origin "HEAD:refs/heads/$rama"
