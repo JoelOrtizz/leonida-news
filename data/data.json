@@ -144,11 +144,11 @@
           "valor": "Mature 17+"
         },
         {
-          "estado": "rumor",
+          "estado": "reportado",
           "etiqueta": "Versión PC",
-          "fuente": "TweakTown",
-          "url": "https://www.tweaktown.com/hubs/gta-6/index.html",
-          "valor": "Se apunta al 1.er trimestre de 2027"
+          "fuente": "GamesBeat",
+          "url": "https://gamesbeat.com/grand-theft-auto-vis-pc-release-is-slated-for-q1-2027/",
+          "valor": "Prevista para el 1.er trimestre de 2027 (sin confirmar)"
         }
       ],
       "lanzamientoISO": "2026-11-19",
@@ -469,10 +469,10 @@
     {
       "id": "2026-10-10-pc-2027",
       "afirmacion": "La versión de PC llegará en el primer trimestre de 2027",
-      "explicacion": "Lo publican varios medios a partir de informes, pero Rockstar no ha anunciado nada.",
-      "fuente": "TweakTown",
+      "explicacion": "Lo publica GamesBeat con cuatro fuentes anónimas del sector; ni Rockstar ni Take-Two lo han confirmado.",
+      "fuente": "GamesBeat",
       "mes": "2026-10",
-      "url": "https://www.tweaktown.com/hubs/gta-6/index.html",
+      "url": "https://gamesbeat.com/grand-theft-auto-vis-pc-release-is-slated-for-q1-2027/",
       "veredicto": "sin-confirmar"
     },
     {
@@ -704,12 +704,12 @@
     {
       "id": "2026-10-10-pc-2027",
       "categoria": "Plataformas",
-      "estado": "rumor",
-      "fecha": "2026-10-10",
-      "fuente": "TweakTown",
-      "resumen": "Varias webs lo publican, pero Rockstar no ha anunciado versión para PC.",
+      "estado": "reportado",
+      "fecha": "2026-10-14",
+      "fuente": "GamesBeat",
+      "resumen": "GamesBeat, con cuatro fuentes anónimas del sector, sitúa la versión de PC en el primer trimestre de 2027. Rockstar no lo ha confirmado.",
       "titulo": "Informes sitúan la versión de PC en el 1.er trimestre de 2027",
-      "url": "https://www.tweaktown.com/hubs/gta-6/index.html"
+      "url": "https://gamesbeat.com/grand-theft-auto-vis-pc-release-is-slated-for-q1-2027/"
     },
     {
       "id": "2026-10-12-game-awards",
