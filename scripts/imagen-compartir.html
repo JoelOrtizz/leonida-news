@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Generador de la imagen para compartir · Leonida News</title>
+<!--
+  Draws img/compartir.png (1200 × 630, the size social networks use for link previews).
+  Open it through the local server (http://localhost:8080/scripts/imagen-compartir.html), press "Descargar PNG"
+  and save the file as img/compartir.png. Everything is drawn here: no official artwork or logos are used.
+-->
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../css/fuentes.css">
+<link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+<main class="wrap generador">
+  <h1 class="label">Imagen para compartir (1200 × 630)</h1>
+  <canvas id="lienzo" width="1200" height="630"></canvas>
+  <button type="button" class="perdida-boton" id="descargar">Descargar PNG</button>
+</main>
+<script>
+(function () {
+  var W = 1200, H = 630, HORIZONTE = 400;
+  var cv = document.getElementById("lienzo"), c = cv.getContext("2d");
+  var PALMERA = [
+    "M70 210 C68 160 66 120 60 70 L64 70 C72 120 76 160 80 210 Z",
+    "M62 72 C40 50 14 52 0 66 C22 56 42 60 62 76 Z", "M62 72 C44 40 20 30 4 34 C26 38 44 52 60 78 Z",
+    "M62 72 C62 40 52 18 38 6 C52 26 58 46 60 76 Z", "M62 72 C80 44 104 36 126 42 C104 44 84 56 64 78 Z",
+    "M62 72 C90 62 112 70 128 86 C110 76 88 72 64 78 Z", "M62 72 C74 46 82 28 82 8 C88 30 80 52 64 78 Z"
+  ].map(function (d) { return new Path2D(d); });
+
+  // Deterministic pseudo-random numbers so the image is identical every time.
+  function azar(seed) { return function () { seed = (seed * 16807) % 2147483647; return (seed - 1) / 2147483646; }; }
+  function palmera(x, y, escala, espejo) {
+    c.save(); c.translate(x, y); c.scale(espejo ? -escala : escala, escala); c.translate(-70, -210);
+    PALMERA.forEach(function (p) { c.fill(p); }); c.restore();
+  }
+  function neon(texto, x, y, color, brillo) {
+    c.save(); c.shadowColor = color; c.shadowBlur = brillo; c.fillText(texto, x, y); c.shadowBlur = brillo / 3; c.fillText(texto, x, y); c.restore();
+  }
+
+  function dibujar() {
+    var r = azar(7);
+    var cielo = c.createLinearGradient(0, 0, 0, HORIZONTE);
+    cielo.addColorStop(0, "#120a2a"); cielo.addColorStop(.5, "#6d1b7b"); cielo.addColorStop(.85, "#ff2e93"); cielo.addColorStop(1, "#ff9a3d");
+    c.fillStyle = cielo; c.fillRect(0, 0, W, HORIZONTE);
+    for (var i = 0; i < 70; i++) { c.fillStyle = "rgba(255,255,255," + (0.2 + r() * .6) + ")"; c.fillRect(r() * W, r() * HORIZONTE * .4, 2, 2); }
+
+    // Striped sunset sun behind the title
+    var R = 190, cx = W / 2, sol = c.createLinearGradient(0, HORIZONTE - R, 0, HORIZONTE);
+    sol.addColorStop(0, "#ffd23f"); sol.addColorStop(.55, "#ff7a3d"); sol.addColorStop(1, "#ff2e93");
+    c.save(); c.shadowColor = "rgba(255,122,61,.8)"; c.shadowBlur = 80;
+    c.beginPath(); c.arc(cx, HORIZONTE, R, Math.PI, 0); c.closePath(); c.fillStyle = sol; c.fill(); c.restore();
+    c.globalCompositeOperation = "destination-out";
+    for (var k = 0, y = HORIZONTE - R * .45; y < HORIZONTE; k++) { var g = 2 + k * 2.4; c.fillRect(cx - R, y, R * 2, g); y += g + 9; }
+    c.globalCompositeOperation = "destination-over"; c.fillStyle = cielo; c.fillRect(0, 0, W, HORIZONTE);
+    c.globalCompositeOperation = "source-over";
+
+    // Skyline with lit windows
+    var x = 0; c.fillStyle = "#170a33";
+    while (x < W) {
+      var bw = 22 + r() * 50, bh = (40 + r() * 120) * (Math.abs(x - cx) < R * 1.1 ? .5 : 1);
+      c.fillRect(x, HORIZONTE - bh, bw, bh);
+      c.fillStyle = "rgba(25,227,255,.55)";
+      for (var wy = HORIZONTE - bh + 8; wy < HORIZONTE - 6; wy += 9) for (var wx = x + 4; wx < x + bw - 4; wx += 8) if (r() > .78) c.fillRect(wx, wy, 2.5, 3);
+      c.fillStyle = "#170a33"; x += bw + 2 + r() * 6;
+    }
+
+    // Sea with the sun's reflection
+    var mar = c.createLinearGradient(0, HORIZONTE, 0, H);
+    mar.addColorStop(0, "#3a0f55"); mar.addColorStop(1, "#0b0620");
+    c.fillStyle = mar; c.fillRect(0, HORIZONTE, W, H - HORIZONTE);
+    for (var j = 0; j < 22; j++) {
+      var yy = HORIZONTE + Math.pow(j / 22, 1.6) * (H - HORIZONTE), ww = R * (1.6 - j / 22) * (0.6 + r() * .5);
+      c.fillStyle = j % 2 ? "rgba(255,122,61,.5)" : "rgba(255,46,147,.45)"; c.fillRect(cx - ww / 2, yy, ww, 1 + j * .25);
+    }
+    c.fillStyle = "#ff2e93"; c.fillRect(0, HORIZONTE - 1, W, 2);
+    c.fillStyle = "#07031a";
+    palmera(70, H + 10, 2.2, false); palmera(190, H + 10, 1.5, true); palmera(1130, H + 10, 2, true); palmera(1010, H + 10, 1.3, false);
+
+    // Text
+    c.textAlign = "center";
+    c.save(); c.translate(cx, 250); c.rotate(-6 * Math.PI / 180);
+    c.font = "400 150px Yellowtail"; c.fillStyle = "#fff4fb"; neon("Leonida News", 0, 0, "#ff2e93", 40);
+    c.restore();
+    c.font = "400 46px 'Bebas Neue'"; c.fillStyle = "#19e3ff";
+    if ("letterSpacing" in c) c.letterSpacing = "6px";
+    neon("TODO SOBRE GTA VI, VERIFICADO", cx, 500, "#19e3ff", 22);
+    c.font = "600 26px 'Barlow Condensed'"; c.fillStyle = "#c3b2e6";
+    if ("letterSpacing" in c) c.letterSpacing = "3px";
+    c.fillText("NOTICIAS · TRÁILERS · AGENDA · CUENTA ATRÁS  —  WEB NO OFICIAL", cx, 560);
+  }
+
+  var fuentes = ["400 150px Yellowtail", "400 46px 'Bebas Neue'", "600 26px 'Barlow Condensed'"];
+  Promise.all(fuentes.map(function (f) { return document.fonts.load(f); })).then(dibujar);
+
+  document.getElementById("descargar").addEventListener("click", function () {
+    cv.toBlob(function (blob) {
+      var a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = "compartir.png";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+    }, "image/png");
+  });
+})();
+</script>
+</body>
+</html>
