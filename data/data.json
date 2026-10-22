@@ -162,11 +162,11 @@
       "descripcion": "Conferencia con inversores a las 16:30 de Nueva York. Última antes del lanzamiento: puede haber cifras de reservas.",
       "estado": "confirmado",
       "fin": "2026-11-09T22:30:00Z",
-      "fuente": "Stock Titan (nota de Take-Two)",
+      "fuente": "Take-Two Interactive",
       "inicio": "2026-11-09T21:30:00Z",
       "titulo": "Resultados de Take-Two (Q2 FY2027)",
       "todoElDia": false,
-      "url": "https://www.stocktitan.net/news/TTWO/take-two-interactive-software-inc-to-report-second-quarter-fiscal-qst6u4vkpwg0.html"
+      "url": "https://www.take2games.com/ir/news/take-two-interactive-software-inc-report-second-quarter-fiscal-8"
     },
     {
       "id": "2026-11-12-precarga",
@@ -665,10 +665,10 @@
       "categoria": "Fecha",
       "estado": "confirmado",
       "fecha": "2026-08-07",
-      "fuente": "Insider Gaming",
+      "fuente": "Take-Two Interactive (resultados del 1.er trimestre, SEC)",
       "resumen": "En sus resultados trimestrales, Take-Two confirmó que no hay retraso y que el juego sale el 19 de noviembre de 2026.",
       "titulo": "Take-Two reafirma el 19 de noviembre",
-      "url": "https://insider-gaming.com/gta-6-release-date-has-not-changed-take-two-ceo/"
+      "url": "https://www.sec.gov/Archives/edgar/data/0000946581/000162828026054580/ttwo1q27earningsrelease.htm"
     },
     {
       "id": "2026-10-01-esrb-m17",
