@@ -28,7 +28,11 @@ var OFICIALES = [
   /^(www\.|store\.)?playstation\.com$/, /^(www\.)?xbox\.com$/, /^(www\.)?microsoft\.com$/,
   /^(www\.)?youtube\.com$/, /^(www\.)?thegameawards\.com$/
 ];
-var OFICIALES_RUTA = [{ host: /^(x|twitter)\.com$/, ruta: /^\/RockstarGames\// }];
+// Official accounts and the official pages of partners that co-organise events with Rockstar (e.g. the Miami HEAT's "A Night in Vice City").
+var OFICIALES_RUTA = [
+  { host: /^(x|twitter)\.com$/, ruta: /^\/(RockstarGames|MiamiHEAT)\// },
+  { host: /^(www\.)?nba\.com$/, ruta: /^\/heat\// }
+];
 
 var errores = [];
 var avisos = [];
