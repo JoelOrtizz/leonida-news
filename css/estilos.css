@@ -94,6 +94,17 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--cyan); outline-
 .mast h1 { margin: 0; font: inherit; }
 .mast p { margin: 6px 0 0; max-width: 60ch; color: var(--muted); font-size: 16.5px; }
 .updated { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 22px; align-items: center; }
+/* Daily review notice under the masthead: a small neon clock and the scheduled time */
+.aviso-diario {
+  margin: 4px 0 0; max-width: 62ch; display: inline-flex; align-items: center; gap: 10px; text-align: left;
+  font-size: 14.5px; line-height: 1.4; color: var(--fg);
+  background: rgba(25, 227, 255, .07); border: 1px solid rgba(25, 227, 255, .35); border-radius: 14px; padding: 8px 14px;
+}
+.aviso-diario strong { color: var(--cyan); font-weight: 700; }
+.reloj { flex: none; position: relative; width: 16px; height: 16px; border-radius: 50%; border: 1.5px solid var(--cyan); box-shadow: 0 0 8px -1px var(--cyan); }
+.reloj::before, .reloj::after { content: ""; position: absolute; left: 50%; bottom: 50%; width: 1.5px; background: var(--cyan); transform-origin: bottom center; }
+.reloj::before { height: 5px; transform: translateX(-50%); }
+.reloj::after { height: 4px; transform: translateX(-50%) rotate(-30deg); } /* hour hand at 11 */
 .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--ok); display: inline-block; margin-right: 6px; box-shadow: 0 0 10px var(--ok); }
 
 /* Section headers */
