@@ -119,6 +119,17 @@ jobs:
             --max-turns 60
             --allowedTools "Read,Edit,Write,Glob,Grep,WebSearch,WebFetch,Bash(node scripts/validar-datos.js)"
 
+      # The action hides Claude's output; on failure show only its final message (e.g. an authentication error).
+      - name: Mostrar el error de Claude
+        if: failure()
+        run: |
+          node -e '
+            const f = process.env.RUNNER_TEMP + "/claude-execution-output.json";
+            const d = JSON.parse(require("fs").readFileSync(f, "utf8"));
+            (Array.isArray(d) ? d : [d]).filter(m => m && m.type === "result")
+              .forEach(m => console.log("is_error:", m.is_error, "\nresultado:", m.result, m.errors ? "\nerrores: " + JSON.stringify(m.errors) : ""));
+          ' || echo "No hay registro de la ejecución de Claude."
+
       - name: Comprobar que solo ha cambiado data/
         run: |
           if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
