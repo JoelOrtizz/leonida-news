@@ -3,5 +3,8 @@
 docs/
 gta6-radar.html
 
+# Excepción: instrucciones que sigue Claude en GitHub Actions (tienen que estar en el repositorio)
+!.github/revision.md
+
 # Configuración local de Claude Code
 .claude/

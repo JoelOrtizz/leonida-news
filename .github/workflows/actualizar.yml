@@ -1,44 +1,64 @@
-# Daily collection of GTA VI headlines into data/pendientes.json (no AI). See scripts/actualizar.js.
-name: Recoger novedades
+# Nightly update: collect GTA VI headlines (scripts/actualizar.js, no AI), then Claude reviews the queue following
+# .github/revision.md and the result is published (pull request or direct commit, see the "revisar" job).
+name: Recoger y revisar novedades
 
 on:
   schedule:
     # 23:00 in Spain all year: 21:00 UTC in summer (CEST) and 22:00 UTC in winter (CET). Both are scheduled and
-    # the "hora" job lets through only the one that falls at 23:00 in Madrid. GitHub may start them a few minutes late.
+    # the "previo" job lets through only the one that falls at 23:00 in Madrid. GitHub may start them a few minutes late.
     - cron: "0 21 * * *"
     - cron: "0 22 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      forzar_revision:
+        description: "Lanzar la revisión de Claude aunque no haya titulares pendientes"
+        type: boolean
+        default: false
 
-permissions:
-  contents: write
-
-# Never two runs at once: the second waits instead of racing on the same file.
+# Never two runs at once: the second waits instead of racing on the same files.
 concurrency:
   group: recoger-novedades
   cancel-in-progress: false
 
+env:
+  ETIQUETA_PR: revision-automatica
+
 jobs:
-  hora:
+  previo:
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: read
     outputs:
       toca: ${{ steps.comprobar.outputs.toca }}
     steps:
-      - name: Comprobar que son las 23:00 en España
+      - name: Comprobar la hora en España y si hay una revisión sin fusionar
         id: comprobar
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           hora=$(TZ=Europe/Madrid date +%H)
+          abiertos=$(gh pr list --repo "$GITHUB_REPOSITORY" --label "$ETIQUETA_PR" --state open --json number --jq length)
           if [ "${{ github.event_name }}" = "schedule" ] && [ "$hora" != "23" ]; then
             echo "En España son las $hora:xx: esta ejecución programada no toca."
+            echo "toca=no" >> "$GITHUB_OUTPUT"
+          elif [ "$abiertos" != "0" ]; then
+            # Collecting now would change data/pendientes.json under the open pull request and cause a conflict.
+            # Nothing is lost: the collector looks back 7 days and finds these headlines again after the merge.
+            echo "::warning::Hay $abiertos revisión(es) sin fusionar: fusiónala para que se reanuden las actualizaciones."
             echo "toca=no" >> "$GITHUB_OUTPUT"
           else
             echo "toca=si" >> "$GITHUB_OUTPUT"
           fi
 
   recoger:
-    needs: hora
-    if: needs.hora.outputs.toca == 'si'
+    needs: previo
+    if: needs.previo.outputs.toca == 'si'
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: write
+    outputs:
+      pendientes: ${{ steps.cola.outputs.pendientes }}
     steps:
       - uses: actions/checkout@v4
 
@@ -61,6 +81,83 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "datos: revisión automática $(date -u +%F)"
+          git commit -m "datos: cola de titulares $(date -u +%F)"
           git pull --rebase origin main
           git push origin HEAD:main
+
+      - name: Contar pendientes
+        id: cola
+        run: echo "pendientes=$(node -e 'console.log(require("./data/pendientes.json").elementos.filter(x => x.estado === "pendiente").length)')" >> "$GITHUB_OUTPUT"
+
+  revisar:
+    needs: recoger
+    if: needs.recoger.outputs.pendientes != '0' || inputs.forzar_revision
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+      pull-requests: write
+      id-token: write
+    steps:
+      # The queue was just committed by "recoger": start from the latest main.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Revisión de Claude
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ github.token }}
+          prompt: "Sigue las instrucciones de .github/revision.md para revisar la cola de hoy."
+          # Only reading, editing, web research and the validator: no git, no other commands.
+          claude_args: >-
+            --max-turns 60
+            --allowedTools "Read,Edit,Write,Glob,Grep,WebSearch,WebFetch,Bash(node scripts/validar-datos.js)"
+
+      - name: Comprobar que solo ha cambiado data/
+        run: |
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
+            echo "::error::La revisión ha creado commits por su cuenta; solo debe editar archivos."
+            exit 1
+          fi
+          cambios=$(git status --porcelain --untracked-files=all | awk '{print $2}')
+          echo "Archivos cambiados:"; echo "${cambios:-(ninguno)}"
+          fuera=$(echo "$cambios" | grep -v -E '^(data/data\.json|data/pendientes\.json)$' | grep . || true)
+          if [ -n "$fuera" ]; then
+            echo "::error::La revisión ha tocado archivos fuera de data/: $fuera"
+            exit 1
+          fi
+
+      - name: Validar datos y cola
+        run: node scripts/validar-datos.js
+
+      - name: Publicar (pull request o commit directo)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          # Repository variable: "si" publishes straight to main; anything else opens a pull request to review first.
+          PUBLICAR_DIRECTO: ${{ vars.PUBLICAR_DIRECTO }}
+        run: |
+          git add data/data.json data/pendientes.json
+          if git diff --cached --quiet; then
+            echo "La revisión no ha cambiado nada."
+            exit 0
+          fi
+          fecha=$(date -u +%F)
+          [ -s resumen-revision.md ] || echo "Revisión automática del $fecha (Claude no dejó resumen)." > resumen-revision.md
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "datos: revisión automática $fecha" -m "$(cat resumen-revision.md)"
+          if [ "$PUBLICAR_DIRECTO" = "si" ]; then
+            git pull --rebase origin main
+            git push origin HEAD:main
+          else
+            rama="revision/$fecha-$GITHUB_RUN_ID"
+            git push origin "HEAD:refs/heads/$rama"
+            gh label create "$ETIQUETA_PR" --color FF2E93 --description "Revisión diaria hecha por Claude" --force
+            gh pr create --base main --head "$rama" --title "datos: revisión automática $fecha" --body-file resumen-revision.md --label "$ETIQUETA_PR"
+          fi
