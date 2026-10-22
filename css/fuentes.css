@@ -1,0 +1,11 @@
+/* Fonts hosted in this repository (latin subset, which covers Spanish) so visitors' browsers never contact Google.
+   Licences in fuentes/: Barlow, Barlow Condensed and Bebas Neue under SIL OFL 1.1; Yellowtail under Apache 2.0. */
+@font-face { font-family: "Yellowtail"; font-style: normal; font-weight: 400; font-display: swap; src: url("../fuentes/yellowtail-400.woff2") format("woff2"); }
+@font-face { font-family: "Bebas Neue"; font-style: normal; font-weight: 400; font-display: swap; src: url("../fuentes/bebas-neue-400.woff2") format("woff2"); }
+@font-face { font-family: "Barlow"; font-style: normal; font-weight: 400; font-display: swap; src: url("../fuentes/barlow-400.woff2") format("woff2"); }
+@font-face { font-family: "Barlow"; font-style: normal; font-weight: 500; font-display: swap; src: url("../fuentes/barlow-500.woff2") format("woff2"); }
+@font-face { font-family: "Barlow"; font-style: normal; font-weight: 600; font-display: swap; src: url("../fuentes/barlow-600.woff2") format("woff2"); }
+@font-face { font-family: "Barlow"; font-style: normal; font-weight: 700; font-display: swap; src: url("../fuentes/barlow-700.woff2") format("woff2"); }
+@font-face { font-family: "Barlow Condensed"; font-style: normal; font-weight: 500; font-display: swap; src: url("../fuentes/barlow-condensed-500.woff2") format("woff2"); }
+@font-face { font-family: "Barlow Condensed"; font-style: normal; font-weight: 600; font-display: swap; src: url("../fuentes/barlow-condensed-600.woff2") format("woff2"); }
+@font-face { font-family: "Barlow Condensed"; font-style: normal; font-weight: 700; font-display: swap; src: url("../fuentes/barlow-condensed-700.woff2") format("woff2"); }
