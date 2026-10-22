@@ -318,7 +318,8 @@ mark { background: rgba(255, 210, 63, .3); color: inherit; border-radius: 2px; }
   font-family: var(--font-label); font-weight: 700; font-size: 11px; letter-spacing: .14em; text-transform: uppercase;
   color: var(--night); background: var(--sun-1); padding: 2px 8px; border-radius: 4px; box-shadow: 0 0 10px rgba(255, 210, 63, .5);
 }
-.tape .new-tag, .myth .new-tag, .pcard .new-tag { position: absolute; z-index: 3; }
+.tape .new-tag, .myth .new-tag, .pcard .new-tag, .station .new-tag { position: absolute; z-index: 3; }
+.station .new-tag { right: 12px; top: 12px; }
 .tape .new-tag { left: 12px; bottom: 10px; }
 .myth .new-tag { right: 14px; top: 14px; }
 .pcard .new-tag { right: 8px; top: 8px; }
@@ -455,6 +456,8 @@ mark { background: rgba(255, 210, 63, .3); color: inherit; border-radius: 2px; }
 .regdetail h3 { margin: 0; font-family: var(--font-script); font-weight: 400; font-size: 46px; line-height: 1; color: var(--c); text-shadow: 0 0 16px var(--c); }
 .regdetail .insp { font-family: var(--font-label); font-weight: 700; font-size: 14px; letter-spacing: .12em; text-transform: uppercase; color: var(--fg); }
 .regdetail p { margin: 0; }
+.regdetail .row, .station .row, .album .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.station .row { margin-top: auto; }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; }
 .tags span { font-family: var(--font-label); font-weight: 600; font-size: 13px; padding: 3px 10px; border-radius: 6px; background: rgba(255, 255, 255, .06); border: 1px solid var(--line); }
 .regchips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
