@@ -1,4 +1,4 @@
-/* Summary tab: countdown to launch, last review time and the fact sheet ("La ficha"). */
+/* Countdown to launch (shown above the tabs), last review time and the summary tab's fact sheet ("La ficha"). */
 (function (LN) {
   var el = LN.el;
   // Until the data loads, count down to the announced date; renderMeta replaces it with lanzamientoISO.

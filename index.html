@@ -54,6 +54,20 @@
     <ul class="qres" id="qres" role="listbox" hidden></ul>
   </div>
 
+  <!-- Countdown: always visible, between the search box and the tabs -->
+  <section class="cuenta" aria-labelledby="cd-h">
+    <div class="sec-head"><h2 id="cd-h"><em>Cuenta</em>atrás</h2><span class="label" id="launchLbl">Lanzamiento: 19 nov 2026 · PS5 / Xbox Series X|S</span></div>
+    <div class="board">
+      <div class="count" role="timer" aria-live="off">
+        <div><b id="cd-d">--</b><span class="label">días</span></div>
+        <div><b id="cd-h2">--</b><span class="label">horas</span></div>
+        <div><b id="cd-m">--</b><span class="label">min</span></div>
+        <div><b id="cd-s">--</b><span class="label">seg</span></div>
+      </div>
+    </div>
+    <div class="count-cap label">Medianoche del día de lanzamiento, en la hora local de tu dispositivo</div>
+  </section>
+
   <div class="tabnav">
   <button type="button" class="tabarrow prev" id="tabPrev" aria-label="Ver pestañas anteriores" disabled></button>
   <nav class="tabbar" role="tablist" aria-label="Secciones">
@@ -72,19 +86,6 @@
   </div>
 
   <div class="panel" id="p-resumen" role="tabpanel" aria-labelledby="tab-resumen">
-  <section aria-labelledby="cd-h">
-    <div class="sec-head"><h2 id="cd-h"><em>Cuenta</em>atrás</h2><span class="label" id="launchLbl">Lanzamiento: 19 nov 2026 · PS5 / Xbox Series X|S</span></div>
-    <div class="board">
-      <div class="count" role="timer" aria-live="off">
-        <div><b id="cd-d">--</b><span class="label">días</span></div>
-        <div><b id="cd-h2">--</b><span class="label">horas</span></div>
-        <div><b id="cd-m">--</b><span class="label">min</span></div>
-        <div><b id="cd-s">--</b><span class="label">seg</span></div>
-      </div>
-    </div>
-    <div class="count-cap label">Medianoche del día de lanzamiento, en la hora local de tu dispositivo</div>
-  </section>
-
   <section aria-labelledby="ag-h">
     <div class="sec-head"><h2 id="ag-h"><em>Próximas</em>fechas</h2><span class="label">Horas en tu zona horaria</span></div>
     <ol class="agenda" id="agenda"><li class="empty">Cargando agenda…</li></ol>
