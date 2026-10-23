@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-10-23T17:04:13.480Z",
+  "actualizado": "2026-10-23T17:06:24.461Z",
   "elementos": [
     {
       "id": "03c3cbae3b69",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Push Square",
@@ -16,7 +16,7 @@
     },
     {
       "id": "93811832018e",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -29,7 +29,7 @@
     },
     {
       "id": "429f795f7a27",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -42,7 +42,7 @@
     },
     {
       "id": "d95b2a3f2501",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -55,7 +55,7 @@
     },
     {
       "id": "5f9fa4a3b574",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -68,7 +68,7 @@
     },
     {
       "id": "f2b175beb44f",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -81,7 +81,7 @@
     },
     {
       "id": "6c1fb4b05022",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Polygon",
@@ -94,7 +94,7 @@
     },
     {
       "id": "24bb2401d7a9",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -107,7 +107,7 @@
     },
     {
       "id": "d004094f17f5",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -120,7 +120,7 @@
     },
     {
       "id": "d26f5eefa30f",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "3DJuegos",
