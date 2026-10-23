@@ -1,6 +1,58 @@
 {
-  "actualizado": "2026-10-22T16:08:16.042Z",
+  "actualizado": "2026-10-23T12:56:54.038Z",
   "elementos": [
+    {
+      "id": "6c1fb4b05022",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Polygon",
+      "fuenteId": "polygon",
+      "idioma": "en",
+      "titulo": "Grand Theft Auto 6 Launch Trailer Was Changed for TV: Here Are All the Differences",
+      "url": "https://www.polygon.com/grand-theft-auto-gta-6-launch-trailer-tv-commercial-changes/",
+      "fecha": "2026-10-23T09:42:37.000Z",
+      "detectado": "2026-10-23T12:56:54.038Z"
+    },
+    {
+      "id": "24bb2401d7a9",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "GameSpot",
+      "fuenteId": "gamespot",
+      "idioma": "en",
+      "titulo": "GTA 6’s New TV Trailer Is A Bit Different, See It For Yourself",
+      "url": "https://www.gamespot.com/articles/gta-6s-new-tv-trailer-is-a-bit-different-see-it-for-yourself/",
+      "fecha": "2026-10-22T19:52:26.000Z",
+      "detectado": "2026-10-23T12:56:54.038Z"
+    },
+    {
+      "id": "d004094f17f5",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "IGN",
+      "fuenteId": "ign",
+      "idioma": "en",
+      "titulo": "GTA 6 Is Almost Here: Trade in Your Old Console and Save on an Upgrade at PayMore",
+      "url": "https://www.ign.com/articles/gta-6-trade-in-old-console-save-on-upgrade-paymore",
+      "fecha": "2026-10-22T17:37:00.000Z",
+      "detectado": "2026-10-23T12:56:54.038Z"
+    },
+    {
+      "id": "d26f5eefa30f",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "3DJuegos",
+      "fuenteId": "3djuegos",
+      "idioma": "es",
+      "titulo": "Todas las novedades y mecánicas confirmadas de Grand Theft Auto 6",
+      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/guias-y-trucos/todas-novedades-mecanicas-confirmadas-grand-theft-auto-6",
+      "fecha": "2026-10-22T17:12:18.000Z",
+      "detectado": "2026-10-23T12:56:54.038Z"
+    },
     {
       "id": "54898b220b1b",
       "estado": "procesado",
