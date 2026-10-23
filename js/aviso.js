@@ -1,4 +1,4 @@
-/* Daily review notice: the scheduled run is at 23:00 in Spain all year (see .github/workflows/actualizar.yml);
+/* Daily review notice: the scheduled run starts from 23:00 in Spain all year (see .github/workflows/actualizar.yml);
    if the visitor is in another time zone, also show that time in theirs. */
 (function () {
   var local = document.getElementById("avisoLocal");
@@ -12,5 +12,5 @@
     if (d.toLocaleTimeString("es-ES", Object.assign({ timeZone: "Europe/Madrid" }, formato)) === "23:00") break;
   }
   var enTuZona = d.toLocaleTimeString("es-ES", formato);
-  if (enTuZona !== "23:00") local.textContent = " (las " + enTuZona + " en tu zona horaria)";
+  if (enTuZona !== "23:00") local.textContent = " (a partir de las " + enTuZona + " en tu zona horaria)";
 })();

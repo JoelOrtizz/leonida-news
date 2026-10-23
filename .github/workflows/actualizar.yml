@@ -4,8 +4,10 @@ name: Recoger y revisar novedades
 
 on:
   schedule:
-    # 23:00 in Spain all year: 21:00 UTC in summer (CEST) and 22:00 UTC in winter (CET). Both are scheduled and
-    # the "previo" job lets through only the one that falls at 23:00 in Madrid. GitHub may start them a few minutes late.
+    # From 23:00 in Spain all year: 21:00 UTC is 23:00 in summer (CEST) and 22:00 UTC is 23:00 in winter (CET).
+    # GitHub can start scheduled runs hours late (22 Oct 2026: about 3 h), so the "previo" job accepts any start
+    # between 23:00 and 05:59 in Madrid. Running twice in a night is harmless: the queue does not duplicate headlines
+    # and the review only runs when something is pending.
     - cron: "0 21 * * *"
     - cron: "0 22 * * *"
   workflow_dispatch:
@@ -38,8 +40,9 @@ jobs:
         run: |
           hora=$(TZ=Europe/Madrid date +%H)
           abiertos=$(gh pr list --repo "$GITHUB_REPOSITORY" --label "$ETIQUETA_PR" --state open --json number --jq length)
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "$hora" != "23" ]; then
-            echo "En España son las $hora:xx: esta ejecución programada no toca."
+          case "$hora" in 23|00|01|02|03|04|05) en_ventana=si ;; *) en_ventana=no ;; esac
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$en_ventana" = "no" ]; then
+            echo "En España son las $hora:xx, fuera de la ventana de 23:00 a 05:59: esta ejecución programada no toca."
             echo "toca=no" >> "$GITHUB_OUTPUT"
           elif [ "$abiertos" != "0" ]; then
             # Collecting now would change data/pendientes.json under the open pull request and cause a conflict.
