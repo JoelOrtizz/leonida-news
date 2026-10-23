@@ -1,6 +1,19 @@
 {
-  "actualizado": "2026-10-23T17:06:24.461Z",
+  "actualizado": "2026-10-23T23:46:22.568Z",
   "elementos": [
+    {
+      "id": "38e7a3ba83dc",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "IGN",
+      "fuenteId": "ign",
+      "idioma": "en",
+      "titulo": "IGN Is Partnering with Best Buy for 3 Weeks of Giveaways Leading Up to GTA VI’s Release",
+      "url": "https://www.ign.com/articles/ign-is-partnering-with-best-buy-for-3-weeks-of-giveaways-leading-up-to-gta-vis-release",
+      "fecha": "2026-10-23T17:00:00.000Z",
+      "detectado": "2026-10-23T23:46:22.568Z"
+    },
     {
       "id": "03c3cbae3b69",
       "estado": "descartado",
