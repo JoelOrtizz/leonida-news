@@ -1,6 +1,32 @@
 {
-  "actualizado": "2026-10-23T23:46:22.568Z",
+  "actualizado": "2026-10-24T22:57:42.085Z",
   "elementos": [
+    {
+      "id": "0040b4f3e26f",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "idioma": "es",
+      "titulo": "Cosas de GTA 6 que deberías saber antes de comprarlo, ya sea en físico o en digital",
+      "url": "https://vandal.elespanol.com/noticia/2026297010/cosas-de-gta-6-que-deberias-saber-antes-de-comprarlo-ya-sea-en-fisico-o-en-digital/",
+      "fecha": "2026-10-24T11:15:00.000Z",
+      "detectado": "2026-10-24T22:57:42.085Z"
+    },
+    {
+      "id": "1f34b7ad8346",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "idioma": "es",
+      "titulo": "Rockstar habla por primera vez de las filtraciones de GTA 6: 'Fue como si hurgasen en tu ropa sucia'",
+      "url": "https://vandal.elespanol.com/noticia/2026297002/rockstar-habla-por-primera-vez-de-las-filtraciones-de-gta-6-fue-como-si-hurgasen-en-tu-ropa-sucia/",
+      "fecha": "2026-10-24T07:15:00.000Z",
+      "detectado": "2026-10-24T22:57:42.085Z"
+    },
     {
       "id": "38e7a3ba83dc",
       "estado": "pendiente",
