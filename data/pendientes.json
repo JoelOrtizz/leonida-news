@@ -1,6 +1,19 @@
 {
-  "actualizado": "2026-10-25T23:03:14.394Z",
+  "actualizado": "2026-10-25T23:42:06.088Z",
   "elementos": [
+    {
+      "id": "b4bd37f8eb3d",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "idioma": "es",
+      "titulo": "GTA 6 se estrena en España durante El Clásico: Rockstar anuncia su juego en el FC Barcelona - Real Madrid",
+      "url": "https://vandal.elespanol.com/noticia/2026298011/gta-6-se-estrena-en-espana-durante-el-clasico-rockstar-anuncia-su-juego-en-el-fc-barcelona-real-madrid/",
+      "fecha": "2026-10-25T21:14:00.000Z",
+      "detectado": "2026-10-25T23:42:06.088Z"
+    },
     {
       "id": "7e85a2fed79a",
       "estado": "pendiente",
