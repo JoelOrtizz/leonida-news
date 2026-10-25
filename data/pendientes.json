@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-10-24T22:57:42.085Z",
+  "actualizado": "2026-10-25T23:03:14.394Z",
   "elementos": [
+    {
+      "id": "7e85a2fed79a",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "IGN",
+      "fuenteId": "ign",
+      "idioma": "en",
+      "titulo": "Rumored Lucia Actress Goes Viral After Dodging Swarm of GTA 6 Comments During Livestream",
+      "url": "https://www.ign.com/articles/rumored-lucia-actress-goes-viral-after-dodging-swarm-of-gta-6-comments-during-livestream",
+      "fecha": "2026-10-25T15:14:17.000Z",
+      "detectado": "2026-10-25T23:03:14.394Z"
+    },
+    {
+      "id": "f426c131b62b",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "idioma": "es",
+      "titulo": "GTA 6 esconde una referencia al primer juego de la saga que podría dar pistas de la conexión entre Jason y Lucía",
+      "url": "https://vandal.elespanol.com/noticia/2026298008/gta-6-esconde-una-referencia-al-primer-juego-de-la-saga-que-podria-dar-pistas-de-la-conexion-entre-jason-y-lucia/",
+      "fecha": "2026-10-25T11:15:00.000Z",
+      "detectado": "2026-10-25T23:03:14.394Z"
+    },
+    {
+      "id": "1d564f22962b",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "idioma": "es",
+      "titulo": "Rockstar afirma haber erradicado el 'crunch' en GTA 6, pero confiesan que eliminaron el teletrabajo por miedo",
+      "url": "https://vandal.elespanol.com/noticia/2026298001/rockstar-afirma-haber-erradicado-el-crunch-en-gta-6-pero-confiesan-que-eliminaron-el-teletrabajo-por-miedo/",
+      "fecha": "2026-10-25T08:15:00.000Z",
+      "detectado": "2026-10-25T23:03:14.394Z"
+    },
     {
       "id": "0040b4f3e26f",
       "estado": "pendiente",
