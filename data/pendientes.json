@@ -1,6 +1,19 @@
 {
-  "actualizado": "2026-10-28T00:17:21.412Z",
+  "actualizado": "2026-10-28T00:51:25.604Z",
   "elementos": [
+    {
+      "id": "557405eec809",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "3DJuegos",
+      "fuenteId": "3djuegos",
+      "idioma": "es",
+      "titulo": "Rockstar se juega algo más que el éxito de GTA 6. Mientras millones estrenan el juego, muchos de sus trabajadores votarán sobre su futuro",
+      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/rockstar-se-juega-algo-que-exito-gta-6-millones-estrenan-juego-muchos-sus-trabajadores-votaran-su-futuro",
+      "fecha": "2026-10-28T00:15:49.000Z",
+      "detectado": "2026-10-28T00:51:25.604Z"
+    },
     {
       "id": "29beb7c2ae1b",
       "estado": "pendiente",
