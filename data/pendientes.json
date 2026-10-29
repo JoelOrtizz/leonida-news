@@ -1,6 +1,19 @@
 {
-  "actualizado": "2026-10-29T00:39:20.363Z",
+  "actualizado": "2026-10-29T01:27:39.191Z",
   "elementos": [
+    {
+      "id": "067a233f7bc5",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "PC Gamer",
+      "fuenteId": "pc-gamer",
+      "idioma": "en",
+      "titulo": "GTA 6's NPCs have about 600,000 animations, as well as personality traits that take 'demographic and professional' variables into account",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6s-npcs-have-about-600-000-animations-as-well-as-personality-traits-that-take-demographic-and-professional-variables-into-account/",
+      "fecha": "2026-10-29T00:52:16.000Z",
+      "detectado": "2026-10-29T01:27:39.191Z"
+    },
     {
       "id": "01ac8e07f017",
       "estado": "pendiente",
