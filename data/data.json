@@ -97,7 +97,7 @@
       "urlVoces": "https://www.forbes.com/sites/brianmazique/2026/10/08/lana-del-rey-learned-las-roads-from-gta---now-shes-a-radio-dj-in-gta-vi-alongside-bad-bunny-and-morgan-wallen/"
     },
     "resenas": {
-      "comprobado": "2026-10-23",
+      "comprobado": "2026-10-29",
       "embargo": "Sin anunciar por Rockstar",
       "fuente": "GTASIX.ORG",
       "metacritic": null,
@@ -106,7 +106,7 @@
       "url": "https://gtasix.org/en/guide/reviews/"
     },
     "resumen": {
-      "actualizado": "2026-10-23T17:06:24Z",
+      "actualizado": "2026-10-29T17:57:16Z",
       "hechos": [
         {
           "estado": "confirmado",
@@ -234,6 +234,16 @@
       "estado": "confirmado",
       "fuente": "Miami HEAT",
       "url": "https://www.nba.com/heat/news/miami-heat-and-rockstar-games-bring-a-night-in-vice-city-to-kaseya-center"
+    },
+    {
+      "id": "2026-12-11-banda-sonora-justice",
+      "inicio": "2026-12-11",
+      "todoElDia": true,
+      "titulo": "Sale la música original de Justice",
+      "descripcion": "«Grand Theft Auto VI: Original Score by Justice» llega en CD, vinilo y streaming.",
+      "estado": "reportado",
+      "fuente": "VGC",
+      "url": "https://www.videogameschronicle.com/news/the-official-grand-theft-auto-6-musical-score-by-justice-is-released-in-december-cd-and-vinyl-pre-orders-available-now/"
     }
   ],
   "cronologia": [
@@ -791,6 +801,66 @@
       "categoria": "Marketing",
       "fuente": "Kotaku",
       "url": "https://kotaku.com/gta-6s-first-tv-ad-cuts-the-spicy-shower-scenes-2000748474"
+    },
+    {
+      "id": "2026-10-29-banda-sonora-justice",
+      "fecha": "2026-10-29",
+      "titulo": "La música original de Justice saldrá el 11 de diciembre",
+      "resumen": "«Grand Theft Auto VI: Original Score by Justice» tendrá 30 temas en doble CD, triple vinilo y plataformas de streaming. Ya se puede escuchar «Pusher», con Gesaffelstein.",
+      "estado": "reportado",
+      "categoria": "Música",
+      "fuente": "VGC",
+      "url": "https://www.videogameschronicle.com/news/the-official-grand-theft-auto-6-musical-score-by-justice-is-released-in-december-cd-and-vinyl-pre-orders-available-now/"
+    },
+    {
+      "id": "2026-10-29-edge-detalles",
+      "fecha": "2026-10-29",
+      "titulo": "Edge desvela nuevos detalles de jugabilidad",
+      "resumen": "Según la revista Edge, el mapa es casi tan grande como GTA IV, GTA V y Red Dead Redemption 2 juntos, se puede cambiar entre Jason y Lucia en cualquier momento y la policía usa unidades caninas.",
+      "estado": "reportado",
+      "categoria": "Jugabilidad",
+      "fuente": "Push Square",
+      "url": "https://www.pushsquare.com/news/2026/10/new-gta-6-gameplay-screenshots-details-revealed-as-ps5-launch-nears"
+    },
+    {
+      "id": "2026-10-29-south-park",
+      "fecha": "2026-10-29",
+      "titulo": "Unos segundos de juego inéditos, en un episodio de South Park",
+      "resumen": "El episodio «Guinea Pig on a Stick» muestra a Jason en una playa en una escena de juego nueva. Se da por hecho que las imágenes las cedió Rockstar, pero no hay confirmación oficial.",
+      "estado": "reportado",
+      "categoria": "Marketing",
+      "fuente": "VGC",
+      "url": "https://www.videogameschronicle.com/news/the-latest-episode-of-south-park-features-exclusive-gta-6-footage-where-a-man-is-hit-in-the-head-with-dog-poo/"
+    },
+    {
+      "id": "2026-10-27-descarga-210-gb",
+      "fecha": "2026-10-27",
+      "titulo": "La descarga en PS5 ocuparía unos 210 GB",
+      "resumen": "La cifra sale de una cuenta que sigue los tamaños de descarga de PlayStation y la corrobora Insider Gaming. No incluye el parche del primer día y Rockstar no la ha confirmado.",
+      "estado": "reportado",
+      "categoria": "Técnico",
+      "fuente": "Kotaku",
+      "url": "https://kotaku.com/gta-6s-expectedly-massive-file-size-has-been-revealed-2000750298"
+    },
+    {
+      "id": "2026-10-27-votacion-sindical",
+      "fecha": "2026-10-27",
+      "titulo": "La plantilla británica de Rockstar votará su sindicato durante el lanzamiento",
+      "resumen": "La votación para reconocer al sindicato IWGB será del 12 al 26 de noviembre, en plena salida del juego. Rockstar no ha comentado la votación.",
+      "estado": "reportado",
+      "categoria": "Estudio",
+      "fuente": "Kotaku",
+      "url": "https://kotaku.com/rockstar-games-devs-in-the-uk-will-hold-a-union-vote-during-the-launch-of-gta-6-2000750216"
+    },
+    {
+      "id": "2026-10-25-anuncios-el-clasico",
+      "fecha": "2026-10-25",
+      "titulo": "Publicidad de GTA VI en El Clásico",
+      "resumen": "Las vallas LED del Barcelona–Real Madrid del 25 de octubre mostraron el logo del juego y su fecha de salida, el 19 de noviembre.",
+      "estado": "reportado",
+      "categoria": "Marketing",
+      "fuente": "Vandal",
+      "url": "https://vandal.elespanol.com/noticia/2026298011/gta-6-se-estrena-en-espana-durante-el-clasico-rockstar-anuncia-su-juego-en-el-fc-barcelona-real-madrid/"
     }
   ],
   "personajes": [
