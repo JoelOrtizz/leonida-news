@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-10-29T17:57:16.651Z",
+  "actualizado": "2026-10-30T00:40:13.548Z",
   "elementos": [
+    {
+      "id": "ee3bf02bf090",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "GameSpot",
+      "fuenteId": "gamespot",
+      "idioma": "en",
+      "titulo": "Artist With Music In GTA 6 Had No Idea About Any Of That",
+      "url": "https://www.gamespot.com/articles/artist-with-music-in-gta-6-had-no-idea-about-any-of-that/",
+      "fecha": "2026-10-29T18:50:25.000Z",
+      "detectado": "2026-10-30T00:40:13.548Z"
+    },
+    {
+      "id": "b2b8b8fe39e4",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "idioma": "es",
+      "titulo": "GTA 6 es tan grande que los propios desarrolladores todavía están descubriendo localizaciones",
+      "url": "https://vandal.elespanol.com/noticia/2026302044/gta-6-es-tan-grande-que-los-propios-desarrolladores-todavia-estan-descubriendo-localizaciones/",
+      "fecha": "2026-10-29T18:45:00.000Z",
+      "detectado": "2026-10-30T00:40:13.548Z"
+    },
+    {
+      "id": "a6ec519df3ee",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "IGN",
+      "fuenteId": "ign",
+      "idioma": "en",
+      "titulo": "Original GTA Artist Says He's 'Flattered' to See His Influence Continue in GTA 6 Cover Art",
+      "url": "https://www.ign.com/articles/original-gta-artist-says-hes-flattered-to-see-his-influence-continue-in-gta-6-cover-art",
+      "fecha": "2026-10-29T16:41:56.000Z",
+      "detectado": "2026-10-30T00:40:13.548Z"
+    },
     {
       "id": "5b77d8ff0d60",
       "estado": "descartado",
