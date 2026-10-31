@@ -1,6 +1,32 @@
 {
-  "actualizado": "2026-10-31T00:30:55.618Z",
+  "actualizado": "2026-10-31T23:58:03.051Z",
   "elementos": [
+    {
+      "id": "7da23f13bd06",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "PC Gamer",
+      "fuenteId": "pc-gamer",
+      "idioma": "en",
+      "titulo": "I'm 100% here for a more grounded, realistic GTA 6, one I believe won't come at the expense of its usual haphazard chaos",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/im-100-percent-here-for-a-more-grounded-realistic-gta-6-one-i-believe-wont-come-at-the-expense-of-its-usual-haphazard-chaos/",
+      "fecha": "2026-10-31T13:00:00.000Z",
+      "detectado": "2026-10-31T23:58:03.051Z"
+    },
+    {
+      "id": "9b0f9cf78015",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "idioma": "es",
+      "titulo": "GTA 6 no ha salido y ya ha pulverizado un Récord Guinness de GTA V: será el juego con más coches de la saga",
+      "url": "https://vandal.elespanol.com/noticia/2026304001/gta-6-no-ha-salido-y-ya-ha-pulverizado-un-record-guinness-de-gta-v-sera-el-juego-con-mas-coches-de-la-saga/",
+      "fecha": "2026-10-31T08:15:00.000Z",
+      "detectado": "2026-10-31T23:58:03.051Z"
+    },
     {
       "id": "ad1b46490495",
       "estado": "pendiente",
