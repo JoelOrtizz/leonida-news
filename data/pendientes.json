@@ -1,6 +1,71 @@
 {
-  "actualizado": "2026-10-31T23:58:03.051Z",
+  "actualizado": "2026-11-02T00:23:21.067Z",
   "elementos": [
+    {
+      "id": "2645dde1aceb",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Insider Gaming",
+      "fuenteId": "insider-gaming",
+      "idioma": "en",
+      "titulo": "Walmart GTA 6 Preorders Will Get a ‘Surprise and Delight’ Bag, It’s Claimed",
+      "url": "https://insider-gaming.com/walmart-gta-6-preorder-bonus-bag/",
+      "fecha": "2026-11-01T23:10:28.000Z",
+      "detectado": "2026-11-02T00:23:21.067Z"
+    },
+    {
+      "id": "6d711c66b3e4",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Insider Gaming",
+      "fuenteId": "insider-gaming",
+      "idioma": "en",
+      "titulo": "GTA 6 Ultimate Edition: Is It Worth Paying More?",
+      "url": "https://insider-gaming.com/gta-6-ultimate-edition-is-it-worth-paying-more/",
+      "fecha": "2026-11-01T20:29:45.000Z",
+      "detectado": "2026-11-02T00:23:21.067Z"
+    },
+    {
+      "id": "cb96094cea56",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "PC Gamer",
+      "fuenteId": "pc-gamer",
+      "idioma": "en",
+      "titulo": "Grand Theft Auto 6 teased a handful of its upcoming radio stations and its music curation is as strong as ever",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-teased-a-handful-of-its-upcoming-radio-stations-and-its-music-curation-is-as-strong-as-ever/",
+      "fecha": "2026-11-01T18:00:00.000Z",
+      "detectado": "2026-11-02T00:23:21.067Z"
+    },
+    {
+      "id": "3eb4187301f3",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Insider Gaming",
+      "fuenteId": "insider-gaming",
+      "idioma": "en",
+      "titulo": "Every Grand Theft Auto 6 Trailer Released—GTA 6 Gameplay Videos",
+      "url": "https://insider-gaming.com/gta-trailers-timeline-gta-6/",
+      "fecha": "2026-11-01T16:09:22.000Z",
+      "detectado": "2026-11-02T00:23:21.067Z"
+    },
+    {
+      "id": "ebd328e6f16b",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "idioma": "es",
+      "titulo": "El actor de Trevor recula: no ha jugado a GTA V en 13 años, pero sí probará GTA 6 porque 'será muy diferente'",
+      "url": "https://vandal.elespanol.com/noticia/2026305012/el-actor-de-trevor-recula-no-ha-jugado-a-gta-v-en-13-anos-pero-si-probara-gta-6-porque-sera-muy-diferente/",
+      "fecha": "2026-11-01T12:15:00.000Z",
+      "detectado": "2026-11-02T00:23:21.067Z"
+    },
     {
       "id": "7da23f13bd06",
       "estado": "pendiente",
