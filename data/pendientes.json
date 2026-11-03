@@ -1,6 +1,19 @@
 {
-  "actualizado": "2026-11-03T02:47:59.142Z",
+  "actualizado": "2026-11-03T03:14:23.946Z",
   "elementos": [
+    {
+      "id": "7f3bed4fea85",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "IGN",
+      "fuenteId": "ign",
+      "idioma": "en",
+      "titulo": "A Concerning Amount of GTA Fans Would Give Up Their Pets to Play GTA 6 Early",
+      "url": "https://www.ign.com/articles/a-concerning-amount-of-gta-fans-would-give-up-their-pets-to-play-gta-6-early",
+      "fecha": "2026-11-03T00:44:36.000Z",
+      "detectado": "2026-11-03T03:14:23.946Z"
+    },
     {
       "id": "47005bd2b306",
       "estado": "pendiente",
