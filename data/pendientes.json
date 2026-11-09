@@ -1,6 +1,19 @@
 {
-  "actualizado": "2026-11-08T00:15:26.952Z",
+  "actualizado": "2026-11-09T00:36:40.111Z",
   "elementos": [
+    {
+      "id": "35d4fa47ee64",
+      "estado": "pendiente",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "idioma": "es",
+      "titulo": "Así funcionará el minimapa de GTA 6: será 3D y parece que sólo funcionará dentro de vehículos",
+      "url": "https://vandal.elespanol.com/noticia/2026312001/asi-funcionara-el-minimapa-de-gta-6-sera-3d-y-parece-que-solo-funcionara-dentro-de-vehiculos/",
+      "fecha": "2026-11-08T08:15:00.000Z",
+      "detectado": "2026-11-09T00:36:40.111Z"
+    },
     {
       "id": "e6050507ffef",
       "estado": "pendiente",
