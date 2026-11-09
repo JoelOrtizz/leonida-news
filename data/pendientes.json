@@ -1,9 +1,308 @@
 {
-  "actualizado": "2026-11-09T00:36:40.111Z",
+  "actualizado": "2026-11-09T17:17:33.530Z",
   "elementos": [
     {
+      "id": "aff0d55c4b3b",
+      "estado": "descartado",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Insider Gaming",
+      "fuenteId": "insider-gaming",
+      "idioma": "en",
+      "titulo": "Every GTA 6 Location Revealed So Far—GTA 6 Map Breakdown",
+      "url": "https://insider-gaming.com/all-gta-6-locations-revealed-so-far/",
+      "fecha": "2026-11-09T16:26:05.000Z",
+      "detectado": "2026-11-09T17:14:58.693Z"
+    },
+    {
+      "id": "13032a8430e7",
+      "estado": "descartado",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Polygon",
+      "fuenteId": "polygon",
+      "idioma": "en",
+      "titulo": "A Free GTA 6 Competitor Is Blowing Up on Steam",
+      "url": "https://www.polygon.com/gta-6-competitor-rob-run-blowing-up-steam/",
+      "fecha": "2026-11-09T16:15:47.000Z",
+      "detectado": "2026-11-09T17:14:58.693Z"
+    },
+    {
+      "id": "9d102ebf6f59",
+      "estado": "descartado",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Insider Gaming",
+      "fuenteId": "insider-gaming",
+      "idioma": "en",
+      "titulo": "How to Avoid GTA 6 Story Spoilers—Best Words to Mute on Social Media",
+      "url": "https://insider-gaming.com/gta-6-spoilers/",
+      "fecha": "2026-11-09T16:11:02.000Z",
+      "detectado": "2026-11-09T17:14:58.693Z"
+    },
+    {
+      "id": "04ef506bc832",
+      "estado": "descartado",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Insider Gaming",
+      "fuenteId": "insider-gaming",
+      "idioma": "en",
+      "titulo": "10 Things You Need to Know Before GTA 6 Comes Out",
+      "url": "https://insider-gaming.com/10-things-you-need-to-know-before-gta-6-comes-out/",
+      "fecha": "2026-11-09T15:57:16.000Z",
+      "detectado": "2026-11-09T17:14:58.693Z"
+    },
+    {
+      "id": "86a4ee0183f8",
+      "estado": "descartado",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "GameSpot",
+      "fuenteId": "gamespot",
+      "idioma": "en",
+      "titulo": "GTA 6 Jacket That Costs $3,000 Sells Out Immediately",
+      "url": "https://www.gamespot.com/articles/gta-6-jacket-that-costs-3000-sells-out-immediately/",
+      "fecha": "2026-11-09T15:52:58.000Z",
+      "detectado": "2026-11-09T17:14:58.693Z"
+    },
+    {
+      "id": "8f7388fb52a8",
+      "estado": "procesado",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Eurogamer",
+      "fuenteId": "eurogamer",
+      "idioma": "en",
+      "titulo": "Rockstar's doing a GTA 6 launch 'festival' in Miami featuring a lot of presumably expensive musical stars",
+      "url": "https://www.eurogamer.net/rockstar-gta-6-miami-music-festival",
+      "fecha": "2026-11-09T15:48:30.000Z",
+      "detectado": "2026-11-09T17:14:58.693Z"
+    },
+    {
+      "id": "30d67dbf160a",
+      "estado": "descartado",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "IGN",
+      "fuenteId": "ign",
+      "idioma": "en",
+      "titulo": "‘Even if Someone Does Get It Running on PC, That’s Not Going To Be a Good Experience’ – Why AI Cloning Won’t Sink GTA 6’s Launch, but Could Reshape Game Development",
+      "url": "https://www.ign.com/articles/even-if-someone-does-get-it-running-on-pc-thats-not-going-to-be-a-good-experience-why-ai-cloning-wont-sink-gta-6s-launch-but-could-reshape-game-development",
+      "fecha": "2026-11-09T15:30:00.000Z",
+      "detectado": "2026-11-09T17:14:58.693Z"
+    },
+    {
+      "id": "9c1b1cd4ed82",
+      "estado": "procesado",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "GameSpot",
+      "fuenteId": "gamespot",
+      "idioma": "en",
+      "titulo": "GTA 6 Music Festival Announced For Miami With A Stacked Lineup Of Artists",
+      "url": "https://www.gamespot.com/articles/gta-6-music-festival-announced-for-miami-with-a-stacked-lineup-of-artists/",
+      "fecha": "2026-11-09T14:32:17.000Z",
+      "detectado": "2026-11-09T17:14:58.693Z"
+    },
+    {
+      "id": "74dbd7d66717",
+      "estado": "procesado",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Push Square",
+      "fuenteId": "push-square",
+      "idioma": "en",
+      "titulo": "GTA 6: The Festival Is a One-Off Live Music Event, Partly Presented by PlayStation",
+      "url": "https://www.pushsquare.com/news/2026/11/gta-6-the-festival-is-a-one-off-live-music-event-partly-presented-by-playstation",
+      "fecha": "2026-11-09T14:30:00.000Z",
+      "detectado": "2026-11-09T17:14:58.693Z"
+    },
+    {
+      "id": "2d4ce5d4ccec",
+      "estado": "procesado",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "idioma": "es",
+      "titulo": "GTA 6 tendrá su propio festival de música: Rockstar y Sony celebrarán un evento presencial",
+      "url": "https://vandal.elespanol.com/noticia/2026313031/gta-6-tendra-su-propio-festival-de-musica-rockstar-y-sony-celebraran-un-evento-presencial/",
+      "fecha": "2026-11-09T14:26:00.000Z",
+      "detectado": "2026-11-09T17:14:58.693Z"
+    },
+    {
+      "id": "d20747e08fc5",
+      "estado": "procesado",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "VGC",
+      "fuenteId": "vgc",
+      "idioma": "en",
+      "titulo": "Rockstar announces Grand Theft Auto 6 music festival taking place in Miami",
+      "url": "https://www.videogameschronicle.com/news/rockstar-announces-grand-theft-auto-6-music-festival-taking-place-in-miami/",
+      "fecha": "2026-11-09T14:16:41.000Z",
+      "detectado": "2026-11-09T17:14:58.693Z"
+    },
+    {
+      "id": "b2c06414dff2",
+      "estado": "descartado",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Push Square",
+      "fuenteId": "push-square",
+      "idioma": "en",
+      "titulo": "GTA 6's Exclusive Selfridges Merch Is Daylight Robbery",
+      "url": "https://www.pushsquare.com/news/2026/11/gta-6s-exclusive-selfridges-merch-is-daylight-robbery",
+      "fecha": "2026-11-09T14:15:00.000Z",
+      "detectado": "2026-11-09T17:14:58.693Z"
+    },
+    {
+      "id": "eb2545ba69fd",
+      "estado": "descartado",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "VGC",
+      "fuenteId": "vgc",
+      "idioma": "en",
+      "titulo": "GTA 6 may be censored in Australia and other regions, dataminer suggests",
+      "url": "https://www.videogameschronicle.com/news/gta-6-may-be-censored-in-australia-and-other-regions-dataminer-suggests/",
+      "fecha": "2026-11-09T13:44:25.000Z",
+      "detectado": "2026-11-09T17:14:58.693Z"
+    },
+    {
+      "id": "f6870db31032",
+      "estado": "procesado",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "GameSpot",
+      "fuenteId": "gamespot",
+      "idioma": "en",
+      "titulo": "GTA 6 Preloading Is Officially Live, Files Mention Multiplayer And PS5 Pro Features",
+      "url": "https://www.gamespot.com/articles/gta-6-preloading-is-officially-live-files-mention-multiplayer-and-ps5-pro-features/",
+      "fecha": "2026-11-09T13:40:44.000Z",
+      "detectado": "2026-11-09T17:14:58.693Z"
+    },
+    {
+      "id": "c42524d777a2",
+      "estado": "procesado",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Push Square",
+      "fuenteId": "push-square",
+      "idioma": "en",
+      "titulo": "GTA 6 PS5 Physical Edition Includes a Poster, But It's Still Not the Map",
+      "url": "https://www.pushsquare.com/news/2026/11/gta-6-ps5-physical-edition-includes-a-poster-but-its-still-not-the-map",
+      "fecha": "2026-11-09T13:30:00.000Z",
+      "detectado": "2026-11-09T17:14:58.693Z"
+    },
+    {
+      "id": "c764ea3bb152",
+      "estado": "procesado",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "IGN",
+      "fuenteId": "ign",
+      "idioma": "en",
+      "titulo": "As GTA 6 Preload Goes Live, Fans Dig Into the Data to Try to Unearth Unannounced Information Ahead of Launch",
+      "url": "https://www.ign.com/articles/gta-6-metadata-ray-tracing-improvements-on-ps5-pro",
+      "fecha": "2026-11-09T12:33:05.000Z",
+      "detectado": "2026-11-09T17:14:58.693Z"
+    },
+    {
+      "id": "b805767f334e",
+      "estado": "descartado",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Eurogamer",
+      "fuenteId": "eurogamer",
+      "idioma": "en",
+      "titulo": "London department store Selfridges launches sizeable GTA 6 takeover, featuring a varsity jacket that costs an eye-watering £2,500",
+      "url": "https://www.eurogamer.net/selfridges-gta-6-collab-takeover",
+      "fecha": "2026-11-09T12:18:50.000Z",
+      "detectado": "2026-11-09T17:14:58.693Z"
+    },
+    {
+      "id": "ab93e8923a9f",
+      "estado": "procesado",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "3DJuegos",
+      "fuenteId": "3djuegos",
+      "idioma": "es",
+      "titulo": "¿A qué hora se podrá jugar GTA 6? Estos son todos los horarios clasificados por países",
+      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/guias-y-trucos/a-que-hora-se-podra-jugar-gta-6-estos-todos-horarios-clasificados-paises",
+      "fecha": "2026-11-09T11:45:20.000Z",
+      "detectado": "2026-11-09T17:14:58.693Z"
+    },
+    {
+      "id": "96020d0e367e",
+      "estado": "descartado",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "IGN",
+      "fuenteId": "ign",
+      "idioma": "en",
+      "titulo": "Iconic British Retail Store Gets GTA 6 Takeover Featuring Exclusive $3,355 Varsity Jacket",
+      "url": "https://www.ign.com/articles/selfridges-gta-6-takeover-varsity-jacket",
+      "fecha": "2026-11-09T11:30:49.000Z",
+      "detectado": "2026-11-09T17:14:58.693Z"
+    },
+    {
+      "id": "ea21b242a109",
+      "estado": "procesado",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "3DJuegos",
+      "fuenteId": "3djuegos",
+      "idioma": "es",
+      "titulo": "Cuánto pesa Grand Theft Auto 6 y cuándo se podrá precargar",
+      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/guias-y-trucos/cuanto-pesa-grand-theft-auto-6-cuando-se-podra-precargar",
+      "fecha": "2026-11-09T11:16:49.000Z",
+      "detectado": "2026-11-09T17:14:58.693Z"
+    },
+    {
+      "id": "e346020224b0",
+      "estado": "descartado",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "idioma": "es",
+      "titulo": "Los mejores trucos de todo Grand Theft Auto: ¿Volverán en GTA 6?",
+      "url": "https://vandal.elespanol.com/noticia/2026313019/los-mejores-trucos-de-todo-grand-theft-auto-volveran-en-gta-6/",
+      "fecha": "2026-11-09T11:00:00.000Z",
+      "detectado": "2026-11-09T17:14:58.693Z"
+    },
+    {
+      "id": "d6c4faf48b19",
+      "estado": "descartado",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "idioma": "es",
+      "titulo": "GTA 6 se cuela en las elecciones de España: un partido político usa el juego de Rockstar para hacer campaña",
+      "url": "https://vandal.elespanol.com/noticia/2026313016/sortean-gta-6-con-motivo-de-las-elecciones-generales-en-espana-un-partido-presenta-una-curiosa-iniciativa/",
+      "fecha": "2026-11-09T10:39:00.000Z",
+      "detectado": "2026-11-09T17:14:58.693Z"
+    },
+    {
+      "id": "f4d7282b9631",
+      "estado": "descartado",
+      "tipo": "prensa",
+      "oficial": false,
+      "fuente": "Eurogamer",
+      "fuenteId": "eurogamer",
+      "idioma": "en",
+      "titulo": "GTA 6 reportedly has 55 Achievements/Trophies, more than both GTA 5 and Red Dead Redemption 2 had at launch",
+      "url": "https://www.eurogamer.net/gta-6-achievements-trophies-55",
+      "fecha": "2026-11-09T09:41:40.000Z",
+      "detectado": "2026-11-09T17:14:58.693Z"
+    },
+    {
       "id": "35d4fa47ee64",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -16,7 +315,7 @@
     },
     {
       "id": "e6050507ffef",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Kotaku",
@@ -29,7 +328,7 @@
     },
     {
       "id": "4f900e6a9697",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Kotaku",
@@ -42,7 +341,7 @@
     },
     {
       "id": "9571ecb0ad39",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "3DJuegos",
@@ -55,7 +354,7 @@
     },
     {
       "id": "07b8aaa53979",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Polygon",
@@ -68,7 +367,7 @@
     },
     {
       "id": "fddd17a311b4",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Insider Gaming",
@@ -81,7 +380,7 @@
     },
     {
       "id": "cf25e22b648e",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Insider Gaming",
@@ -94,7 +393,7 @@
     },
     {
       "id": "6512f0ca00f8",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Push Square",
@@ -107,7 +406,7 @@
     },
     {
       "id": "b166f7bf5713",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -120,7 +419,7 @@
     },
     {
       "id": "ae77b682d173",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "3DJuegos",
@@ -133,7 +432,7 @@
     },
     {
       "id": "2c39174c0eeb",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -146,7 +445,7 @@
     },
     {
       "id": "6199d0c0beee",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -159,7 +458,7 @@
     },
     {
       "id": "16746ed66fd4",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "PC Gamer",
@@ -172,7 +471,7 @@
     },
     {
       "id": "b247d2754048",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Insider Gaming",
@@ -185,7 +484,7 @@
     },
     {
       "id": "0380265b3be6",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -198,7 +497,7 @@
     },
     {
       "id": "a5304162751d",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -211,7 +510,7 @@
     },
     {
       "id": "4bb8d91fffa6",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -224,7 +523,7 @@
     },
     {
       "id": "07edb154407f",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -237,7 +536,7 @@
     },
     {
       "id": "ed97450122f1",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -250,7 +549,7 @@
     },
     {
       "id": "c947bf86c4aa",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -263,7 +562,7 @@
     },
     {
       "id": "139861b466d2",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -276,7 +575,7 @@
     },
     {
       "id": "b8ade08c857d",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Eurogamer",
@@ -289,7 +588,7 @@
     },
     {
       "id": "6113a720399c",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "PC Gamer",
@@ -302,7 +601,7 @@
     },
     {
       "id": "417272097c41",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -315,7 +614,7 @@
     },
     {
       "id": "0b5b07a31062",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "3DJuegos",
@@ -328,7 +627,7 @@
     },
     {
       "id": "144d4499adf3",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -341,7 +640,7 @@
     },
     {
       "id": "942632276374",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Kotaku",
@@ -354,7 +653,7 @@
     },
     {
       "id": "c51ca57f0587",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "3DJuegos",
@@ -367,7 +666,7 @@
     },
     {
       "id": "5e00ab14a66c",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -380,7 +679,7 @@
     },
     {
       "id": "6465c316e80e",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "PC Gamer",
@@ -393,7 +692,7 @@
     },
     {
       "id": "13ee2a6c0e9e",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -406,7 +705,7 @@
     },
     {
       "id": "d4cb66730227",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Kotaku",
@@ -419,7 +718,7 @@
     },
     {
       "id": "03e03982f146",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Eurogamer",
@@ -432,7 +731,7 @@
     },
     {
       "id": "06e902edc2dd",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -445,7 +744,7 @@
     },
     {
       "id": "d2a72660dd6c",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -458,7 +757,7 @@
     },
     {
       "id": "2ac46114a0ef",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -471,7 +770,7 @@
     },
     {
       "id": "52a8bc29b639",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Push Square",
@@ -484,7 +783,7 @@
     },
     {
       "id": "ef72f5f8bad4",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Kotaku",
@@ -497,7 +796,7 @@
     },
     {
       "id": "0eb24c58bf80",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "PC Gamer",
@@ -510,7 +809,7 @@
     },
     {
       "id": "e4b5a0ce6dd5",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -523,7 +822,7 @@
     },
     {
       "id": "6621768afc6c",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "PC Gamer",
@@ -536,7 +835,7 @@
     },
     {
       "id": "2b3668ae9941",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -549,7 +848,7 @@
     },
     {
       "id": "c60a35febfd8",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -562,7 +861,7 @@
     },
     {
       "id": "5bda9d5c63cb",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "3DJuegos",
@@ -575,7 +874,7 @@
     },
     {
       "id": "0b6b3859ee58",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "PC Gamer",
@@ -588,7 +887,7 @@
     },
     {
       "id": "cbefb31e38b7",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -601,7 +900,7 @@
     },
     {
       "id": "dad035172b33",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Kotaku",
@@ -614,7 +913,7 @@
     },
     {
       "id": "9fe79ad6b059",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -627,7 +926,7 @@
     },
     {
       "id": "370e962fcaeb",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -640,7 +939,7 @@
     },
     {
       "id": "977f15140b89",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -653,7 +952,7 @@
     },
     {
       "id": "417e5e71294a",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Polygon",
@@ -666,7 +965,7 @@
     },
     {
       "id": "3d0724e8bfe7",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -679,7 +978,7 @@
     },
     {
       "id": "c2583cc77d3a",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -692,7 +991,7 @@
     },
     {
       "id": "6c23e6b2f9b1",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -705,7 +1004,7 @@
     },
     {
       "id": "dfc19838bbf7",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -718,7 +1017,7 @@
     },
     {
       "id": "26ff8fa28710",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -731,7 +1030,7 @@
     },
     {
       "id": "a92607a9dd07",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -744,7 +1043,7 @@
     },
     {
       "id": "095c967471cf",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Kotaku",
@@ -757,7 +1056,7 @@
     },
     {
       "id": "244cc54e0535",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -770,7 +1069,7 @@
     },
     {
       "id": "2d574c4969ac",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -783,7 +1082,7 @@
     },
     {
       "id": "548b9e23911a",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -796,7 +1095,7 @@
     },
     {
       "id": "70aa11e8df8a",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -809,7 +1108,7 @@
     },
     {
       "id": "2328c9be4ee2",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Kotaku",
@@ -822,7 +1121,7 @@
     },
     {
       "id": "27bcca29d295",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -835,7 +1134,7 @@
     },
     {
       "id": "d91ac415fda4",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Kotaku",
@@ -848,7 +1147,7 @@
     },
     {
       "id": "961e0f049c55",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -861,7 +1160,7 @@
     },
     {
       "id": "982b59c2cbdb",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -874,7 +1173,7 @@
     },
     {
       "id": "e5ded2804c6d",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -887,7 +1186,7 @@
     },
     {
       "id": "e8c65b6d7b95",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -900,7 +1199,7 @@
     },
     {
       "id": "74be0a498984",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -913,7 +1212,7 @@
     },
     {
       "id": "79a9f94270eb",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "3DJuegos",
@@ -926,7 +1225,7 @@
     },
     {
       "id": "6f869461755a",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Eurogamer",
@@ -939,7 +1238,7 @@
     },
     {
       "id": "d5f93874a841",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Push Square",
@@ -952,7 +1251,7 @@
     },
     {
       "id": "e47a74c6a869",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -965,7 +1264,7 @@
     },
     {
       "id": "675060a413c9",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -978,7 +1277,7 @@
     },
     {
       "id": "92e8f2021aa5",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -991,7 +1290,7 @@
     },
     {
       "id": "ebf22d3ffa2b",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -1004,7 +1303,7 @@
     },
     {
       "id": "97480fada515",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -1017,7 +1316,7 @@
     },
     {
       "id": "7f3bed4fea85",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -1030,7 +1329,7 @@
     },
     {
       "id": "47005bd2b306",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -1043,7 +1342,7 @@
     },
     {
       "id": "dcb993337a7d",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Insider Gaming",
@@ -1056,7 +1355,7 @@
     },
     {
       "id": "8b21dda790ac",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Insider Gaming",
@@ -1069,7 +1368,7 @@
     },
     {
       "id": "f7a9bfbee204",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Insider Gaming",
@@ -1082,7 +1381,7 @@
     },
     {
       "id": "c282b1c71425",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Push Square",
@@ -1095,7 +1394,7 @@
     },
     {
       "id": "a3d68e7c89ac",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -1108,7 +1407,7 @@
     },
     {
       "id": "ab1bc6d77dad",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -1121,7 +1420,7 @@
     },
     {
       "id": "890979e00b2d",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -1134,7 +1433,7 @@
     },
     {
       "id": "9e169b89f1ef",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Kotaku",
@@ -1147,7 +1446,7 @@
     },
     {
       "id": "c1d50dc504cc",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Push Square",
@@ -1160,7 +1459,7 @@
     },
     {
       "id": "8abdc12b9b45",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -1173,7 +1472,7 @@
     },
     {
       "id": "2645dde1aceb",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Insider Gaming",
@@ -1186,7 +1485,7 @@
     },
     {
       "id": "6d711c66b3e4",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Insider Gaming",
@@ -1199,7 +1498,7 @@
     },
     {
       "id": "cb96094cea56",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "PC Gamer",
@@ -1212,7 +1511,7 @@
     },
     {
       "id": "3eb4187301f3",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Insider Gaming",
@@ -1225,7 +1524,7 @@
     },
     {
       "id": "ebd328e6f16b",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -1238,7 +1537,7 @@
     },
     {
       "id": "7da23f13bd06",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "PC Gamer",
@@ -1251,7 +1550,7 @@
     },
     {
       "id": "9b0f9cf78015",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -1264,7 +1563,7 @@
     },
     {
       "id": "ad1b46490495",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -1277,7 +1576,7 @@
     },
     {
       "id": "d3c5afbaec92",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "PC Gamer",
@@ -1290,7 +1589,7 @@
     },
     {
       "id": "5e4b032c7dc0",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -1303,7 +1602,7 @@
     },
     {
       "id": "d61817cd91e8",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "PC Gamer",
@@ -1316,7 +1615,7 @@
     },
     {
       "id": "d03f6bca18a9",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "PC Gamer",
@@ -1329,7 +1628,7 @@
     },
     {
       "id": "c9fc94d26f14",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -1342,7 +1641,7 @@
     },
     {
       "id": "4535aca64a92",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -1355,7 +1654,7 @@
     },
     {
       "id": "95b7ab816bc8",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "PC Gamer",
@@ -1368,7 +1667,7 @@
     },
     {
       "id": "4eb23f2196dd",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -1381,7 +1680,7 @@
     },
     {
       "id": "ee3bf02bf090",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -1394,7 +1693,7 @@
     },
     {
       "id": "b2b8b8fe39e4",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -1407,7 +1706,7 @@
     },
     {
       "id": "a6ec519df3ee",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",

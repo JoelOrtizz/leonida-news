@@ -5,25 +5,32 @@
     "ediciones": {
       "extras": [
         {
-          "estado": "reportado",
+          "estado": "confirmado",
           "etiqueta": "Bonus de reserva",
-          "fuente": "VGC",
-          "url": "https://www.videogameschronicle.com/news/rockstar-confirms-grand-theft-auto-6-ultimate-edition-and-pre-order-bonuses-but-still-no-price/",
-          "valor": "Vintage Vice City Pack, comprando antes del 20 de noviembre"
+          "fuente": "Rockstar Games (soporte)",
+          "url": "https://support.rockstargames.com/articles/3iH5w2nKVFySqs7hrONlLS/grand-theft-auto-vi-pre-order-information",
+          "valor": "Vintage Vice City Pack y un mes de GTA+, comprando antes del 20 de noviembre"
         },
         {
-          "estado": "reportado",
+          "estado": "confirmado",
           "etiqueta": "Precarga digital",
-          "fuente": "SVG",
-          "url": "https://www.svg.com/2254292/gta-6-launch-guide-release-date-preload-time-price-editions-platforms/",
-          "valor": "Desde el 12 de noviembre"
+          "fuente": "Rockstar Games",
+          "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10",
+          "valor": "Desde el 10 de noviembre · hasta 212 GB"
         },
         {
-          "estado": "reportado",
+          "estado": "confirmado",
           "etiqueta": "Edición física",
-          "fuente": "SVG",
-          "url": "https://www.svg.com/2254292/gta-6-launch-guide-release-date-preload-time-price-editions-platforms/",
-          "valor": "Caja con código de descarga, sin disco"
+          "fuente": "Rockstar Games",
+          "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10",
+          "valor": "Caja con código de descarga, sin disco; en tiendas desde el 12 de noviembre"
+        },
+        {
+          "etiqueta": "Mapa y póster",
+          "valor": "Descarga gratuita el 19 de noviembre; versión física por 0,99 $ en Rockstar Store",
+          "estado": "confirmado",
+          "fuente": "Rockstar Games",
+          "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10"
         }
       ]
     },
@@ -97,16 +104,16 @@
       "urlVoces": "https://www.forbes.com/sites/brianmazique/2026/10/08/lana-del-rey-learned-las-roads-from-gta---now-shes-a-radio-dj-in-gta-vi-alongside-bad-bunny-and-morgan-wallen/"
     },
     "resenas": {
-      "comprobado": "2026-10-29",
-      "embargo": "Sin anunciar por Rockstar",
-      "fuente": "GTASIX.ORG",
+      "comprobado": "2026-11-09",
+      "embargo": "18 de noviembre, según la prensa (sin confirmar)",
+      "fuente": "Insider Gaming",
       "metacritic": null,
-      "nota": "Aún no hay reseñas publicadas. Con GTA V, el embargo se levantó un día antes del lanzamiento; por eso se espera algo parecido, pero no está confirmado.",
+      "nota": "Aún no hay reseñas. Las copias para la prensa salieron a finales de octubre, e Insider Gaming sitúa el fin del embargo el 18, un día antes del lanzamiento, como con GTA V.",
       "opencritic": null,
-      "url": "https://gtasix.org/en/guide/reviews/"
+      "url": "https://insider-gaming.com/grand-theft-auto-6-review-embargo/"
     },
     "resumen": {
-      "actualizado": "2026-10-29T17:57:16Z",
+      "actualizado": "2026-11-09T17:17:33Z",
       "hechos": [
         {
           "estado": "confirmado",
@@ -130,11 +137,25 @@
           "valor": "Standard 79,99 $ · Ultimate 99,99 $"
         },
         {
-          "estado": "reportado",
+          "estado": "confirmado",
           "etiqueta": "Precarga digital",
-          "fuente": "SVG",
-          "url": "https://www.svg.com/2254292/gta-6-launch-guide-release-date-preload-time-price-editions-platforms/",
-          "valor": "Desde el 12 de noviembre de 2026"
+          "fuente": "Rockstar Games",
+          "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10",
+          "valor": "Desde el 10 de noviembre (medianoche local en PS5; 00:00 GMT en Xbox)"
+        },
+        {
+          "etiqueta": "Hora de lanzamiento",
+          "valor": "Medianoche local del 19 de noviembre en todas las regiones",
+          "estado": "confirmado",
+          "fuente": "Rockstar Games (soporte)",
+          "url": "https://support.rockstargames.com/articles/29jV3Cv2cCgvwM1XgtMO5o/grand-theft-auto-vi-regional-pre-load-and-release-times-on-playstation-5-and-xbox-series-x-or-s"
+        },
+        {
+          "etiqueta": "Tamaño de descarga",
+          "valor": "Hasta 212 GB, según la consola",
+          "estado": "confirmado",
+          "fuente": "Rockstar Games",
+          "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10"
         },
         {
           "estado": "confirmado",
@@ -169,37 +190,26 @@
       "url": "https://www.take2games.com/ir/news/take-two-interactive-software-inc-report-second-quarter-fiscal-8"
     },
     {
-      "id": "2026-11-12-precarga",
-      "aproximada": false,
-      "descripcion": "Quien haya reservado en digital podrá descargar el juego antes del lanzamiento.",
-      "estado": "reportado",
-      "fuente": "SVG",
-      "inicio": "2026-11-12",
-      "titulo": "Empieza la precarga digital",
-      "todoElDia": true,
-      "url": "https://www.svg.com/2254292/gta-6-launch-guide-release-date-preload-time-price-editions-platforms/"
-    },
-    {
       "id": "2026-11-18-embargo-resenas",
-      "aproximada": true,
-      "descripcion": "Estimación por el precedente de GTA V (un día antes del lanzamiento). Rockstar no ha anunciado la fecha.",
-      "estado": "rumor",
-      "fuente": "GTASIX.ORG",
+      "aproximada": false,
+      "descripcion": "Insider Gaming asegura haber verificado el 18 de noviembre; Rockstar no lo ha anunciado.",
+      "estado": "reportado",
+      "fuente": "Insider Gaming",
       "inicio": "2026-11-18",
-      "titulo": "Posible fin del embargo de reseñas",
+      "titulo": "Fin del embargo de reseñas (según la prensa)",
       "todoElDia": true,
-      "url": "https://gtasix.org/en/guide/reviews/"
+      "url": "https://insider-gaming.com/grand-theft-auto-6-review-embargo/"
     },
     {
       "id": "2026-11-19-fin-bonus-reserva",
       "aproximada": false,
       "descripcion": "El Vintage Vice City Pack se consigue reservando o comprando antes del 20 de noviembre.",
-      "estado": "reportado",
-      "fuente": "VGC",
+      "estado": "confirmado",
+      "fuente": "Rockstar Games (soporte)",
       "inicio": "2026-11-19",
       "titulo": "Último día para el bonus de reserva",
       "todoElDia": true,
-      "url": "https://www.videogameschronicle.com/news/rockstar-confirms-grand-theft-auto-6-ultimate-edition-and-pre-order-bonuses-but-still-no-price/"
+      "url": "https://support.rockstargames.com/articles/3iH5w2nKVFySqs7hrONlLS/grand-theft-auto-vi-pre-order-information"
     },
     {
       "id": "2026-11-19-lanzamiento",
@@ -241,9 +251,49 @@
       "todoElDia": true,
       "titulo": "Sale la música original de Justice",
       "descripcion": "«Grand Theft Auto VI: Original Score by Justice» llega en CD, vinilo y streaming.",
-      "estado": "reportado",
-      "fuente": "VGC",
-      "url": "https://www.videogameschronicle.com/news/the-official-grand-theft-auto-6-musical-score-by-justice-is-released-in-december-cd-and-vinyl-pre-orders-available-now/"
+      "estado": "confirmado",
+      "fuente": "Rockstar Games",
+      "url": "https://www.rockstargames.com/newswire/article/39ak8a12395591/grand-theft-auto-vi-original-score-by-justice"
+    },
+    {
+      "id": "2026-11-10-precarga",
+      "inicio": "2026-11-10",
+      "todoElDia": true,
+      "titulo": "Empieza la precarga digital",
+      "descripcion": "En PS5, a medianoche de tu zona horaria; en Xbox, a las 00:00 GMT. Ocupa hasta 212 GB.",
+      "estado": "confirmado",
+      "fuente": "Rockstar Games",
+      "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10"
+    },
+    {
+      "id": "2026-11-12-copias-fisicas",
+      "inicio": "2026-11-12",
+      "todoElDia": true,
+      "titulo": "Llegan las copias físicas a las tiendas",
+      "descripcion": "La caja lleva un código de descarga, no un disco, para poder precargar el juego.",
+      "estado": "confirmado",
+      "fuente": "Rockstar Games",
+      "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10"
+    },
+    {
+      "id": "2026-11-19-mapa-poster",
+      "inicio": "2026-11-19",
+      "todoElDia": true,
+      "titulo": "Mapa oficial de Leonida y póster, gratis",
+      "descripcion": "Rockstar los publicará para imprimir el día del lanzamiento; poco después habrá versión física en Rockstar Store.",
+      "estado": "confirmado",
+      "fuente": "Rockstar Games",
+      "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10"
+    },
+    {
+      "id": "2026-11-21-festival",
+      "inicio": "2026-11-21",
+      "todoElDia": true,
+      "titulo": "Grand Theft Auto VI: The Festival, en Miami",
+      "descripcion": "Concierto de lanzamiento en Mana Wynwood con PlayStation: Travis Scott, Cardi B, Metro Boomin, Justice y más. Entradas por sorteo en DICE.",
+      "estado": "confirmado",
+      "fuente": "Rockstar Games",
+      "url": "https://www.rockstargames.com/newswire/article/o39o87a435a25a/grand-theft-auto-vi-the-festival"
     }
   ],
   "cronologia": [
@@ -807,10 +857,10 @@
       "fecha": "2026-10-29",
       "titulo": "La música original de Justice saldrá el 11 de diciembre",
       "resumen": "«Grand Theft Auto VI: Original Score by Justice» tendrá 30 temas en doble CD, triple vinilo y plataformas de streaming. Ya se puede escuchar «Pusher», con Gesaffelstein.",
-      "estado": "reportado",
+      "estado": "confirmado",
       "categoria": "Música",
-      "fuente": "VGC",
-      "url": "https://www.videogameschronicle.com/news/the-official-grand-theft-auto-6-musical-score-by-justice-is-released-in-december-cd-and-vinyl-pre-orders-available-now/"
+      "fuente": "Rockstar Games",
+      "url": "https://www.rockstargames.com/newswire/article/39ak8a12395591/grand-theft-auto-vi-original-score-by-justice"
     },
     {
       "id": "2026-10-29-edge-detalles",
@@ -861,6 +911,66 @@
       "categoria": "Marketing",
       "fuente": "Vandal",
       "url": "https://vandal.elespanol.com/noticia/2026298011/gta-6-se-estrena-en-espana-durante-el-clasico-rockstar-anuncia-su-juego-en-el-fc-barcelona-real-madrid/"
+    },
+    {
+      "id": "2026-11-09-festival-miami",
+      "fecha": "2026-11-09",
+      "titulo": "Rockstar anuncia «Grand Theft Auto VI: The Festival» en Miami",
+      "resumen": "Será el 21 de noviembre en Mana Wynwood, junto a PlayStation, con Travis Scott, Cardi B, Metro Boomin y Justice, entre otros. Las entradas se reparten por sorteo.",
+      "estado": "confirmado",
+      "categoria": "Marketing",
+      "fuente": "Rockstar Games",
+      "url": "https://www.rockstargames.com/newswire/article/o39o87a435a25a/grand-theft-auto-vi-the-festival"
+    },
+    {
+      "id": "2026-11-05-galeria-lanzamiento",
+      "fecha": "2026-11-05",
+      "titulo": "Galería de lanzamiento con decenas de capturas nuevas",
+      "resumen": "A dos semanas del estreno, Rockstar publica una galería con imágenes de Vice City, Jason, Lucia y otras zonas de Leonida.",
+      "estado": "confirmado",
+      "categoria": "Marketing",
+      "fuente": "Rockstar Games",
+      "url": "https://www.rockstargames.com/newswire/article/39ak81277255o9/explore-the-grand-theft-auto-vi-launch-gallery"
+    },
+    {
+      "id": "2026-11-04-reservas-sensor-tower",
+      "fecha": "2026-11-04",
+      "titulo": "Las reservas rondarían los 7,7 millones",
+      "resumen": "Sensor Tower estima 7,71 millones de copias reservadas (unos 751 millones de dólares), tres cuartas partes en PS5. Es una estimación externa, no una cifra de Take-Two.",
+      "estado": "reportado",
+      "categoria": "Ventas",
+      "fuente": "Kotaku",
+      "url": "https://kotaku.com/gta-6-has-already-sold-nearly-8-million-copies-one-data-firm-claims-2000753423"
+    },
+    {
+      "id": "2026-11-03-precarga-10-noviembre",
+      "fecha": "2026-11-03",
+      "titulo": "La precarga se adelanta al 10 de noviembre",
+      "resumen": "Rockstar adelanta la precarga dos días, fija el lanzamiento a medianoche local en todas las regiones y confirma que ocupa hasta 212 GB. Las cajas físicas solo traen un código.",
+      "estado": "confirmado",
+      "categoria": "Fecha",
+      "fuente": "Rockstar Games",
+      "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10"
+    },
+    {
+      "id": "2026-11-03-mapa-poster",
+      "fecha": "2026-11-03",
+      "titulo": "Habrá mapa oficial de Leonida, gratis",
+      "resumen": "El 19 de noviembre Rockstar publicará un mapa de Leonida y un póster de la portada para imprimir. Después venderá una versión física por 0,99 $ o la regalará con cualquier compra en su tienda.",
+      "estado": "confirmado",
+      "categoria": "Mapa",
+      "fuente": "Rockstar Games",
+      "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10"
+    },
+    {
+      "id": "2026-10-26-embargo-resenas",
+      "fecha": "2026-10-26",
+      "titulo": "Las reseñas llegarían el 18 de noviembre",
+      "resumen": "Según Insider Gaming, que dice haberlo verificado, la prensa ya tiene el juego y el embargo termina un día antes del lanzamiento. Rockstar no lo ha confirmado.",
+      "estado": "reportado",
+      "categoria": "Reseñas",
+      "fuente": "Insider Gaming",
+      "url": "https://insider-gaming.com/grand-theft-auto-6-review-embargo/"
     }
   ],
   "personajes": [
