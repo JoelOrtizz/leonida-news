@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-12T02:08:56.076Z",
+  "actualizado": "2026-11-12T14:47:08.839Z",
   "elementos": [
     {
       "id": "8997e40c0e01",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Kotaku",
@@ -16,7 +16,7 @@
     },
     {
       "id": "1e8b296d52e5",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Polygon",
@@ -29,7 +29,7 @@
     },
     {
       "id": "771dc1c409f8",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Kotaku",
@@ -42,7 +42,7 @@
     },
     {
       "id": "407ea66dc425",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -55,7 +55,7 @@
     },
     {
       "id": "1920a01af977",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Insider Gaming",
@@ -68,7 +68,7 @@
     },
     {
       "id": "df4144bfe238",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -81,7 +81,7 @@
     },
     {
       "id": "14e05c00b4f9",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "3DJuegos",
@@ -94,7 +94,7 @@
     },
     {
       "id": "acc4e43f42e5",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Eurogamer",
@@ -107,7 +107,7 @@
     },
     {
       "id": "97fe521e71d0",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "VGC",
@@ -120,7 +120,7 @@
     },
     {
       "id": "1c3b24936300",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -133,7 +133,7 @@
     },
     {
       "id": "47f8745712e6",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Push Square",
@@ -146,7 +146,7 @@
     },
     {
       "id": "3a2e8f56974a",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -159,7 +159,7 @@
     },
     {
       "id": "b2a053dad7ec",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -172,7 +172,7 @@
     },
     {
       "id": "3982e8d3d80e",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -185,7 +185,7 @@
     },
     {
       "id": "37536b4d3ec5",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Kotaku",
@@ -198,7 +198,7 @@
     },
     {
       "id": "abcd9e2a8a64",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "3DJuegos",
@@ -211,7 +211,7 @@
     },
     {
       "id": "dec0496fa189",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -224,7 +224,7 @@
     },
     {
       "id": "97e1ef9a6170",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Kotaku",
@@ -237,7 +237,7 @@
     },
     {
       "id": "d54621b1a920",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -250,7 +250,7 @@
     },
     {
       "id": "e044cf0e0a31",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -263,7 +263,7 @@
     },
     {
       "id": "142ea462ad7f",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -276,7 +276,7 @@
     },
     {
       "id": "d711f9039c1f",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "3DJuegos",
@@ -289,7 +289,7 @@
     },
     {
       "id": "306b22c14177",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Kotaku",
@@ -302,7 +302,7 @@
     },
     {
       "id": "62c38b5bbbc2",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -315,7 +315,7 @@
     },
     {
       "id": "4bf6d5a827ae",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -328,7 +328,7 @@
     },
     {
       "id": "980cbc28c9f3",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -341,7 +341,7 @@
     },
     {
       "id": "1ebaec9899c9",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Push Square",
@@ -354,7 +354,7 @@
     },
     {
       "id": "44f8bb55b2bb",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "3DJuegos",
@@ -367,7 +367,7 @@
     },
     {
       "id": "1bd29df9b992",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -380,7 +380,7 @@
     },
     {
       "id": "378b5a6a58ce",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Push Square",
@@ -393,7 +393,7 @@
     },
     {
       "id": "e40d8066c48c",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -406,7 +406,7 @@
     },
     {
       "id": "16537225225b",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -419,7 +419,7 @@
     },
     {
       "id": "7e074857f47e",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "PC Gamer",
@@ -432,7 +432,7 @@
     },
     {
       "id": "821f466f2570",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -445,7 +445,7 @@
     },
     {
       "id": "c8c092697db0",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -458,7 +458,7 @@
     },
     {
       "id": "a9d021e5393f",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Push Square",
@@ -471,7 +471,7 @@
     },
     {
       "id": "ce36b4432052",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -484,7 +484,7 @@
     },
     {
       "id": "3dc73ea5b99a",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Eurogamer",
@@ -497,7 +497,7 @@
     },
     {
       "id": "535b6a33c8ed",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "VGC",
@@ -510,7 +510,7 @@
     },
     {
       "id": "b348fa6d3ce8",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -523,7 +523,7 @@
     },
     {
       "id": "1b46d6b077fa",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -536,7 +536,7 @@
     },
     {
       "id": "2720033653b8",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -549,7 +549,7 @@
     },
     {
       "id": "d808c033f346",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "PC Gamer",
@@ -562,7 +562,7 @@
     },
     {
       "id": "3889f0875341",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -575,7 +575,7 @@
     },
     {
       "id": "2e6d021bd548",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -588,7 +588,7 @@
     },
     {
       "id": "d56b5c78933e",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -601,7 +601,7 @@
     },
     {
       "id": "52480cbde435",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -614,7 +614,7 @@
     },
     {
       "id": "a2f5e33d2867",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -627,7 +627,7 @@
     },
     {
       "id": "b17adc5b08e4",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -640,7 +640,7 @@
     },
     {
       "id": "7810327179bd",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Eurogamer",
@@ -653,7 +653,7 @@
     },
     {
       "id": "687d5add747b",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -666,7 +666,7 @@
     },
     {
       "id": "6756296771ae",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Kotaku",
@@ -679,7 +679,7 @@
     },
     {
       "id": "57996a389ede",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Eurogamer",
@@ -692,7 +692,7 @@
     },
     {
       "id": "41ff93125d80",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -705,7 +705,7 @@
     },
     {
       "id": "17d0a06db5f2",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "3DJuegos",
@@ -718,7 +718,7 @@
     },
     {
       "id": "f434118e733a",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -731,7 +731,7 @@
     },
     {
       "id": "a7834b43bdac",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -744,7 +744,7 @@
     },
     {
       "id": "df2096d2ac8c",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -757,7 +757,7 @@
     },
     {
       "id": "5555753daee0",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Push Square",
@@ -770,7 +770,7 @@
     },
     {
       "id": "44e4bfd0975a",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "VGC",
@@ -783,7 +783,7 @@
     },
     {
       "id": "b12107c0624f",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -796,7 +796,7 @@
     },
     {
       "id": "8a2db1be8bfe",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "video",
       "oficial": true,
       "fuente": "Rockstar Games (YouTube)",
@@ -809,7 +809,7 @@
     },
     {
       "id": "af9d9743ea5e",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "video",
       "oficial": true,
       "fuente": "Rockstar Games (YouTube)",
@@ -822,7 +822,7 @@
     },
     {
       "id": "fa92e570caea",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -835,7 +835,7 @@
     },
     {
       "id": "f50789364e4a",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "PC Gamer",
@@ -848,7 +848,7 @@
     },
     {
       "id": "2ab248c4a196",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Push Square",
@@ -861,7 +861,7 @@
     },
     {
       "id": "edbd078583d7",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -874,7 +874,7 @@
     },
     {
       "id": "bb54b9c4adec",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "PC Gamer",
@@ -887,7 +887,7 @@
     },
     {
       "id": "02abfa01ed56",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "3DJuegos",
@@ -900,7 +900,7 @@
     },
     {
       "id": "965526ecd678",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Kotaku",
@@ -913,7 +913,7 @@
     },
     {
       "id": "7735a2da6dfc",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Insider Gaming",
@@ -926,7 +926,7 @@
     },
     {
       "id": "00ffd7692a97",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -939,7 +939,7 @@
     },
     {
       "id": "40f4f7972d06",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -952,7 +952,7 @@
     },
     {
       "id": "ae9d01c3404d",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Insider Gaming",
@@ -965,7 +965,7 @@
     },
     {
       "id": "e36110c18ae5",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",
@@ -978,7 +978,7 @@
     },
     {
       "id": "5b9bf3ddd8cb",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Eurogamer",
@@ -991,7 +991,7 @@
     },
     {
       "id": "0be6cfa728a2",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Push Square",
@@ -1004,7 +1004,7 @@
     },
     {
       "id": "da1f2b3d0a39",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Insider Gaming",
@@ -1017,7 +1017,7 @@
     },
     {
       "id": "a019d141021e",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Kotaku",
@@ -1030,7 +1030,7 @@
     },
     {
       "id": "70f2132db07c",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "PC Gamer",
@@ -1043,7 +1043,7 @@
     },
     {
       "id": "e7e0a360561e",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Eurogamer",
@@ -1056,7 +1056,7 @@
     },
     {
       "id": "b53304e7c188",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -1069,7 +1069,7 @@
     },
     {
       "id": "581ce0b46698",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -1082,7 +1082,7 @@
     },
     {
       "id": "183d484644b9",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Kotaku",
@@ -1095,7 +1095,7 @@
     },
     {
       "id": "22f4c06b38f2",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Insider Gaming",
@@ -1108,7 +1108,7 @@
     },
     {
       "id": "84be0546449b",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -1121,7 +1121,7 @@
     },
     {
       "id": "b58d42b41f6b",
-      "estado": "pendiente",
+      "estado": "procesado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "IGN",
@@ -1134,7 +1134,7 @@
     },
     {
       "id": "6b11d6854c0d",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "GameSpot",
@@ -1147,7 +1147,7 @@
     },
     {
       "id": "c6234e05ef2d",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Insider Gaming",
@@ -1160,7 +1160,7 @@
     },
     {
       "id": "ef6802a2a441",
-      "estado": "pendiente",
+      "estado": "descartado",
       "tipo": "prensa",
       "oficial": false,
       "fuente": "Vandal",

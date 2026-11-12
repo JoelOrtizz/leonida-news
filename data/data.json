@@ -113,7 +113,7 @@
       "url": "https://insider-gaming.com/grand-theft-auto-6-review-embargo/"
     },
     "resumen": {
-      "actualizado": "2026-11-09T17:17:33Z",
+      "actualizado": "2026-11-12T14:47:08Z",
       "hechos": [
         {
           "estado": "confirmado",
@@ -141,7 +141,7 @@
           "etiqueta": "Precarga digital",
           "fuente": "Rockstar Games",
           "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10",
-          "valor": "Desde el 10 de noviembre (medianoche local en PS5; 00:00 GMT en Xbox)"
+          "valor": "Desde el 10 de noviembre (medianoche local en PS5; 00:00 GMT en Xbox). Ocupa hasta 212 GB"
         },
         {
           "etiqueta": "Hora de lanzamiento",
@@ -151,11 +151,11 @@
           "url": "https://support.rockstargames.com/articles/29jV3Cv2cCgvwM1XgtMO5o/grand-theft-auto-vi-regional-pre-load-and-release-times-on-playstation-5-and-xbox-series-x-or-s"
         },
         {
-          "etiqueta": "Tamaño de descarga",
-          "valor": "Hasta 212 GB, según la consola",
+          "etiqueta": "Rendimiento",
+          "valor": "Objetivo de 30 fps en todas las consolas; PSSR y sombras con trazado de rayos en PS5 Pro. Xbox Cloud Gaming, también en Xbox One",
           "estado": "confirmado",
           "fuente": "Rockstar Games",
-          "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10"
+          "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
         },
         {
           "estado": "confirmado",
@@ -971,6 +971,66 @@
       "categoria": "Reseñas",
       "fuente": "Insider Gaming",
       "url": "https://insider-gaming.com/grand-theft-auto-6-review-embargo/"
+    },
+    {
+      "id": "2026-11-11-clip-instagram",
+      "fecha": "2026-11-11",
+      "titulo": "Un clip en primera persona que parece grabado en Miami",
+      "resumen": "Rockstar habría publicado en Instagram un vídeo corto de juego, en primera persona, tan realista que muchos lo tomaron por una grabación real. Forma parte de la campaña de los últimos días.",
+      "estado": "reportado",
+      "categoria": "Marketing",
+      "fuente": "Insider Gaming",
+      "url": "https://insider-gaming.com/rockstar-games-unreal-gta-6-clip-social-media-first-person/"
+    },
+    {
+      "id": "2026-11-11-alianza-xbox",
+      "fecha": "2026-11-11",
+      "titulo": "Xbox y Take-Two firman una alianza de 10 años",
+      "resumen": "La presidenta de Xbox anunció un acuerdo estratégico con Take-Two. Lo primero que se nota es GTA VI en Xbox Cloud Gaming desde el lanzamiento, incluso en Xbox One; GTA V y Red Dead Redemption 2 llegarán a la nube más adelante.",
+      "estado": "reportado",
+      "categoria": "Plataformas",
+      "fuente": "Vandal",
+      "url": "https://vandal.elespanol.com/noticia/2026315026/xbox-y-taketwo-anuncian-una-alianza-de-10-anos-gta-6-sera-el-primer-beneficiado-del-acuerdo/"
+    },
+    {
+      "id": "2026-11-10-record-reservas-ps-store",
+      "fecha": "2026-11-10",
+      "titulo": "El juego más reservado de la historia de PlayStation Store",
+      "resumen": "Sony lo anuncia en su blog oficial el día que se abre la precarga, sin dar cifras. La prensa añade que también lo es en la tienda de Xbox.",
+      "estado": "confirmado",
+      "categoria": "Ventas",
+      "fuente": "PlayStation Blog",
+      "url": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/"
+    },
+    {
+      "id": "2026-11-10-precarga-rendimiento",
+      "fecha": "2026-11-10",
+      "titulo": "Abre la precarga y Rockstar aclara el rendimiento: 30 fps",
+      "resumen": "El juego apunta a 30 fps en todas las consolas. En PS5 Pro suma PSSR y sombras con trazado de rayos; en PS5, vibración háptica, audio 3D y cargas rápidas. Se podrá jugar en la nube de Xbox, también en Xbox One.",
+      "estado": "confirmado",
+      "categoria": "Técnico",
+      "fuente": "Rockstar Games",
+      "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+    },
+    {
+      "id": "2026-11-10-version-gold",
+      "fecha": "2026-11-10",
+      "titulo": "GTA VI ya es «gold»: sin retrasos de última hora",
+      "resumen": "Según Push Square, el consejero delegado de Take-Two dijo en la presentación de resultados que el juego está terminado y listo para su distribución.",
+      "estado": "reportado",
+      "categoria": "Fecha",
+      "fuente": "Push Square",
+      "url": "https://www.pushsquare.com/news/2026/11/gta-6-wont-have-any-last-minute-delays-as-its-officially-gone-gold"
+    },
+    {
+      "id": "2026-11-09-resultados-take-two",
+      "fecha": "2026-11-09",
+      "titulo": "Take-Two: reservas «a niveles sin precedentes»",
+      "resumen": "En sus resultados del segundo trimestre fiscal, Take-Two mantiene la previsión del año (entre 8.000 y 8.200 millones de dólares) y espera entre 3.350 y 3.500 millones solo de octubre a diciembre, sobre todo por GTA VI. No da cifras de reservas.",
+      "estado": "confirmado",
+      "categoria": "Ventas",
+      "fuente": "Take-Two Interactive",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000946581/000162828026072175/ttwo2q27earningsrelease.htm"
     }
   ],
   "personajes": [
@@ -1184,8 +1244,8 @@
     {
       "id": "2026-08-27-extended-look",
       "canal": "Rockstar Games",
-      "descripcion": "Unos 27 minutos de juego. Se estrenó primero en Netflix y horas después en YouTube. El enlace lleva al canal de Rockstar: el vídeo exacto está pendiente de verificar.",
-      "duracion": "~27:00",
+      "descripcion": "Casi 27 minutos de juego. Se estrenó primero en Netflix y horas después en el canal oficial de Rockstar en YouTube.",
+      "duracion": "26:48",
       "estado": "confirmado",
       "fecha": "2026-08-27",
       "numero": "03",
@@ -1202,6 +1262,17 @@
       "numero": "04",
       "titulo": "Grand Theft Auto VI Launch Trailer",
       "url": "https://www.youtube.com/watch?v=rz1B4B2yBZY"
+    },
+    {
+      "id": "2026-11-10-pre-load-now",
+      "canal": "Rockstar Games",
+      "fecha": "2026-11-10",
+      "numero": "05",
+      "titulo": "Grand Theft Auto VI: Pre-Load Now",
+      "descripcion": "Vídeo corto de 30 segundos para anunciar la precarga, con escenas que no se habían visto: un asalto de los SWAT y una discoteca, entre otras.",
+      "duracion": "0:30",
+      "estado": "confirmado",
+      "url": "https://www.youtube.com/watch?v=TIPlpDAsfWo"
     }
   ],
   "resenas": []
