@@ -14,3 +14,11 @@
   var enTuZona = d.toLocaleTimeString("es-ES", formato);
   if (enTuZona !== "23:00") local.textContent = " (a partir de las " + enTuZona + " en tu zona horaria)";
 })();
+
+/* Launch week: extra runs at 08:30 and 17:30 in Spain from 16 to 22 Nov 2026. The note is shown until the
+   end of 22 Nov in Madrid (23:00 UTC, CET) and then disappears on its own. */
+(function () {
+  var lanzamiento = document.getElementById("avisoLanzamiento");
+  var FIN = Date.UTC(2026, 10, 22, 23, 0, 0);
+  if (lanzamiento && Date.now() < FIN) lanzamiento.hidden = false;
+})();
