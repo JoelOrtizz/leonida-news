@@ -1,12 +1,14 @@
 #!/usr/bin/env node
 /*
- * Daily collector (no AI): reads the official and press feeds in scripts/fuentes.json and queues every new
- * GTA VI headline in data/pendientes.json. It never touches the published data (data/data.json): Claude reviews
- * the queue, writes the entries in Spanish and marks each item as processed or discarded.
+ * Headline collector (no AI), run three times a day by GitHub Actions: reads the official and press feeds in
+ * scripts/fuentes.json and publishes every new GTA VI headline in data/titulares.json, shown in the page's
+ * "Al minuto" block. It never touches the curated data (data/data.json).
+ * Repeats are skipped: same link, same headline, links already in data.json, or the same story told by another
+ * outlet within a few days (the source listed first in fuentes.json wins, so Rockstar and Take-Two come first).
  * Only headline, outlet, link and date are stored; never article text.
  *
  * Usage: node scripts/actualizar.js [--prueba] [--config ruta/fuentes.json]
- *   --prueba  shows what would be queued without writing anything
+ *   --prueba  shows what would be published without writing anything
  * Exit code 1 only if every source failed (so the scheduled run is flagged).
  */
 "use strict";
@@ -20,7 +22,7 @@ var ARGS = process.argv.slice(2);
 var PRUEBA = ARGS.indexOf("--prueba") >= 0;
 var CONFIG = path.resolve(ARGS.indexOf("--config") >= 0 ? ARGS[ARGS.indexOf("--config") + 1] : path.join(__dirname, "fuentes.json"));
 var DATOS = path.join(ROOT, "data", "data.json");
-var COLA = path.join(ROOT, "data", "pendientes.json");
+var TITULARES = path.join(ROOT, "data", "titulares.json");
 
 var USER_AGENT = "LeonidaNewsBot/1.0 (+https://joelortizz.github.io/leonida-news/)";
 var TIMEOUT_MS = 20000;
@@ -38,6 +40,9 @@ function urlNormal(u) {
     var x = new URL(String(u).trim());
     x.hash = "";
     x.hostname = x.hostname.toLowerCase().replace(/^www\./, "");
+    // A YouTube short is the same video as its watch?v= page.
+    var corto = /^\/shorts\/([\w-]+)/.exec(x.pathname);
+    if (x.hostname === "youtube.com" && corto) { x.pathname = "/watch"; x.search = "?v=" + corto[1]; }
     Array.from(x.searchParams.keys()).forEach(function (k) { if (PARAMS_SEGUIMIENTO.test(k)) x.searchParams.delete(k); });
     return (x.protocol + "//" + x.hostname + x.pathname.replace(/\/+$/, "") + (x.search || "")).toLowerCase();
   } catch (e) { return String(u || "").trim().toLowerCase(); }
@@ -113,93 +118,137 @@ function descargar(fuente) {
     });
 }
 
-// ---------- Queue ----------
+
+// ---------- Same story ----------
+
+// Words that say nothing about which story a headline tells: articles, connectors and the game's own name.
+var VACIAS = ("a al ante como con contra de del desde el en entre es esta este esto han hay la las le les lo los mas muy no o para " +
+  "pero por que se sea ser si sin sobre su sus te tu un una uno unos y ya the of to in on for and or is are be with at by from as it its " +
+  "this that has have will can new gta grand theft auto vi 6 rockstar games juego videojuego").split(" ");
+var ES_VACIA = {};
+VACIAS.forEach(function (w) { ES_VACIA[w] = true; });
+
+function palabras(titulo) {
+  var vistas = {};
+  return tituloNormal(titulo).split(" ").filter(function (w) {
+    if (w.length < 3 || ES_VACIA[w] || vistas[w]) return false;
+    vistas[w] = true;
+    return true;
+  });
+}
+
+// Two headlines tell the same story when most of the meaningful words of the shorter one are in the other.
+function mismaNoticia(a, b) {
+  if (a.length < 3 || b.length < 3) return false;
+  var comunes = a.filter(function (w) { return b.indexOf(w) >= 0; }).length;
+  return comunes / Math.min(a.length, b.length) >= 0.6;
+}
+
+// ---------- Published headlines ----------
 
 function leerJSON(ruta, porDefecto) {
   if (!fs.existsSync(ruta)) return porDefecto;
   return JSON.parse(fs.readFileSync(ruta, "utf8"));
 }
 
-// Everything already published or queued, to avoid proposing it again.
-function conocidos(datos, cola) {
-  var urls = {}, titulos = {};
+// Links already in the curated sections of data/data.json: those stories are on the page already.
+function enlacesPublicados(datos) {
+  var urls = {};
   ["noticias", "trailers", "mitos", "resenas", "agenda", "cronologia"].forEach(function (c) {
-    (datos[c] || []).forEach(function (x) {
-      if (x.url) urls[urlNormal(x.url)] = true;
-      if (x.titulo) titulos[tituloNormal(x.titulo)] = true;
-    });
+    (datos[c] || []).forEach(function (x) { if (x.url) urls[urlNormal(x.url)] = true; });
   });
-  cola.elementos.forEach(function (x) { urls[urlNormal(x.url)] = true; titulos[tituloNormal(x.titulo)] = true; });
-  return { urls: urls, titulos: titulos };
+  return urls;
 }
 
-function podar(cola, conf, ahora) {
+function podar(lista, conf, ahora) {
   var limite = ahora - conf.diasRetencion * DIA_MS;
-  var antes = cola.elementos.length;
-  cola.elementos = cola.elementos.filter(function (x) { return x.estado === "pendiente" || Date.parse(x.detectado) >= limite; });
-  if (cola.elementos.length > conf.maxElementos) {
-    cola.elementos.sort(function (a, b) { return Date.parse(b.detectado) - Date.parse(a.detectado); });
-    cola.elementos = cola.elementos.slice(0, conf.maxElementos);
-  }
-  return antes - cola.elementos.length;
+  var antes = lista.elementos.length;
+  lista.elementos = lista.elementos.filter(function (x) { return Date.parse(x.fecha) >= limite; }).slice(0, conf.maxElementos);
+  return antes - lista.elementos.length;
 }
 
 // ---------- Main ----------
 
-function main() {
-  var conf = leerJSON(CONFIG, null);
-  if (!conf) { console.error("✗ No existe " + CONFIG); process.exit(1); }
-  var datos = leerJSON(DATOS, {});
-  var cola = leerJSON(COLA, { actualizado: null, elementos: [] });
-  var ahora = Date.now(), desde = ahora - conf.diasAtras * DIA_MS;
-  var claves = patronClaves(conf.palabrasClave);
-  var vistos = conocidos(datos, cola);
-
-  return Promise.all(conf.fuentes.map(function (f) {
-    return descargar(f).then(function (items) { return { fuente: f, items: items }; }, function (e) {
+function descargarTodas(fuentes) {
+  return Promise.all(fuentes.map(function (f, prioridad) {
+    return descargar(f).then(function (items) { return { fuente: f, prioridad: prioridad, items: items }; }, function (e) {
       var causa = e.cause && (e.cause.code || e.cause.message);
       return { fuente: f, error: (e.message || String(e)) + (causa ? " (" + causa + ")" : "") };
     });
-  })).then(function (resultados) {
-    var nuevos = [], fallidas = [];
-    resultados.forEach(function (r) {
-      var f = r.fuente;
-      if (r.error) { fallidas.push(f.id); console.warn("⚠ " + f.nombre + ": " + r.error); return; }
-      var n = 0;
-      r.items.forEach(function (it) {
-        var fecha = Date.parse(it.fecha);
-        if (!it.titulo || !/^https:\/\//.test(it.url) || isNaN(fecha) || fecha < desde || fecha > ahora + DIA_MS) return;
-        if (!claves.test(tituloNormal(it.titulo))) return;
-        if (f.autor && it.autor && it.autor !== f.autor) return;
-        var u = urlNormal(it.url), t = tituloNormal(it.titulo);
-        if (vistos.urls[u] || vistos.titulos[t]) return;
-        vistos.urls[u] = vistos.titulos[t] = true;
-        n++;
-        nuevos.push({
-          id: crypto.createHash("sha1").update(u).digest("hex").slice(0, 12),
-          estado: "pendiente", tipo: f.tipo, oficial: !!f.oficial, fuente: f.nombre, fuenteId: f.id, idioma: f.idioma,
-          titulo: it.titulo, url: it.url, fecha: new Date(fecha).toISOString(), detectado: new Date(ahora).toISOString()
-        });
-      });
-      console.log("· " + f.nombre + ": " + r.items.length + " elementos, " + n + " nuevos sobre GTA VI");
+  }));
+}
+
+// Headlines about GTA VI from the last days, with the source's priority, ready to be compared.
+function candidatos(resultados, conf, ahora, fallidas) {
+  var desde = ahora - conf.diasAtras * DIA_MS;
+  var claves = patronClaves(conf.palabrasClave);
+  var lista = [];
+  resultados.forEach(function (r) {
+    var f = r.fuente;
+    if (r.error) { fallidas.push(f.id); console.warn("⚠ " + f.nombre + " (" + f.id + "): " + r.error); return; }
+    var n = 0;
+    r.items.forEach(function (it) {
+      var fecha = Date.parse(it.fecha);
+      if (!it.titulo || !/^https:\/\//.test(it.url) || isNaN(fecha) || fecha < desde || fecha > ahora + DIA_MS) return;
+      if (!claves.test(tituloNormal(it.titulo))) return;
+      if (f.autor && it.autor && it.autor !== f.autor) return;
+      n++;
+      lista.push({ fuente: f, prioridad: r.prioridad, titulo: it.titulo, url: it.url, fecha: fecha });
+    });
+    console.log("· " + f.nombre + " (" + f.id + "): " + r.items.length + " elementos, " + n + " sobre GTA VI");
+  });
+  // Higher-priority sources first and, within one source, the earliest report: that is the one kept.
+  return lista.sort(function (a, b) { return a.prioridad - b.prioridad || a.fecha - b.fecha; });
+}
+
+function main() {
+  var conf = leerJSON(CONFIG, null);
+  if (!conf) { console.error("✗ No existe " + CONFIG); process.exit(1); }
+  var titulares = leerJSON(TITULARES, { actualizado: null, elementos: [] });
+  var ahora = Date.now();
+  var publicados = enlacesPublicados(leerJSON(DATOS, {}));
+  var spoiler = patronClaves(conf.palabrasSpoiler);
+  var ventana = conf.horasMismaNoticia * 3600000;
+
+  // What is already listed: links, exact headlines and the words of each story, to skip repeats.
+  var urls = {}, titulos = {}, historias = [];
+  function anotar(x, fecha) {
+    urls[urlNormal(x.url)] = titulos[tituloNormal(x.titulo)] = true;
+    historias.push({ palabras: palabras(x.titulo), fecha: fecha });
+  }
+  titulares.elementos.forEach(function (x) { anotar(x, Date.parse(x.fecha)); });
+
+  return descargarTodas(conf.fuentes).then(function (resultados) {
+    var fallidas = [], nuevos = [], repetidos = 0;
+    candidatos(resultados, conf, ahora, fallidas).forEach(function (c) {
+      var u = urlNormal(c.url), t = tituloNormal(c.titulo), p = palabras(c.titulo);
+      if (urls[u] || titulos[t] || publicados[u]) return;
+      var repetido = historias.some(function (h) { return Math.abs(h.fecha - c.fecha) <= ventana && mismaNoticia(p, h.palabras); });
+      if (repetido) { repetidos++; return; }
+      var x = {
+        id: crypto.createHash("sha1").update(u).digest("hex").slice(0, 12),
+        fecha: new Date(c.fecha).toISOString().replace(/\.\d{3}Z$/, "Z"),
+        titulo: c.titulo, fuente: c.fuente.nombre, fuenteId: c.fuente.id, tipo: c.fuente.tipo, oficial: !!c.fuente.oficial,
+        idioma: c.fuente.idioma, url: c.url, spoiler: spoiler.test(t)
+      };
+      anotar(x, c.fecha);
+      nuevos.push(x);
     });
 
-    var podados = podar(cola, conf, ahora);
-    nuevos.sort(function (a, b) { return Date.parse(b.fecha) - Date.parse(a.fecha); });
-    cola.elementos = nuevos.concat(cola.elementos);
-    var pendientes = cola.elementos.filter(function (x) { return x.estado === "pendiente"; }).length;
+    titulares.elementos = nuevos.concat(titulares.elementos).sort(function (a, b) { return Date.parse(b.fecha) - Date.parse(a.fecha); });
+    var podados = podar(titulares, conf, ahora);
 
-    console.log("\n" + nuevos.length + " nuevos, " + podados + " antiguos eliminados, " + pendientes + " pendientes en la cola" +
-      (fallidas.length ? "; fuentes con error: " + fallidas.join(", ") : ""));
-    nuevos.forEach(function (x) { console.log("  + [" + (x.oficial ? "oficial" : "prensa") + "] " + x.fuente + ": " + x.titulo); });
+    console.log("\n" + nuevos.length + " nuevos, " + repetidos + " repetidos (misma noticia), " + podados + " antiguos retirados, " +
+      titulares.elementos.length + " publicados" + (fallidas.length ? "; fuentes con error: " + fallidas.join(", ") : ""));
+    nuevos.forEach(function (x) { console.log("  + [" + (x.oficial ? "oficial" : "prensa") + (x.spoiler ? ", spoiler" : "") + "] " + x.fuente + ": " + x.titulo); });
 
-    // Written only when the queue changes, so the scheduled job commits nothing on quiet days.
+    // Written only when something changes, so quiet runs commit nothing.
     if (PRUEBA) console.log("\n(prueba: no se ha escrito nada)");
     else if (nuevos.length || podados) {
-      cola.actualizado = new Date(ahora).toISOString();
-      fs.writeFileSync(COLA, JSON.stringify(cola, null, 2) + "\n");
-      console.log("\n✓ " + path.relative(ROOT, COLA) + " actualizado");
-    } else console.log("\nSin cambios en la cola.");
+      titulares.actualizado = new Date(ahora).toISOString().replace(/\.\d{3}Z$/, "Z");
+      fs.writeFileSync(TITULARES, JSON.stringify(titulares, null, 2) + "\n");
+      console.log("\n✓ " + path.relative(ROOT, TITULARES) + " actualizado");
+    } else console.log("\nSin titulares nuevos.");
 
     if (fallidas.length === conf.fuentes.length) { console.error("✗ Han fallado todas las fuentes"); process.exit(1); }
   });
