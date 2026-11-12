@@ -10,6 +10,10 @@ on:
     # and the review only runs when something is pending.
     - cron: "0 21 * * *"
     - cron: "0 22 * * *"
+    # Launch week (16-22 Nov 2026, CET = UTC+1): two extra runs at 08:30 and 17:30 in Spain. The "previo" job only
+    # lets them through on those dates, so next year they do nothing; remove them after launch.
+    - cron: "30 7 16-22 11 *"
+    - cron: "30 16 16-22 11 *"
   workflow_dispatch:
     inputs:
       forzar_revision:
@@ -40,9 +44,14 @@ jobs:
         run: |
           hora=$(TZ=Europe/Madrid date +%H)
           abiertos=$(gh pr list --repo "$GITHUB_REPOSITORY" --label "$ETIQUETA_PR" --state open --json number --jq length)
+          dia=$(TZ=Europe/Madrid date +%F)
           case "$hora" in 23|00|01|02|03|04|05) en_ventana=si ;; *) en_ventana=no ;; esac
+          # Launch week: the 08:30 and 17:30 runs are accepted up to 3 h late, like the nightly one.
+          if [[ "$dia" > "2026-11-15" && "$dia" < "2026-11-23" ]]; then
+            case "$hora" in 08|09|10|11|17|18|19|20) en_ventana=si ;; esac
+          fi
           if [ "${{ github.event_name }}" = "schedule" ] && [ "$en_ventana" = "no" ]; then
-            echo "En España son las $hora:xx, fuera de la ventana de 23:00 a 05:59: esta ejecución programada no toca."
+            echo "En España son las $hora:xx del $dia, fuera de las ventanas de revisión: esta ejecución programada no toca."
             echo "toca=no" >> "$GITHUB_OUTPUT"
           elif [ "$abiertos" != "0" ]; then
             # Collecting now would change data/pendientes.json under the open pull request and cause a conflict.
