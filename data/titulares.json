@@ -1,6 +1,18 @@
 {
-  "actualizado": "2026-11-12T16:18:47Z",
+  "actualizado": "2026-11-12T16:23:15Z",
   "elementos": [
+    {
+      "id": "2e25fe6f3fdb",
+      "fecha": "2026-11-12T15:51:05Z",
+      "titulo": "El mapa de GTA 6 se muestra por fin al completo y desvela localizaciones que todavía no se conocían",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/mapa-gta-6-se-muestra-por-fin-completo-desvela-localizaciones-que-todavia-no-se-conocian_7060374_0.html",
+      "spoiler": false
+    },
     {
       "id": "e7ba6635367d",
       "fecha": "2026-11-12T15:25:00Z",
