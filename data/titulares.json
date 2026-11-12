@@ -1,6 +1,78 @@
 {
-  "actualizado": "2026-11-12T16:23:15Z",
+  "actualizado": "2026-11-12T22:23:09Z",
   "elementos": [
+    {
+      "id": "154cfccc5bdf",
+      "fecha": "2026-11-12T19:21:24Z",
+      "titulo": "GTA 6 se vive de forma diferente en Asia: desde la amenaza de prohibición en Corea del Sur \"por exceso de genitales\" al permiso para jugarlo de los empleados de Palworld",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/gta-6-se-vive-forma-diferente-asia-desde-amenaza-prohibicion-corea-sur-por-exceso-genitales-permiso-para-jugarlo-los-empleados-palworld_7060496_0.html",
+      "spoiler": false
+    },
+    {
+      "id": "027ba8b73b7c",
+      "fecha": "2026-11-12T19:15:00Z",
+      "titulo": "¡Calentamos motores para el lanzamiento de GTA 6! Os contamos todo lo que necesitáis saber del juego antes de su estreno",
+      "fuente": "3DJuegos",
+      "fuenteId": "3djuegos",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/calentamos-motores-para-lanzamiento-gta-6-os-contamos-todo-que-necesitais-saber-juego-antes-su-estreno",
+      "spoiler": false
+    },
+    {
+      "id": "dbf21fbc928a",
+      "fecha": "2026-11-12T18:55:54Z",
+      "titulo": "El día del lanzamiento de GTA VI tendré que trabajar, pero los empleados de Palworld tienen mucha más suerte que yo",
+      "fuente": "IGN España",
+      "fuenteId": "ign-espana",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://es.ign.com/grand-theft-auto-vi/235569/el-dia-del-lanzamiento-de-gta-vi-tendre-que-trabajar-pero-los-empleados-de-palworld-tienen-mucha-mas",
+      "spoiler": false
+    },
+    {
+      "id": "e6e771dd5dfd",
+      "fecha": "2026-11-12T18:31:24Z",
+      "titulo": "\"El mayor lanzamiento de la historia se merece el mayor directo\". El fenómeno GTA 6 es tan masivo que YouTube se viste de gala para celebrar su estreno",
+      "fuente": "3DJuegos",
+      "fuenteId": "3djuegos",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/mayor-lanzamiento-historia-se-merece-mayor-directo-fenomeno-gta-6-masivo-que-youtube-se-viste-gala-para-celebrar-su-estreno",
+      "spoiler": false
+    },
+    {
+      "id": "7d48aed70dd1",
+      "fecha": "2026-11-12T17:45:22Z",
+      "titulo": "Hay que reconocerlo, lo último de GTA 6 no lo hemos visto venir",
+      "fuente": "3DJuegos",
+      "fuenteId": "3djuegos",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/hay-que-reconocerlo-ultimo-gta-6-no-hemos-visto-venir",
+      "spoiler": false
+    },
+    {
+      "id": "bd1602271d0c",
+      "fecha": "2026-11-12T17:37:36Z",
+      "titulo": "Ni la violencia ni las drogas: esto es lo que casi provoca la censura de GTA VI en Corea del Sur",
+      "fuente": "IGN España",
+      "fuenteId": "ign-espana",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://es.ign.com/grand-theft-auto-vi/235562/ni-la-violencia-ni-las-drogas-esto-es-lo-que-casi-provoca-la-censura-de-gta-vi-en-corea-del-sur",
+      "spoiler": false
+    },
     {
       "id": "2e25fe6f3fdb",
       "fecha": "2026-11-12T15:51:05Z",
@@ -86,6 +158,18 @@
       "spoiler": false
     },
     {
+      "id": "f0b97e7930f0",
+      "fecha": "2026-11-12T08:36:00Z",
+      "titulo": "Rockstar comparte nuevo gameplay de GTA 6 en primera persona y es fácil confundir sus gráficos con la vida real",
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://vandal.elespanol.com/noticia/2026316006/rockstar-comparte-nuevo-gameplay-de-gta-6-en-primera-persona-y-es-facil-confundir-sus-graficos-con-la-vida-real/",
+      "spoiler": false
+    },
+    {
       "id": "707475537dd8",
       "fecha": "2026-11-12T08:00:38Z",
       "titulo": "Los fans de GTA 6 encuentran una posible pista sobre el regreso de un personaje mítico",
@@ -107,6 +191,18 @@
       "oficial": false,
       "idioma": "es",
       "url": "https://es.ign.com/grand-theft-auto-vi/235547/rockstar-vuelve-a-sorprender-con-nuevas-imagenes-de-gta-6-en-otra-campana-viral",
+      "spoiler": false
+    },
+    {
+      "id": "1c3b24936300",
+      "fecha": "2026-11-11T17:37:00Z",
+      "titulo": "Así será el extremo nivel de detalle de GTA 6: 'Podrás comer un donut con una mano y beber cerveza con la otra'",
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://vandal.elespanol.com/noticia/2026315047/asi-sera-el-extremo-nivel-de-detalle-de-gta-6-podras-comer-un-donut-con-una-mano-y-beber-cerveza-con-la-otra/",
       "spoiler": false
     },
     {
