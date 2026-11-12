@@ -45,7 +45,7 @@
       <span class="label"><span class="dot" aria-hidden="true"></span>Última revisión: <span id="upd">cargando…</span></span>
       <button type="button" class="spoil-toggle" id="spoilToggle" aria-pressed="true" title="Difumina filtraciones y detalles de la historia"><span class="sw" aria-hidden="true"></span><span class="lbl">Modo sin spoilers</span></button>
     </div>
-    <p class="aviso-diario"><span class="reloj" aria-hidden="true"></span><span>Cada noche, a partir de las <strong>23:00</strong> (hora peninsular española), buscamos novedades en las fuentes oficiales y en la prensa<span id="avisoLocal"></span>.<span id="avisoLanzamiento" hidden> Del 16 al 22 de noviembre, también a las <strong>08:30</strong> y a las <strong>17:30</strong>.</span></span></p>
+    <p class="aviso-diario"><span class="reloj" aria-hidden="true"></span><span>Tres veces al día, a las <strong>08:30</strong>, <strong>17:30</strong> y <strong>23:30</strong> (hora peninsular española), la web recoge sola los titulares de las fuentes oficiales y de la prensa<span id="avisoLocal"></span>.</span></p>
   </header>
 
   <div class="searchbox" role="search">
@@ -110,8 +110,14 @@
   </div>
 
   <div class="panel" id="p-noticias" role="tabpanel" aria-labelledby="tab-noticias" hidden>
-  <section aria-labelledby="n-h" style="display:flex;flex-direction:column;gap:16px">
-    <div class="sec-head"><h2 id="n-h"><em>Últimas</em>noticias</h2><span class="label" id="ncount"></span></div>
+  <section aria-labelledby="t-h" class="bloque-noticias">
+    <div class="sec-head"><h2 id="t-h"><em>Al</em>minuto</h2><span class="label" id="tcount"></span></div>
+    <p class="nota-auto">Titulares de Rockstar, Take-Two y la prensa en español, recogidos automáticamente tres veces al día. Se publican tal cual, sin revisar: abre el enlace para leer la noticia en su medio.</p>
+    <ul class="feed" id="titulares"><li class="empty">Cargando titulares…</li></ul>
+  </section>
+
+  <section aria-labelledby="n-h" class="bloque-noticias">
+    <div class="sec-head"><h2 id="n-h"><em>Noticias</em>verificadas</h2><span class="label" id="ncount"></span></div>
     <div class="legend">
       <span><span class="chip confirmado">Confirmado</span>Rockstar, Take-Two u organismo oficial</span>
       <span><span class="chip reportado">Reportado</span>Prensa fiable, sin confirmación oficial</span>
@@ -259,6 +265,7 @@
 <script src="js/secciones/resumen.js"></script>
 <script src="js/secciones/agenda.js"></script>
 <script src="js/secciones/noticias.js"></script>
+<script src="js/secciones/titulares.js"></script>
 <script src="js/secciones/trailers.js"></script>
 <script src="js/secciones/personajes.js"></script>
 <script src="js/secciones/musica.js"></script>

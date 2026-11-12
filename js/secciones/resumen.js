@@ -18,7 +18,9 @@
     var meta = datos.estado.resumen;
     var box = LN.clear("facts");
     if (!meta) { LN.vacio(box, "p", "La ficha aparecerá tras la primera revisión."); return; }
-    if (meta.actualizado) document.getElementById("upd").textContent = LN.fmtDate(meta.actualizado, true);
+    // The latest of the curated review and the automatic headlines (ISO strings in UTC compare as text).
+    var ultima = [meta.actualizado, datos.titularesActualizado].filter(Boolean).sort().pop();
+    if (ultima) document.getElementById("upd").textContent = LN.fmtDate(ultima, true);
     if (meta.lanzamientoTexto) document.getElementById("launchLbl").textContent = "Lanzamiento: " + meta.lanzamientoTexto;
     if (meta.lanzamientoISO) {
       var d = new Date(meta.lanzamientoISO + "T00:00:00");

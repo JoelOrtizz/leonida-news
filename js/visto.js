@@ -5,7 +5,7 @@
   var seen = LN.store(CLAVE) || {}, fresh = {}, timer = 0;
   // Collections shown in each tab.
   var TAB_COLLS = {
-    resumen: ["agenda"], noticias: ["noticias"], trailers: ["trailers"], personajes: ["personajes"], musica: ["musica"],
+    resumen: ["agenda"], noticias: ["noticias", "titulares"], trailers: ["trailers"], personajes: ["personajes"], musica: ["musica"],
     cronologia: ["cronologia"], mitos: ["mitos"], resenas: ["resenas"]
   };
   LN.pestanaActual = "resumen";
