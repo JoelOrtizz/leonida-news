@@ -25,7 +25,7 @@ var OFICIALES = [
   /^(www\.)?rockstargames\.com$/, /^support\.rockstargames\.com$/, /^store\.rockstargames\.com$/,
   /^(www\.|ir\.)?take2games\.com$/, /^(www\.)?sec\.gov$/,
   /^(www\.)?esrb\.org$/, /^(www\.)?pegi\.info$/,
-  /^(www\.|store\.)?playstation\.com$/, /^(www\.)?xbox\.com$/, /^(www\.)?microsoft\.com$/,
+  /^(www\.|store\.|blog\.)?playstation\.com$/, /^(www\.|news\.)?xbox\.com$/, /^(www\.)?microsoft\.com$/,
   /^(www\.)?youtube\.com$/, /^(www\.)?thegameawards\.com$/
 ];
 // Official accounts and the official pages of partners that co-organise events with Rockstar (e.g. the Miami HEAT's "A Night in Vice City").
