@@ -1,6 +1,54 @@
 {
-  "actualizado": "2026-11-13T15:33:00Z",
+  "actualizado": "2026-11-13T22:04:43Z",
   "elementos": [
+    {
+      "id": "85acaadf0a0d",
+      "fecha": "2026-11-13T19:12:28Z",
+      "titulo": "Macca & Friends, la irreverente serie de animación que podrás ver en GTA 6, estrena su primer tráiler",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/macca-friends-irreverente-serie-animacion-que-podras-ver-gta-6-estrena-su-primer-trailer_7060980_0.html",
+      "spoiler": false
+    },
+    {
+      "id": "62a1c85b649b",
+      "fecha": "2026-11-13T16:38:00Z",
+      "titulo": "La precarga de GTA 6 bate récords de tráfico en Internet antes de su lanzamiento",
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://vandal.elespanol.com/noticia/2026317034/la-precarga-de-gta-6-bate-records-de-trafico-en-internet-antes-de-su-lanzamiento/",
+      "spoiler": false
+    },
+    {
+      "id": "2125b5dfbd83",
+      "fecha": "2026-11-13T16:28:30Z",
+      "titulo": "Ahora entiendo a qué viene el cocodrilo rosa de GTA VI: es de una serie de animación",
+      "fuente": "IGN España",
+      "fuenteId": "ign-espana",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://es.ign.com/grand-theft-auto-vi/235598/ahora-entiendo-a-que-viene-el-cocodrilo-rosa-de-gta-vi-es-de-una-serie-de-animacion",
+      "spoiler": false
+    },
+    {
+      "id": "9a9c5ec201da",
+      "fecha": "2026-11-13T15:39:00Z",
+      "titulo": "GTA 6 muestra Macca & Friends, la serie de dibujos animados que podremos ver dentro del juego",
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://vandal.elespanol.com/noticia/2026317031/gta-6-muestra-macca-friends-la-serie-de-dibujos-animados-que-podremos-ver-dentro-del-juego/",
+      "spoiler": false
+    },
     {
       "id": "c997df8a35ed",
       "fecha": "2026-11-13T14:26:00Z",
