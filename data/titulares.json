@@ -1,6 +1,78 @@
 {
-  "actualizado": "2026-11-13T02:49:55Z",
+  "actualizado": "2026-11-13T15:33:00Z",
   "elementos": [
+    {
+      "id": "c997df8a35ed",
+      "fecha": "2026-11-13T14:26:00Z",
+      "titulo": "GTA 6 no ha salido y ya ha recibido su primer parche en PS5: la versión 1.002 está disponible, pero no para todos",
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://vandal.elespanol.com/noticia/2026317028/gta-6-no-ha-salido-y-ya-ha-recibido-su-primer-parche-en-ps5-la-version-1002-esta-disponible-pero-no-para-todos/",
+      "spoiler": false
+    },
+    {
+      "id": "33f6f1bd0adf",
+      "fecha": "2026-11-13T12:59:00Z",
+      "titulo": "Solo aparece dos segundos en el nuevo tráiler de GTA 6 y los fans creen que es un viejo conocido de la saga",
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://vandal.elespanol.com/noticia/2026317027/solo-aparece-dos-segundos-en-el-nuevo-trailer-de-gta-6-y-los-fans-creen-que-es-un-viejo-conocido-de-la-saga/",
+      "spoiler": false
+    },
+    {
+      "id": "6670633f4adf",
+      "fecha": "2026-11-13T10:02:10Z",
+      "titulo": "Nitro 1x12: GTA6 llega a las tiendas, ventas de Ocarina of Time, el lío de Nvidia...",
+      "fuente": "Eurogamer.es",
+      "fuenteId": "eurogamer-es",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.eurogamer.es/nitro-1x12-gta6-llega-a-las-tiendas-ventas-de-ocarina-of-time-el-lio-de-nvidia",
+      "spoiler": false
+    },
+    {
+      "id": "bea285e12a84",
+      "fecha": "2026-11-13T09:00:15Z",
+      "titulo": "Rockstar presume de la calidad gráfica de GTA 6 con dos clips que hacen dudar a los jugadores sobre si son vídeos reales, pero se confirma que están hechos con el motor del juego",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/rockstar-presume-calidad-grafica-gta-6-con-dos-clips-que-hacen-dudar-los-jugadores-sobre-si-son-videos-reales-pero-se-confirma-que-estan-hechos-con-motor-juego_7060597_0.html",
+      "spoiler": false
+    },
+    {
+      "id": "a30d4f0150e4",
+      "fecha": "2026-11-13T08:54:00Z",
+      "titulo": "¿Miami o Vice City? Un nuevo vídeo de GTA 6 muestra un desfile de superdeportivos que parece real",
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://vandal.elespanol.com/noticia/2026317008/miami-o-vice-city-un-nuevo-video-de-gta-6-muestra-un-desfile-de-superdeportivos-que-parece-real/",
+      "spoiler": false
+    },
+    {
+      "id": "f495cd1d1dca",
+      "fecha": "2026-11-13T08:01:27Z",
+      "titulo": "Varias operadoras de Internet no estaban preparadas para GTA 6 y sus descargas ya están pasando factura a la red",
+      "fuente": "3DJuegos",
+      "fuenteId": "3djuegos",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/varias-operadoras-internet-no-estaban-preparadas-para-gta-6-sus-descargas-estan-pasando-factura-a-red",
+      "spoiler": false
+    },
     {
       "id": "154cfccc5bdf",
       "fecha": "2026-11-12T19:21:24Z",
