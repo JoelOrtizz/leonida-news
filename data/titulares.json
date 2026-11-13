@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-12T22:23:09Z",
+  "actualizado": "2026-11-13T02:49:55Z",
   "elementos": [
     {
       "id": "154cfccc5bdf",
@@ -72,6 +72,30 @@
       "idioma": "es",
       "url": "https://es.ign.com/grand-theft-auto-vi/235562/ni-la-violencia-ni-las-drogas-esto-es-lo-que-casi-provoca-la-censura-de-gta-vi-en-corea-del-sur",
       "spoiler": false
+    },
+    {
+      "id": "fcce8400e3b9",
+      "fecha": "2026-11-12T17:21:00Z",
+      "titulo": "Rockstar recuerda que GTA 6 saldrá en una semana: 'Gracias a todos en la comunidad por vuestro increíble apoyo'",
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://vandal.elespanol.com/noticia/2026316045/rockstar-recuerda-que-gta-6-saldra-en-una-semana-gracias-a-todos-en-la-comunidad-por-vuestro-increible-apoyo/",
+      "spoiler": false
+    },
+    {
+      "id": "96b776909382",
+      "fecha": "2026-11-12T16:29:00Z",
+      "titulo": "Cuidado con los spoilers de GTA 6: filtran el mapa completo de Leónida incluido en su caja coleccionista",
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://vandal.elespanol.com/noticia/2026316040/cuidado-con-los-spoilers-de-gta-6-filtran-el-mapa-completo-de-leonida-incluido-en-su-caja-coleccionista/",
+      "spoiler": true
     },
     {
       "id": "2e25fe6f3fdb",
