@@ -1,6 +1,42 @@
 {
-  "actualizado": "2026-11-13T22:04:43Z",
+  "actualizado": "2026-11-14T14:23:12Z",
   "elementos": [
+    {
+      "id": "a5f837e285f7",
+      "fecha": "2026-11-14T09:09:52Z",
+      "titulo": "La carátula física de GTA 6 puede desvelar el código del AAA con una linterna, según varios fans, aunque esto revela una curiosidad de Lucía",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/caratula-fisica-gta-6-puede-desvelar-codigo-aaa-con-una-linterna-segun-varios-fans-aunque-esto-revela-una-curiosidad-lucia_7061043_0.html",
+      "spoiler": false
+    },
+    {
+      "id": "00876faa9749",
+      "fecha": "2026-11-14T08:33:30Z",
+      "titulo": "Los nominados en The Game Awards 2026 se anunciarán la próxima semana y pronto sabremos el GOTY, un premio que podrían llevarse Zelda o GTA 6",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/los-nominados-the-game-awards-2026-se-anunciaran-proxima-semana-pronto-sabremos-goty-un-premio-que-podrian-llevarse-zelda-gta-6_7061039_0.html",
+      "spoiler": false
+    },
+    {
+      "id": "3fa85f0054bd",
+      "fecha": "2026-11-14T08:15:00Z",
+      "titulo": "Un analista lo tiene claro: The Elder Scrolls 6 jamás podrá ocupar el inmenso vacío que deje GTA 6",
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://vandal.elespanol.com/noticia/2026318001/un-analista-lo-tiene-claro-the-elder-scrolls-6-jamas-podra-ocupar-el-inmenso-vacio-que-deje-gta-6/",
+      "spoiler": false
+    },
     {
       "id": "85acaadf0a0d",
       "fecha": "2026-11-13T19:12:28Z",
