@@ -1,6 +1,18 @@
 {
-  "actualizado": "2026-11-15T02:03:36Z",
+  "actualizado": "2026-11-15T14:53:30Z",
   "elementos": [
+    {
+      "id": "dbc84115bc42",
+      "fecha": "2026-11-15T12:00:36Z",
+      "titulo": "Estas películas tienen todo lo que necesitas para ir calentando motores antes de GTA 6",
+      "fuente": "IGN España",
+      "fuenteId": "ign-espana",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://es.ign.com/grand-theft-auto-vi/235480/estas-peliculas-tienen-todo-lo-que-necesitas-para-ir-calentando-motores-antes-de-gta-6",
+      "spoiler": false
+    },
     {
       "id": "2283a66c48eb",
       "fecha": "2026-11-14T22:58:06Z",
