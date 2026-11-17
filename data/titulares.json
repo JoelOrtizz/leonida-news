@@ -1,6 +1,78 @@
 {
-  "actualizado": "2026-11-17T16:58:35Z",
+  "actualizado": "2026-11-17T23:36:38Z",
   "elementos": [
+    {
+      "id": "f297d9ea5877",
+      "fecha": "2026-11-17T21:31:23Z",
+      "titulo": "Todos lo sospechábamos, pero ahora está comprobado. GTA 6 hará que miles de personas falten al trabajo el 19 de noviembre",
+      "fuente": "3DJuegos",
+      "fuenteId": "3djuegos",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/todos-sospechabamos-ahora-esta-comprobado-gta-6-hara-que-miles-personas-falten-al-trabajo-19-noviembre",
+      "spoiler": false
+    },
+    {
+      "id": "fb43b16276f6",
+      "fecha": "2026-11-17T19:59:26Z",
+      "titulo": "GTA VI revela por fin quién interpreta a Lucía, aunque se ha hecho de la manera más discreta posible",
+      "fuente": "IGN España",
+      "fuenteId": "ign-espana",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://es.ign.com/grand-theft-auto-vi/235687/gta-vi-revela-por-fin-quien-interpreta-a-lucia-aunque-se-ha-hecho-de-la-manera-mas-discreta-posible",
+      "spoiler": false
+    },
+    {
+      "id": "ec876f767e0e",
+      "fecha": "2026-11-17T18:18:50Z",
+      "titulo": "Los nominados a The Game Awards 2026 confirman quién es la actriz de Lucía en GTA 6 (y no es ninguna sorpresa)",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/los-nominados-the-game-awards-2026-confirman-quien-es-actriz-lucia-gta-6-no-es-ninguna-sorpresa_7062315_0.html",
+      "spoiler": false
+    },
+    {
+      "id": "e1ba429979e3",
+      "fecha": "2026-11-17T17:45:00Z",
+      "titulo": "La nominación a los TGA desvela la identidad de la actriz de Lucia en GTA 6",
+      "fuente": "Eurogamer.es",
+      "fuenteId": "eurogamer-es",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.eurogamer.es/la-nominacion-a-los-tga-desvela-la-identidad-de-la-actriz-de-lucia-en-gta-6",
+      "spoiler": false
+    },
+    {
+      "id": "a2df48f96575",
+      "fecha": "2026-11-17T17:15:31Z",
+      "titulo": "The Game Awards 2026: todos los nominados al GOTY, con GTA 6 y Zelda Ocarina of Time como favoritos y lista completa de categorías",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/the-game-awards-2026-todos-los-nominados-goty-con-gta-6-zelda-ocarina-of-time-como-favoritos-lista-completa-categorias_7061704_0.html",
+      "spoiler": false
+    },
+    {
+      "id": "0ee3757e0409",
+      "fecha": "2026-11-17T17:00:00Z",
+      "titulo": "El lanzamiento de GTA 6 provoca en España un aumento del 44 % de solicitudes de días libres",
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://vandal.elespanol.com/noticia/2026321035/el-lanzamiento-de-gta-6-provoca-en-espana-un-aumento-del-44-de-solicitudes-de-dias-libres/",
+      "spoiler": false
+    },
     {
       "id": "e5fd8c26966f",
       "fecha": "2026-11-17T16:06:15Z",
