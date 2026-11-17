@@ -1,6 +1,42 @@
 {
-  "actualizado": "2026-11-16T17:14:03Z",
+  "actualizado": "2026-11-17T00:22:26Z",
   "elementos": [
+    {
+      "id": "57997c8d95eb",
+      "fecha": "2026-11-16T18:46:28Z",
+      "titulo": "GTA 6 ya bate récords de ventas: se estima que va a ser el lanzamiento más grande de la historia, con 15 millones de copias en su estreno",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/gta-6-ya-bate-records-ventas-se-estima-que-va-ser-lanzamiento-mas-grande-historia-con-15-millones-copias-su-estreno_7061842_0.html",
+      "spoiler": false
+    },
+    {
+      "id": "81f53d0b6187",
+      "fecha": "2026-11-16T18:31:23Z",
+      "titulo": "A 3 días de GTA 6, el autor del primer hackeo de Rockstar enfrenta su destino. La verdadera sorpresa es que ya empieza a asumir las consecuencias",
+      "fuente": "3DJuegos",
+      "fuenteId": "3djuegos",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/a-3-dias-gta-6-autor-primer-hackeo-rockstar-enfrenta-su-destino-verdadera-sorpresa-que-empieza-a-asumir-consecuencias",
+      "spoiler": false
+    },
+    {
+      "id": "7e141e428f37",
+      "fecha": "2026-11-16T17:20:00Z",
+      "titulo": "GTA 6 llega a NBA 2K27: el deseado juego de Rockstar protagonizará la Temporada 3 en su primera gran colaboración",
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://vandal.elespanol.com/noticia/2026320030/gta-6-llega-a-nba-2k27-el-deseado-juego-de-rockstar-protagonizara-la-temporada-3-en-su-primera-gran-colaboracion/",
+      "spoiler": false
+    },
     {
       "id": "639889810827",
       "fecha": "2026-11-16T16:53:53Z",
@@ -14,6 +50,18 @@
       "spoiler": false
     },
     {
+      "id": "129a3f7f32be",
+      "fecha": "2026-11-16T16:43:00Z",
+      "titulo": "¿Puede superar GTA 6 los 2.000 millones de dólares en su primer fin de semana? Un analista apuesta por ello",
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://vandal.elespanol.com/noticia/2026320029/puede-superar-gta-6-los-2000-millones-de-dolares-en-su-primer-fin-de-semana-un-analista-apuesta-por-ello/",
+      "spoiler": false
+    },
+    {
       "id": "95e216cc826d",
       "fecha": "2026-11-16T16:30:00Z",
       "titulo": "Más locuras de GTA 6: Xbox convierte a un famoso rapero en doctor que da bajas para poder jugar esta semana, y algunos fans solo lo quieren probar para ver pájaros",
@@ -23,6 +71,18 @@
       "oficial": false,
       "idioma": "es",
       "url": "https://www.hobbyconsolas.com/videojuegos/mas-locuras-gta-6-xbox-convierte-un-famoso-rapero-doctor-que-da-bajas-para-poder-jugar-esta-semana-algunos-fans-solo-quieren-probar-para-ver-pajaros_7061743_0.html",
+      "spoiler": false
+    },
+    {
+      "id": "1bb1c27a902d",
+      "fecha": "2026-11-16T16:07:34Z",
+      "titulo": "NBA 2K27 x GTA VI - Tráiler oficial de la colaboración con Vice City",
+      "fuente": "IGN España",
+      "fuenteId": "ign-espana",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://es.ign.com/nba-2k27/235652/nba-2k27-x-gta-vi-trailer-oficial-de-la-colaboracion-con-vice-city",
       "spoiler": false
     },
     {
