@@ -1,6 +1,42 @@
 {
-  "actualizado": "2026-11-18T23:00:18Z",
+  "actualizado": "2026-11-19T03:45:51Z",
   "elementos": [
+    {
+      "id": "cf1f102e53d8",
+      "fecha": "2026-11-19T00:01:05Z",
+      "titulo": "PlayStation Network (PSN) se ha caído en España para algunos jugadores. El estreno de GTA 6 ha saturado los servidores de PS5 por momentos",
+      "fuente": "3DJuegos",
+      "fuenteId": "3djuegos",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.3djuegos.com/ps4/noticias/playstation-network-psn-se-ha-caido-espana-para-algunos-jugadores-estreno-gta-6-ha-saturado-servidores-ps5-momentos",
+      "spoiler": false
+    },
+    {
+      "id": "38211d4d36c6",
+      "fecha": "2026-11-18T23:00:33Z",
+      "titulo": "Grand Theft Auto VI ya está disponible en España: aquí tienes 5 cosas a tener en cuenta antes de empezar",
+      "fuente": "IGN España",
+      "fuenteId": "ign-espana",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://es.ign.com/grand-theft-auto-vi/235742/grand-theft-auto-vi-ya-esta-disponible-en-espana-aqui-tienes-5-cosas-a-tener-en-cuenta-antes-de-empe",
+      "spoiler": false
+    },
+    {
+      "id": "b3ad9d6dfa71",
+      "fecha": "2026-11-18T23:00:00Z",
+      "titulo": "GTA 6 ya está disponible oficialmente en España: Rockstar acaba de desbloquear su juego en PS5 y Xbox Series",
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://vandal.elespanol.com/noticia/2026323001/gta-6-ya-esta-disponible-oficialmente-en-espana-rockstar-acaba-de-desbloquear-su-juego-en-ps5-y-xbox-series/",
+      "spoiler": false
+    },
     {
       "id": "575c8ef9d691",
       "fecha": "2026-11-18T22:28:07Z",
