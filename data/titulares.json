@@ -1,6 +1,174 @@
 {
-  "actualizado": "2026-11-19T16:40:44Z",
+  "actualizado": "2026-11-19T23:09:39Z",
   "elementos": [
+    {
+      "id": "e4851288ab1c",
+      "fecha": "2026-11-19T20:46:23Z",
+      "titulo": "A estas alturas, lo raro es que GTA 6 no rompa récords. Ahora Rockstar puede presumir de haber llevado el uso de Internet a un nivel nunca visto",
+      "fuente": "3DJuegos",
+      "fuenteId": "3djuegos",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/a-estas-alturas-raro-que-gta-6-no-rompa-records-ahora-rockstar-puede-presumir-haber-llevado-uso-internet-a-nivel-nunca-visto",
+      "spoiler": false
+    },
+    {
+      "id": "3cf60a600285",
+      "fecha": "2026-11-19T20:24:03Z",
+      "titulo": "Algunos fans de GTA 6 creen que el mapa físico de la edición coleccionista muestra a un personaje de Nintendo, y lo cierto es que sí se parece",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/algunos-fans-gta-6-creen-que-mapa-fisico-edicion-coleccionista-muestra-un-personaje-nintendo-cierto-es-que-si-se-parece_7063384_0.html",
+      "spoiler": false
+    },
+    {
+      "id": "aa0c48ca8b9c",
+      "fecha": "2026-11-19T19:57:31Z",
+      "titulo": "GTA VI no solo arrasa en reservas: también conquista a quienes ni siquiera lo han jugado, batiendo récords",
+      "fuente": "IGN España",
+      "fuenteId": "ign-espana",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://es.ign.com/grand-theft-auto-vi/235782/gta-vi-no-solo-arrasa-en-reservas-tambien-conquista-a-quienes-ni-siquiera-lo-han-jugado-batiendo-rec",
+      "spoiler": false
+    },
+    {
+      "id": "871b6b55629c",
+      "fecha": "2026-11-19T19:00:00Z",
+      "titulo": "Cómo tener el mejor comienzo posible en GTA 6: las armas únicas que puedes conseguir pronto y mejores 3 métodos para ganar dinero al principio",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/como-tener-mejor-comienzo-posible-gta-6-las-armas-unicas-que-puedes-conseguir-pronto-mejores-3-metodos-para-ganar-dinero-principio_7063190_0.html",
+      "spoiler": false
+    },
+    {
+      "id": "beb1a3680412",
+      "fecha": "2026-11-19T18:47:40Z",
+      "titulo": "El creador de Deus Ex critica duramente el caro desarrollo de Grand Theft Auto VI",
+      "fuente": "Eurogamer.es",
+      "fuenteId": "eurogamer-es",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.eurogamer.es/el-creador-de-deus-ex-critica-duramente-el-caro-desarrollo-de-grand-theft-auto-vi",
+      "spoiler": false
+    },
+    {
+      "id": "a9d3a7074c72",
+      "fecha": "2026-11-19T18:37:46Z",
+      "titulo": "Dos millones de jugadores se quedan cortos: muchísimos más jugadores habrían jugado a GTA VI antes de su estreno",
+      "fuente": "IGN España",
+      "fuenteId": "ign-espana",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://es.ign.com/grand-theft-auto-vi/235778/dos-millones-de-jugadores-se-quedan-cortos-muchisimos-mas-jugadores-habrian-jugado-a-gta-vi-antes-de",
+      "spoiler": false
+    },
+    {
+      "id": "12894658797b",
+      "fecha": "2026-11-19T18:30:27Z",
+      "titulo": "Olvídate de ver un parche para que GTA 6 funcione a 60 FPS en PS5 Pro. La consola de PlayStation se queda corta para el mundo abierto de Rockstar",
+      "fuente": "3DJuegos",
+      "fuenteId": "3djuegos",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/olvidate-ver-parche-gta-6-funcione-a-60-fps-ps5-pro-consola-playstation-se-queda-corta-para-mundo-abierto-rockstar",
+      "spoiler": false
+    },
+    {
+      "id": "d28dc49ee344",
+      "fecha": "2026-11-19T18:03:06Z",
+      "titulo": "GTA 6 se anota un récord de escándalo, con ventas estimadas de más de 19 millones de copias e ingresos cercanos a los dos mil millones de dólares",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/gta-6-se-anota-un-record-escandalo-con-ventas-estimadas-mas-19-millones-copias-ingresos-cercanos-los-dos-mil-millones-dolares_7063332_0.html",
+      "spoiler": false
+    },
+    {
+      "id": "7d5dc191481f",
+      "fecha": "2026-11-19T17:41:00Z",
+      "titulo": "La Policía Nacional advierte: 'En GTA 6 todo es posible, pero la vida real no es un juego'",
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://vandal.elespanol.com/noticia/2026323057/la-policia-nacional-advierte-en-gta-6-todo-es-posible-pero-la-vida-real-no-es-un-juego/",
+      "spoiler": false
+    },
+    {
+      "id": "e1fa5c079a4a",
+      "fecha": "2026-11-19T17:25:00Z",
+      "titulo": "Las XBOX Series se visten de GTA 6 entre quejas de los jugadores a Microsoft",
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://vandal.elespanol.com/noticia/2026323055/las-xbox-series-se-visten-de-gta-6-entre-quejas-de-los-jugadores-a-microsoft/",
+      "spoiler": false
+    },
+    {
+      "id": "988576044faf",
+      "fecha": "2026-11-19T17:12:00Z",
+      "titulo": "Rockstar confirma el reparto oficial de GTA 6: estos son los actores y actrices que dan vida a sus personajes",
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://vandal.elespanol.com/noticia/2026323054/rockstar-confirma-el-reparto-oficial-de-gta-6-estos-son-los-actores-y-actrices-que-dan-vida-a-sus-personajes/",
+      "spoiler": false
+    },
+    {
+      "id": "e40b09f4c8ac",
+      "fecha": "2026-11-19T17:09:00Z",
+      "titulo": "GTA 6 sin disco 'daña a los consumidores', según el jefe de GameStop que critica los juegos con código",
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://vandal.elespanol.com/noticia/2026323053/gta-6-sin-disco-dana-a-los-consumidores-segun-el-jefe-de-gamestop-que-critica-los-juegos-con-codigo/",
+      "spoiler": false
+    },
+    {
+      "id": "d45611782728",
+      "fecha": "2026-11-19T17:00:32Z",
+      "titulo": "Burger King acaba de sacar una hamburguesa en honor a GTA VI",
+      "fuente": "IGN España",
+      "fuenteId": "ign-espana",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://es.ign.com/grand-theft-auto-vi/235769/burger-king-acaba-de-sacar-una-hamburguesa-en-honor-a-gta-vi",
+      "spoiler": false
+    },
+    {
+      "id": "0805d62075f3",
+      "fecha": "2026-11-19T17:00:00Z",
+      "titulo": "Cómo encontrar al Perro Molón de GTA 6: el perro que pilota una moto de agua y te lleva a una isla secreta",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/como-encontrar-perro-molon-gta-6-perro-que-pilota-una-moto-agua-te-lleva-una-isla-secreta_7063213_0.html",
+      "spoiler": false
+    },
     {
       "id": "94f786eac65d",
       "fecha": "2026-11-19T16:37:00Z",
@@ -36,6 +204,30 @@
       "idioma": "es",
       "url": "https://vandal.elespanol.com/noticia/2026323048/en-gta-6-hay-una-consola-con-varios-juegos-completos-entre-ellos-una-parodia-de-the-witness/",
       "spoiler": false
+    },
+    {
+      "id": "582822f4355d",
+      "fecha": "2026-11-19T16:00:00Z",
+      "titulo": "🔴 GTA 6 Backseat Gaming With IGN 🔴",
+      "fuente": "IGN España",
+      "fuenteId": "ign-espana",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://es.ign.com/grand-theft-auto-vi/235784/gta-6-backseat-gaming-with-ign",
+      "spoiler": false
+    },
+    {
+      "id": "5ca5ebb43892",
+      "fecha": "2026-11-19T16:00:00Z",
+      "titulo": "7 misiones secundarias de GTA VI que no te puedes perder",
+      "fuente": "IGN España",
+      "fuenteId": "ign-espana",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://es.ign.com/grand-theft-auto-vi/235779/7-misiones-secundarias-de-gta-vi-que-no-te-puedes-perder",
+      "spoiler": true
     },
     {
       "id": "2dcd97fc6ced",
@@ -119,6 +311,18 @@
       "oficial": false,
       "idioma": "es",
       "url": "https://www.3djuegos.com/juegos/melvor-idle-2-a-runescape-adventure/noticias/hay-juego-que-se-ha-atrevido-a-competir-gta-6-le-esta-yendo-mucho-mejor-que-podrias-imaginar",
+      "spoiler": false
+    },
+    {
+      "id": "9accea76f80e",
+      "fecha": "2026-11-19T14:34:11Z",
+      "titulo": "GTA 6 (Grand Theft Auto 6) - Official Global Launch Trailer",
+      "fuente": "IGN España",
+      "fuenteId": "ign-espana",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://es.ign.com/grand-theft-auto-vi/235783/gta-6-grand-theft-auto-6-official-global-launch-trailer",
       "spoiler": false
     },
     {
@@ -2195,18 +2399,6 @@
       "oficial": true,
       "idioma": "en",
       "url": "https://www.youtube.com/shorts/AvBcfBrBl60",
-      "spoiler": false
-    },
-    {
-      "id": "09b2dfe24fcb",
-      "fecha": "2026-11-10T10:25:10Z",
-      "titulo": "Las reservas de GTA 6 están \"superando las expectativas\" de Take-Two, pero NBA 2K27 ha funcionado por debajo de lo esperado",
-      "fuente": "Eurogamer.es",
-      "fuenteId": "eurogamer-es",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://www.eurogamer.es/las-reservas-de-gta-6-estan-superando-las-expectativas-de-take-two-pero-nba-2k27-ha-funcionado-por-debajo-de-lo-esperado",
       "spoiler": false
     }
   ]
