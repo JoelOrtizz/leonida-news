@@ -1,6 +1,54 @@
 {
-  "actualizado": "2026-11-22T15:29:45Z",
+  "actualizado": "2026-11-22T21:56:08Z",
   "elementos": [
+    {
+      "id": "0650278abcd0",
+      "fecha": "2026-11-22T18:57:40Z",
+      "titulo": "Grand Theft Auto VI vende 32,5 millones de copias en su primer día, contando las reservas",
+      "fuente": "Eurogamer.es",
+      "fuenteId": "eurogamer-es",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.eurogamer.es/grand-theft-auto-vi-vende-325-millones-de-copias-en-su-primer-dia-contando-las-reservas",
+      "spoiler": false
+    },
+    {
+      "id": "a3a93cd036fa",
+      "fecha": "2026-11-22T18:46:21Z",
+      "titulo": "¿Por qué Jason es tan callado y reservado en GTA 6? Rockstar ha explicado que una película de 1972 inspiró su personalidad",
+      "fuente": "3DJuegos",
+      "fuenteId": "3djuegos",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/que-jason-callado-reservado-gta-6-rockstar-ha-explicado-que-pelicula-1972-inspiro-su-personalidad",
+      "spoiler": false
+    },
+    {
+      "id": "606e8a3802b0",
+      "fecha": "2026-11-22T17:46:23Z",
+      "titulo": "La nominación a GOTY de GTA VI ha confundido a muchos jugadores. La mayoría de lectores de 3DJuegos creen que Geoff Keighley pudo haberlo hecho mejor",
+      "fuente": "3DJuegos",
+      "fuenteId": "3djuegos",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/nominacion-a-goty-gta-vi-no-ha-gustado-a-muchos-jugadores-mayoria-lectores-3djuegos-creen-que-geoff-keighley-pudo-haberlo-hecho-mejor",
+      "spoiler": false
+    },
+    {
+      "id": "f86e347c07e8",
+      "fecha": "2026-11-22T15:30:00Z",
+      "titulo": "GTA 6 alcanza los 60 FPS en Xbox Series X por un error del sistema Quick Resume, pero también duplica la velocidad",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/gta-6-alcanza-los-60-fps-xbox-series-x-por-un-error-sistema-quick-resume-pero-tambien-duplica-velocidad_7064216_0.html",
+      "spoiler": false
+    },
     {
       "id": "ede6fc60c320",
       "fecha": "2026-11-22T14:00:00Z",
@@ -2351,54 +2399,6 @@
       "oficial": false,
       "idioma": "es",
       "url": "https://es.ign.com/grand-theft-auto-vi/235671/sony-lanza-una-ultima-actualizacion-express-para-ps5-antes-del-lanzamiento-de-gta-6-esto-es-lo-que-c",
-      "spoiler": false
-    },
-    {
-      "id": "71e4b47f6b82",
-      "fecha": "2026-11-17T10:20:35Z",
-      "titulo": "GTA 6 confirma sus horarios de lanzamiento mundial: ¿a qué hora se puede jugar en España?",
-      "fuente": "IGN España",
-      "fuenteId": "ign-espana",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://es.ign.com/grand-theft-auto-vi/235669/gta-6-confirma-sus-horarios-de-lanzamiento-mundial-a-que-hora-se-puede-jugar-en-espana",
-      "spoiler": false
-    },
-    {
-      "id": "ee2cdd483017",
-      "fecha": "2026-11-17T10:10:00Z",
-      "titulo": "GTA 6 mete miedo a EA: Madden NFL 27 pide que no lo borres para hacer espacio a los 200 GB del juego de Rockstar",
-      "fuente": "Vandal",
-      "fuenteId": "vandal",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://vandal.elespanol.com/noticia/2026321015/gta-6-mete-miedo-a-ea-madden-nfl-27-pide-que-no-lo-borres-para-hacer-espacio-a-los-200-gb-del-juego-de-rockstar/",
-      "spoiler": false
-    },
-    {
-      "id": "8b1f49c5b0c8",
-      "fecha": "2026-11-17T10:07:00Z",
-      "titulo": "GTA 6 podría haber sido un 'GTA 5.5' y haberse lanzado antes, pero no era lo que Rockstar quería",
-      "fuente": "Vandal",
-      "fuenteId": "vandal",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://vandal.elespanol.com/noticia/2026321014/gta-6-podria-haber-sido-un-gta-55-y-haberse-lanzado-antes-pero-no-era-lo-que-rockstar-queria/",
-      "spoiler": false
-    },
-    {
-      "id": "9b247b049552",
-      "fecha": "2026-11-17T09:39:00Z",
-      "titulo": "Roban los carteles de GTA 6 que Rockstar puso en marquesinas y los venden por hasta 60 euros en Wallapop",
-      "fuente": "Vandal",
-      "fuenteId": "vandal",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://vandal.elespanol.com/noticia/2026321013/roban-los-carteles-de-gta-6-que-rockstar-puso-en-marquesinas-y-los-venden-por-hasta-60-euros-en-wallapop/",
       "spoiler": false
     }
   ]
