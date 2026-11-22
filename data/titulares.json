@@ -1,6 +1,90 @@
 {
-  "actualizado": "2026-11-21T21:48:08Z",
+  "actualizado": "2026-11-22T15:29:45Z",
   "elementos": [
+    {
+      "id": "ede6fc60c320",
+      "fecha": "2026-11-22T14:00:00Z",
+      "titulo": "Cuidado con GTA 6 y las fotos \"picantes\": banean a un usuario de PSN durante 30 días por mandar fotos creadas en el juego",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/cuidado-con-gta-6-las-fotos-picantes-banean-un-usuario-psn-durante-30-dias-por-mandar-fotos-creadas-juego_7064206_0.html",
+      "spoiler": false
+    },
+    {
+      "id": "2a8e131bcf45",
+      "fecha": "2026-11-22T14:00:00Z",
+      "titulo": "Bigfoot en GTA 6: cómo activar todos los posibles encuentros con la criatura y qué recompensa obtienes según qué hagas con él",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/bigfoot-gta-6-como-activar-todos-los-posibles-encuentros-con-criatura-que-recompensa-obtienes-segun-que-hagas-con_7063770_0.html",
+      "spoiler": false
+    },
+    {
+      "id": "c83379c79b66",
+      "fecha": "2026-11-22T12:00:00Z",
+      "titulo": "Todas las decisiones principales de GTA 6 y cómo cambia el juego según lo que elijas",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/todas-las-decisiones-principales-gta-6-como-cambia-juego-segun-que-elijas_7063929_0.html",
+      "spoiler": false
+    },
+    {
+      "id": "019b522bce30",
+      "fecha": "2026-11-22T11:30:00Z",
+      "titulo": "GTA 6 tiene en Mandy al personaje que más obsesiona a los jugadores... incluyendo a un expresidente de Nintendo América",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/gta-6-tiene-mandy-personaje-que-mas-obsesiona-los-jugadores-incluyendo-un-expresidente-nintendo-america_7064183_0.html",
+      "spoiler": false
+    },
+    {
+      "id": "b8ef80937f51",
+      "fecha": "2026-11-22T08:46:23Z",
+      "titulo": "Warren Spector (61), padre de Deus Ex, sobre Grand Theft Auto 6: \"Espero que sea el último de su clase\"",
+      "fuente": "3DJuegos",
+      "fuenteId": "3djuegos",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/warren-spector-61-padre-deus-ex-grand-theft-auto-6-espero-que-sea-ultimo-su-clase",
+      "spoiler": false
+    },
+    {
+      "id": "369b2d385b9c",
+      "fecha": "2026-11-22T08:33:31Z",
+      "titulo": "El culebrón del review bombing a GTA 6 se recrudece, con usuarios dando notas bajas a Ocarina of Time por venganza",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/culebron-review-bombing-gta-6-se-recrudece-con-usuarios-dando-notas-bajas-ocarina-of-time-por-venganza_7064171_0.html",
+      "spoiler": false
+    },
+    {
+      "id": "b27c2e63675b",
+      "fecha": "2026-11-22T07:30:00Z",
+      "titulo": "Los aciertos y errores de las nominaciones en The Game Awards 2026: GTA 6, Crimson Desert, Onimusha y el GOTY español",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/los-aciertos-errores-las-nominaciones-the-game-awards-2026-gta-6-crimson-desert-onimusha-goty-espanol_7062534_3.html",
+      "spoiler": false
+    },
     {
       "id": "91f1867955c7",
       "fecha": "2026-11-21T20:04:00Z",
@@ -2315,90 +2399,6 @@
       "oficial": false,
       "idioma": "es",
       "url": "https://vandal.elespanol.com/noticia/2026321013/roban-los-carteles-de-gta-6-que-rockstar-puso-en-marquesinas-y-los-venden-por-hasta-60-euros-en-wallapop/",
-      "spoiler": false
-    },
-    {
-      "id": "8995bdf1a2fb",
-      "fecha": "2026-11-17T09:38:00Z",
-      "titulo": "Juega gratis a la Temporada 3 de NBA 2K27 por ser miembro de GTA+ como parte de la colaboración con GTA 6",
-      "fuente": "Vandal",
-      "fuenteId": "vandal",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://vandal.elespanol.com/noticia/2026321012/juega-gratis-a-la-temporada-3-de-nba-2k27-por-ser-miembro-de-gta-como-parte-de-la-colaboracion-con-gta-6/",
-      "spoiler": false
-    },
-    {
-      "id": "bcd2e555a12c",
-      "fecha": "2026-11-17T07:03:28Z",
-      "titulo": "El clima dinámico de GTA 6",
-      "fuente": "IGN España",
-      "fuenteId": "ign-espana",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://es.ign.com/grand-theft-auto-vi/235661/el-clima-dinamico-de-gta-6",
-      "spoiler": false
-    },
-    {
-      "id": "12d5c2ad635a",
-      "fecha": "2026-11-17T07:03:28Z",
-      "titulo": "Rockstar desvela nuevas imágenes de GTA 6 que muestran el clima dinámico de Leonida",
-      "fuente": "IGN España",
-      "fuenteId": "ign-espana",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://es.ign.com/grand-theft-auto-vi/235660/rockstar-desvela-nuevas-imagenes-de-gta-6-que-muestran-el-clima-dinamico-de-leonida",
-      "spoiler": false
-    },
-    {
-      "id": "57997c8d95eb",
-      "fecha": "2026-11-16T18:46:28Z",
-      "titulo": "GTA 6 ya bate récords de ventas: se estima que va a ser el lanzamiento más grande de la historia, con 15 millones de copias en su estreno",
-      "fuente": "HobbyConsolas",
-      "fuenteId": "hobbyconsolas",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://www.hobbyconsolas.com/videojuegos/gta-6-ya-bate-records-ventas-se-estima-que-va-ser-lanzamiento-mas-grande-historia-con-15-millones-copias-su-estreno_7061842_0.html",
-      "spoiler": false
-    },
-    {
-      "id": "81f53d0b6187",
-      "fecha": "2026-11-16T18:31:23Z",
-      "titulo": "A 3 días de GTA 6, el autor del primer hackeo de Rockstar enfrenta su destino. La verdadera sorpresa es que ya empieza a asumir las consecuencias",
-      "fuente": "3DJuegos",
-      "fuenteId": "3djuegos",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/a-3-dias-gta-6-autor-primer-hackeo-rockstar-enfrenta-su-destino-verdadera-sorpresa-que-empieza-a-asumir-consecuencias",
-      "spoiler": false
-    },
-    {
-      "id": "7e141e428f37",
-      "fecha": "2026-11-16T17:20:00Z",
-      "titulo": "GTA 6 llega a NBA 2K27: el deseado juego de Rockstar protagonizará la Temporada 3 en su primera gran colaboración",
-      "fuente": "Vandal",
-      "fuenteId": "vandal",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://vandal.elespanol.com/noticia/2026320030/gta-6-llega-a-nba-2k27-el-deseado-juego-de-rockstar-protagonizara-la-temporada-3-en-su-primera-gran-colaboracion/",
-      "spoiler": false
-    },
-    {
-      "id": "639889810827",
-      "fecha": "2026-11-16T16:53:53Z",
-      "titulo": "Xbox inicia una de las campañas más surrealistas de su historia: promocionar GTA VI sin poder mencionar GTA VI",
-      "fuente": "IGN España",
-      "fuenteId": "ign-espana",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://es.ign.com/grand-theft-auto-vi/235649/xbox-inicia-una-de-las-campanas-mas-surrealistas-de-su-historia-promocionar-gta-vi-sin-poder-mencion",
       "spoiler": false
     }
   ]
