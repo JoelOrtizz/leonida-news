@@ -1,6 +1,18 @@
 {
-  "actualizado": "2026-11-22T21:56:08Z",
+  "actualizado": "2026-11-23T02:58:32Z",
   "elementos": [
+    {
+      "id": "1a93b4bb254c",
+      "fecha": "2026-11-22T22:16:25Z",
+      "titulo": "Los jugadores de PC tienen ganas de GTA 6: la mayoría de juegos de la saga Grand Theft Auto en Steam han batido un récord de jugadores simultáneos",
+      "fuente": "3DJuegos",
+      "fuenteId": "3djuegos",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/jugadores-pc-tienen-ganas-gta-6-mayoria-juegos-saga-grand-theft-auto-steam-han-batido-record-jugadores-simultaneos",
+      "spoiler": false
+    },
     {
       "id": "0650278abcd0",
       "fecha": "2026-11-22T18:57:40Z",
@@ -2387,18 +2399,6 @@
       "oficial": false,
       "idioma": "es",
       "url": "https://vandal.elespanol.com/noticia/2026321020/wallapop-se-llena-de-discos-fisicos-de-gta-6-los-venden-por-10-euros-y-avisan-de-que-son-decorativos/",
-      "spoiler": false
-    },
-    {
-      "id": "85429441027a",
-      "fecha": "2026-11-17T11:00:33Z",
-      "titulo": "Sony lanza una última actualización express para PS5 antes del lanzamiento de GTA 6: esto es lo que cambia",
-      "fuente": "IGN España",
-      "fuenteId": "ign-espana",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://es.ign.com/grand-theft-auto-vi/235671/sony-lanza-una-ultima-actualizacion-express-para-ps5-antes-del-lanzamiento-de-gta-6-esto-es-lo-que-c",
       "spoiler": false
     }
   ]
