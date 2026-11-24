@@ -1,6 +1,18 @@
 {
-  "actualizado": "2026-11-23T19:23:46Z",
+  "actualizado": "2026-11-24T02:59:06Z",
   "elementos": [
+    {
+      "id": "f76c516c34c3",
+      "fecha": "2026-11-23T20:54:57Z",
+      "titulo": "El clima de GTA 6 estaba roto, tal y como detectaron muchos fans, pero tras el parche que lo soluciona, tienen otras muchas peticiones para Rockstar",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/clima-gta-6-estaba-roto-tal-como-detectaron-muchos-fans-pero-tras-parche-que-soluciona-tienen-otras-muchas-peticiones-para-rockstar_7064851_0.html",
+      "spoiler": false
+    },
     {
       "id": "847e569a043a",
       "fecha": "2026-11-23T18:52:42Z",
@@ -2387,18 +2399,6 @@
       "oficial": false,
       "idioma": "es",
       "url": "https://vandal.elespanol.com/noticia/2026322035/rockstar-aclara-oficialmente-por-que-gta-6-no-tiene-un-modo-a-40-fps-en-consolas/",
-      "spoiler": false
-    },
-    {
-      "id": "40e13d91a608",
-      "fecha": "2026-11-18T14:30:31Z",
-      "titulo": "GTA 6 en Xbox Series S: ¿cómo se desenvuelve la consola más modesta con el juego más grande de todos los tiempos?",
-      "fuente": "IGN España",
-      "fuenteId": "ign-espana",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://es.ign.com/grand-theft-auto-vi/235731/gta-6-en-xbox-series-s-como-se-desenvuelve-la-consola-mas-modesta-con-el-juego-mas-grande-de-todos-l",
       "spoiler": false
     }
   ]
