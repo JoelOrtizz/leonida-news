@@ -1,6 +1,42 @@
 {
-  "actualizado": "2026-11-24T18:59:42Z",
+  "actualizado": "2026-11-25T00:59:08Z",
   "elementos": [
+    {
+      "id": "ab9b2cebc104",
+      "fecha": "2026-11-24T21:31:00Z",
+      "titulo": "Los creadores de Call of Duty pensaban que el estreno de GTA VI les iba a beneficiar. De momento, son los mayores víctimas del juego de Rockstar",
+      "fuente": "3DJuegos",
+      "fuenteId": "3djuegos",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.3djuegos.com/juegos/call-of-duty-modern-warfare-4/noticias/creadores-call-of-duty-pensaban-que-estreno-gta-vi-les-iba-a-beneficiar-momento-mayores-victimas-juego-rockstar",
+      "spoiler": false
+    },
+    {
+      "id": "3a09c2639e17",
+      "fecha": "2026-11-24T20:54:23Z",
+      "titulo": "GTA 6 tendrá cromos reales de la mano de Panini, con una colección de cartas coleccionables que saldrá a la venta en diciembre",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/gta-6-tendra-cromos-reales-mano-panini-con-una-coleccion-cartas-coleccionables-que-saldra-venta-diciembre_7065388_0.html",
+      "spoiler": false
+    },
+    {
+      "id": "202b487c1b5b",
+      "fecha": "2026-11-24T20:00:59Z",
+      "titulo": "CD Projekt da la última hora de sus proyectos y firma un acuerdo de exclusividad con Sony para The Witcher 4, siguiendo los pasos de GTA 6",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/cd-projekt-da-ultima-hora-sus-proyectos-firma-un-acuerdo-exclusividad-con-sony-para-the-witcher-4-siguiendo-los-pasos-gta-6_7065376_0.html",
+      "spoiler": false
+    },
     {
       "id": "138b23986ca8",
       "fecha": "2026-11-24T17:27:00Z",
@@ -2363,42 +2399,6 @@
       "oficial": false,
       "idioma": "es",
       "url": "https://es.ign.com/grand-theft-auto-vi/235755/la-mejor-forma-de-conseguir-dinero-en-gta-6-los-metodos-infalibles-al-principio-de-la-aventura-hacia",
-      "spoiler": false
-    },
-    {
-      "id": "0f15f30afbd2",
-      "fecha": "2026-11-19T07:30:28Z",
-      "titulo": "Estoy cerca del 100% absoluto en GTA 6: estas son las preguntas que más me repiten",
-      "fuente": "IGN España",
-      "fuenteId": "ign-espana",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://es.ign.com/grand-theft-auto-vi/235753/estoy-cerca-del-100-absoluto-en-gta-6-estas-son-las-preguntas-que-mas-me-repiten",
-      "spoiler": false
-    },
-    {
-      "id": "30a392d130b1",
-      "fecha": "2026-11-19T05:05:17Z",
-      "titulo": "Llevo 13 años esperando GTA 6 y le daré la espalda a Vice City tan pronto como sea posible",
-      "fuente": "3DJuegos",
-      "fuenteId": "3djuegos",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/llevo-13-anos-esperando-gta-6-le-dare-espalda-a-vice-city-sea-posible",
-      "spoiler": false
-    },
-    {
-      "id": "cf1f102e53d8",
-      "fecha": "2026-11-19T00:01:05Z",
-      "titulo": "PlayStation Network (PSN) se ha caído en España para algunos jugadores. El estreno de GTA 6 ha saturado los servidores de PS5 por momentos",
-      "fuente": "3DJuegos",
-      "fuenteId": "3djuegos",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://www.3djuegos.com/ps4/noticias/playstation-network-psn-se-ha-caido-espana-para-algunos-jugadores-estreno-gta-6-ha-saturado-servidores-ps5-momentos",
       "spoiler": false
     }
   ]
