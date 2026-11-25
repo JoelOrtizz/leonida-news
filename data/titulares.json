@@ -1,6 +1,18 @@
 {
-  "actualizado": "2026-11-25T00:59:08Z",
+  "actualizado": "2026-11-25T04:59:14Z",
   "elementos": [
+    {
+      "id": "20cc6dbeb5f5",
+      "fecha": "2026-11-25T03:03:00Z",
+      "titulo": "PlayStation ha protagonizado la campaña de marketing de GTA 6, pero Digital Foundry ha encontrado una ventaja en Xbox Series X",
+      "fuente": "3DJuegos",
+      "fuenteId": "3djuegos",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/playstation-ha-protagonizado-campana-marketing-gta-6-digital-foundry-ha-encontrado-ventaja-xbox-series-x",
+      "spoiler": false
+    },
     {
       "id": "ab9b2cebc104",
       "fecha": "2026-11-24T21:31:00Z",
@@ -2387,18 +2399,6 @@
       "oficial": false,
       "idioma": "es",
       "url": "https://www.hobbyconsolas.com/videojuegos/rockstar-revela-por-que-gta-6-no-permite-contratar-prostitutas_7062979_0.html",
-      "spoiler": false
-    },
-    {
-      "id": "1adcb9c62f24",
-      "fecha": "2026-11-19T09:00:32Z",
-      "titulo": "La mejor forma de conseguir dinero en GTA 6: los métodos infalibles al principio de la aventura, hacia la mitad y en la recta final",
-      "fuente": "IGN España",
-      "fuenteId": "ign-espana",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://es.ign.com/grand-theft-auto-vi/235755/la-mejor-forma-de-conseguir-dinero-en-gta-6-los-metodos-infalibles-al-principio-de-la-aventura-hacia",
       "spoiler": false
     }
   ]
