@@ -1,6 +1,66 @@
 {
-  "actualizado": "2026-11-25T18:04:21Z",
+  "actualizado": "2026-11-26T00:35:16Z",
   "elementos": [
+    {
+      "id": "a0bdf4a78504",
+      "fecha": "2026-11-25T20:12:48Z",
+      "titulo": "Rockstar desvela las características y actividades que eliminaron de GTA 6, como tenis, ir al cine y crafteo de objetos",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/rockstar-desvela-las-caracteristicas-actividades-que-eliminaron-gta-6-como-tenis-ir-cine-crafteo-objetos_7065901_0.html",
+      "spoiler": false
+    },
+    {
+      "id": "5052022554f3",
+      "fecha": "2026-11-25T20:00:26Z",
+      "titulo": "Verstappen ganó en Las Vegas y jugó 40 horas de GTA VI el mismo fin de semana. Las cinemáticas, eso sí, ni las ha mirado",
+      "fuente": "3DJuegos",
+      "fuenteId": "3djuegos",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/verstappen-gano-vegas-se-pego-40-horas-gta-vi-fin-semana-cinematicas-eso-ha-mirado",
+      "spoiler": false
+    },
+    {
+      "id": "ccc79f5eb01e",
+      "fecha": "2026-11-25T19:16:20Z",
+      "titulo": "Un jugador ha contado todos los edificios a los que puedes entrar en GTA 6. Parece un disparate, pero más loco es el trabajo que ha hecho Rockstar",
+      "fuente": "3DJuegos",
+      "fuenteId": "3djuegos",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/jugador-ha-contado-todos-edificios-a-que-puedes-entrar-gta-6-parece-disparate-loco-trabajo-que-ha-hecho-rockstar",
+      "spoiler": false
+    },
+    {
+      "id": "ffe8743fee95",
+      "fecha": "2026-11-25T18:32:31Z",
+      "titulo": "PlayStation Plus quiere que te tomes un descanso de GTA VI con estos juegazos que llegan a la plataforma",
+      "fuente": "IGN España",
+      "fuenteId": "ign-espana",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://es.ign.com/amnesia-the-bunker/235960/playstation-plus-quiere-que-te-tomes-un-descanso-de-gta-vi-con-estos-juegazos-que-llegan-a-la-plataf",
+      "spoiler": false
+    },
+    {
+      "id": "cdcff48a167c",
+      "fecha": "2026-11-25T18:00:00Z",
+      "titulo": "Descubren un intrincado easter egg de GTA 6 y es pura nostalgia: así puedes conseguir la camisa de Tommy Vercetti",
+      "fuente": "Vandal",
+      "fuenteId": "vandal",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://vandal.elespanol.com/noticia/2026329041/descubren-un-intrincado-easter-egg-de-gta-6-y-es-pura-nostalgia-asi-puedes-conseguir-la-camisa-de-tommy-vercetti/",
+      "spoiler": false
+    },
     {
       "id": "b0db31d94e2d",
       "fecha": "2026-11-25T17:27:00Z",
@@ -2339,66 +2399,6 @@
       "oficial": false,
       "idioma": "es",
       "url": "https://vandal.elespanol.com/noticia/2026323041/el-creador-de-deus-ex-alaba-a-gta-6-pero-cree-que-su-modelo-de-negocio-no-es-algo-que-otros-puedan-o-deban-imitar/",
-      "spoiler": false
-    },
-    {
-      "id": "ec4e094cf61c",
-      "fecha": "2026-11-19T15:08:00Z",
-      "titulo": "Se acabó el misterio de GTA 6: El actor Dylan Rourke confirma que interpreta a Jason Duval",
-      "fuente": "Vandal",
-      "fuenteId": "vandal",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://vandal.elespanol.com/noticia/2026323039/quien-interpreta-a-jason-en-gta-6-el-principal-sospechoso-posa-junto-a-la-actriz-de-lucia/",
-      "spoiler": false
-    },
-    {
-      "id": "215e5d372884",
-      "fecha": "2026-11-19T14:45:14Z",
-      "titulo": "Hay un juego que sí se ha atrevido a competir contra GTA 6, y le está yendo mucho mejor de lo que podrías imaginar",
-      "fuente": "3DJuegos",
-      "fuenteId": "3djuegos",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://www.3djuegos.com/juegos/melvor-idle-2-a-runescape-adventure/noticias/hay-juego-que-se-ha-atrevido-a-competir-gta-6-le-esta-yendo-mucho-mejor-que-podrias-imaginar",
-      "spoiler": false
-    },
-    {
-      "id": "9accea76f80e",
-      "fecha": "2026-11-19T14:34:11Z",
-      "titulo": "GTA 6 (Grand Theft Auto 6) - Official Global Launch Trailer",
-      "fuente": "IGN España",
-      "fuenteId": "ign-espana",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://es.ign.com/grand-theft-auto-vi/235783/gta-6-grand-theft-auto-6-official-global-launch-trailer",
-      "spoiler": false
-    },
-    {
-      "id": "51dbbc43479c",
-      "fecha": "2026-11-19T14:33:00Z",
-      "titulo": "El mapa oficial de GTA 6 ya se puede descargar: Rockstar publica el plano y el póster en formato imprimible",
-      "fuente": "Vandal",
-      "fuenteId": "vandal",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://vandal.elespanol.com/noticia/2026323037/el-mapa-oficial-de-gta-6-ya-se-puede-descargar-rockstar-publica-el-plano-y-el-poster-en-formato-imprimible/",
-      "spoiler": false
-    },
-    {
-      "id": "7f36f0f3f959",
-      "fecha": "2026-11-19T14:00:33Z",
-      "titulo": "Tienes que convertirte en un auténtico psicópata para alcanzar un nivel de búsqueda de 6 estrellas en GTA 6",
-      "fuente": "IGN España",
-      "fuenteId": "ign-espana",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://es.ign.com/grand-theft-auto-vi/235766/tienes-que-convertirte-en-un-autentico-psicopata-para-alcanzar-un-nivel-de-busqueda-de-6-estrellas-e",
       "spoiler": false
     }
   ]
