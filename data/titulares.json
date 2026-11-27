@@ -1,6 +1,78 @@
 {
-  "actualizado": "2026-11-26T17:49:48Z",
+  "actualizado": "2026-11-27T00:43:40Z",
   "elementos": [
+    {
+      "id": "f08f7e66abe8",
+      "fecha": "2026-11-26T21:30:26Z",
+      "titulo": "A pesar de las críticas por ser un 'código en caja', GTA 6 ha batido un récord en España con su versión 'física'",
+      "fuente": "3DJuegos",
+      "fuenteId": "3djuegos",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/a-pesar-criticas-ser-codigo-caja-gta-6-ha-batido-record-espana-su-version-fisica",
+      "spoiler": false
+    },
+    {
+      "id": "e46df63d0483",
+      "fecha": "2026-11-26T20:13:05Z",
+      "titulo": "GTA 6 está plagado de referencias a Manhunt, el juego más controvertido de Rockstar, y algunas afectan directamente a los orígenes de Jason",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/gta-6-esta-plagado-referencias-manhunt-juego-mas-controvertido-rockstar-algunas-afectan-directamente-los-origenes-jason_7066433_0.html",
+      "spoiler": false
+    },
+    {
+      "id": "732d7f951fdf",
+      "fecha": "2026-11-26T18:37:00Z",
+      "titulo": "¿Piensas que GTA VI es violento? Rockstar se ha contenido más de lo que imaginas, aunque por una muy buena razón",
+      "fuente": "IGN España",
+      "fuenteId": "ign-espana",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://es.ign.com/grand-theft-auto-vi/236005/piensas-que-gta-vi-es-violento-rockstar-se-ha-contenido-mas-de-lo-que-imaginas-aunque-por-una-muy-bu",
+      "spoiler": false
+    },
+    {
+      "id": "5e6600f47884",
+      "fecha": "2026-11-26T18:35:00Z",
+      "titulo": "Un éxito sin disco: GTA 6 es el mayor lanzamiento de un juego físico desde 2019 y las ventas de PS5 y Xbox Series X|S crecieron en Reino Unido por su llegada a las tiendas",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/un-exito-sin-disco-gta-6-es-mayor-lanzamiento-un-juego-fisico-desde-2019-las-ventas-ps5-xbox-series-x-s-crecieron-reino-unido-por-su-llegada-las-tiendas_7066395_0.html",
+      "spoiler": false
+    },
+    {
+      "id": "32665c756f45",
+      "fecha": "2026-11-26T18:00:41Z",
+      "titulo": "Analizamos el atraco a un banco más impecable que hemos visto hasta ahora en GTA 6",
+      "fuente": "IGN España",
+      "fuenteId": "ign-espana",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://es.ign.com/grand-theft-auto-vi/235965/analizamos-el-atraco-a-un-banco-mas-impecable-que-hemos-visto-hasta-ahora-en-gta-6",
+      "spoiler": false
+    },
+    {
+      "id": "ec5339841523",
+      "fecha": "2026-11-26T17:56:00Z",
+      "titulo": "Cómo mejorar la Salud, Resistencia y Concentración de Jason y Lucía en GTA 6",
+      "fuente": "3DJuegos",
+      "fuenteId": "3djuegos",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/guias-y-trucos/como-mejorar-salud-resistencia-concentracion-jason-lucia-gta-6",
+      "spoiler": false
+    },
     {
       "id": "f5a092bef855",
       "fecha": "2026-11-26T17:25:00Z",
@@ -2327,78 +2399,6 @@
       "oficial": false,
       "idioma": "es",
       "url": "https://vandal.elespanol.com/noticia/2026324016/ese-no-soy-yo-matty-matheson-the-bear-desmiente-ser-este-personaje-de-gta-6-aunque-es-identico-a-el/",
-      "spoiler": false
-    },
-    {
-      "id": "facea1f0555a",
-      "fecha": "2026-11-20T10:00:37Z",
-      "titulo": "Las parodias de GTA 6 empiezan a hacer ruido: esta comunidad está dividida por su papel en el juego",
-      "fuente": "IGN España",
-      "fuenteId": "ign-espana",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://es.ign.com/grand-theft-auto-vi/235803/las-parodias-de-gta-6-empiezan-a-hacer-ruido-esta-comunidad-esta-dividida-por-su-papel-en-el-juego",
-      "spoiler": false
-    },
-    {
-      "id": "fdfcb8b88d50",
-      "fecha": "2026-11-20T10:00:00Z",
-      "titulo": "Cómo conseguir más dinero por el botín de los robos en GTA 6: con qué peristas vas a ganar más dinero de entre todas las opciones disponibles",
-      "fuente": "HobbyConsolas",
-      "fuenteId": "hobbyconsolas",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://www.hobbyconsolas.com/videojuegos/como-conseguir-mas-dinero-por-botin-los-robos-gta-6-con-que-peristas-vas-ganar-mas-dinero-entre-todas-las-opciones-disponibles_7063140_0.html",
-      "spoiler": false
-    },
-    {
-      "id": "62efc45dc60f",
-      "fecha": "2026-11-20T09:30:27Z",
-      "titulo": "Ahora que he jugado a GTA 6 en la PS5 Pro, esto es lo que espero de la versión para PC",
-      "fuente": "IGN España",
-      "fuenteId": "ign-espana",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://es.ign.com/grand-theft-auto-vi/235799/ahora-que-he-jugado-a-gta-6-en-la-ps5-pro-esto-es-lo-que-espero-de-la-version-para-pc",
-      "spoiler": false
-    },
-    {
-      "id": "b3ef06eb2128",
-      "fecha": "2026-11-20T09:30:00Z",
-      "titulo": "Rockstar ha eliminado en GTA 6 la posibilidad de repetir las misiones y conseguir medallas, un clásico de la saga, aunque tiene explicación y una \"alternativa\"",
-      "fuente": "HobbyConsolas",
-      "fuenteId": "hobbyconsolas",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://www.hobbyconsolas.com/videojuegos/rockstar-ha-eliminado-gta-6-posibilidad-repetir-las-misiones-conseguir-medallas-un-clasico-saga-aunque-tiene-explicacion-una-alternativa_7063503_0.html",
-      "spoiler": true
-    },
-    {
-      "id": "c47f85a20832",
-      "fecha": "2026-11-20T09:24:00Z",
-      "titulo": "GTA 6 pulveriza todos los récords de las plataformas de streaming en sus primeras 24 horas",
-      "fuente": "Vandal",
-      "fuenteId": "vandal",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://vandal.elespanol.com/noticia/2026324012/gta-6-pulveriza-todos-los-records-de-las-plataformas-de-streaming-en-sus-primeras-24-horas/",
-      "spoiler": false
-    },
-    {
-      "id": "3e814ea1c582",
-      "fecha": "2026-11-20T09:00:35Z",
-      "titulo": "El NPC más viral de GTA 6 esconde un oscuro secreto",
-      "fuente": "IGN España",
-      "fuenteId": "ign-espana",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://es.ign.com/grand-theft-auto-vi/235796/el-npc-mas-viral-de-gta-6-esconde-un-oscuro-secreto",
       "spoiler": false
     }
   ]
