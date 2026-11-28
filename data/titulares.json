@@ -1,6 +1,18 @@
 {
-  "actualizado": "2026-11-27T17:34:21Z",
+  "actualizado": "2026-11-28T00:10:23Z",
   "elementos": [
+    {
+      "id": "f54d86222da9",
+      "fecha": "2026-11-27T18:49:51Z",
+      "titulo": "Un exdesarrollador de Rockstar cree que GTA 6 es \"casi perfecto\", aunque se ve superado en ciertos aspectos por Red Dead Redemption 2",
+      "fuente": "HobbyConsolas",
+      "fuenteId": "hobbyconsolas",
+      "tipo": "prensa",
+      "oficial": false,
+      "idioma": "es",
+      "url": "https://www.hobbyconsolas.com/videojuegos/un-exdesarrollador-rockstar-cree-que-gta-6-es-casi-perfecto-aunque-se-ve-superado-ciertos-aspectos-por-red-dead-redemption-2_7066913_0.html",
+      "spoiler": false
+    },
     {
       "id": "43373367fa61",
       "fecha": "2026-11-27T16:40:50Z",
@@ -2387,18 +2399,6 @@
       "oficial": false,
       "idioma": "es",
       "url": "https://www.hobbyconsolas.com/videojuegos/como-robar-un-avion-pasajeros-gta-6-colarte-aeropuerto-vice-city-facilmente_7063674_0.html",
-      "spoiler": false
-    },
-    {
-      "id": "8583f67d309b",
-      "fecha": "2026-11-21T07:16:28Z",
-      "titulo": "Ryan Cohen, CEO de GameStop, sobre el formato físico y el código de GTA 6: \"Cuando pagas por un juego, deberías ser su propietario\"",
-      "fuente": "3DJuegos",
-      "fuenteId": "3djuegos",
-      "tipo": "prensa",
-      "oficial": false,
-      "idioma": "es",
-      "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/ryan-cohen-ceo-gamestop-formato-fisico-codigo-gta-6-cuando-pagas-juego-deberias-ser-su-propietario",
       "spoiler": false
     }
   ]
